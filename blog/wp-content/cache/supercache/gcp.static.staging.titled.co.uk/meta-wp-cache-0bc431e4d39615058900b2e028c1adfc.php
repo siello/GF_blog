@@ -1,0 +1,1 @@
+<?php die(); ?>{"headers":{"Vary":"Vary: Cookie","Content-Type":"Content-Type: text\/html; charset=UTF-8","Link":"Link: <https:\/\/growfood.pro\/blog\/>; rel=shortlink","Last-Modified":"Last-Modified: Wed, 11 Oct 2017 08:19:43 GMT"},"uri":"gcp.static.staging.titled.co.uk\/","blog_id":1,"post":454,"key":"gcp.static.staging.titled.co.uk443\/"}

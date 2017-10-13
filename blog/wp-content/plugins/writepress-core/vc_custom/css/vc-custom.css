@@ -1,0 +1,173 @@
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-list-bar-item-actions button:nth-child(2) {
+    display: none;
+}
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list {
+    padding: 20px;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list > .vc_ui-template {
+    padding: 20px;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+}
+@media only screen and (min-width: 1825px) {
+    .vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list > .vc_ui-template {
+        width: 33.1%;
+    }
+}
+@media only screen and (max-width: 1825px) {
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list > .vc_ui-template {
+    width: 49.6%;
+}
+}
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list > .vc_ui-template .img-wrap {
+    line-height: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list > .vc_ui-template .img-wrap img {
+    width: 100%;
+    height: auto;
+}
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list > .vc_ui-template .vc_ui-list-bar-item {
+    display: block!important;
+    flex-wrap: initial;
+    -webkit-box-pack: initial;
+    align-items: initial;
+    flex-direction: initial;
+    -webkit-box-align: initial;
+    -webkit-box-direction: initial;
+    justify-content: initial;
+    text-align: center;
+    background-color: #fff;
+    transition: box-shadow 0.25s, transform 0.25s;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 100%;
+}
+.vc_ui-list-bar-item-actions {
+    position: relative;
+}
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-list-bar-item-actions .vc_general.vc_ui-control-button {
+    position: absolute;
+    display: none!important;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -13px;
+}
+[data-vc-template-search=true] .vc_edit-form-tab:not(.vc_active) {
+    display: none!important;
+}
+body [data-vc-template-search=true] .vc_edit-form-tab.vc-search-result-empty.vc_active {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list .display_cat {
+    margin-top: 35px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list > .vc_ui-template.hidden {
+    display: none!important;
+}
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list > .vc_ui-template .vc_ui-list-bar-item:hover {
+    -webkit-transform: translateY(-6px) translateZ(0);
+    transform: translateY(-6px) translateZ(0);
+    backface-visibility: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.13);
+}
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list > .vc_ui-template .vc_ui-list-bar-item > button {
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list > .vc_ui-template .vc_ui-list-bar-item:hover > button {
+    color: #18a1f9;
+}
+.vc_edit-form-tab[data-tab="default_templates"] .vc_ui-template-list > .vc_ui-template .vc_ui-list-bar-item {
+    border-top: 0;
+}
+.vc_edit-form-tab[data-tab="default_templates"]  .vc_ui-template-list .vc_ui-list-bar-item-trigger {
+    font-weight: 700;
+    font-size: 20px;
+    white-space: initial;
+    padding: 10px 0 35px 0;
+    text-overflow: initial;
+    max-width: 75%!important;
+    text-align: center;
+    line-height: 32px;
+}
+.vc_edit-form-tab[data-tab="default_templates"] > .vc_col-md-12 { display: none;}
+.vc_edit-form-tab[data-tab="default_templates"] > .vc_col-sm-12, .vc_edit-form-tab[data-tab="default_templates"] > .vc_column  {
+    padding-left: 235px;
+    background-color: #f1f1f1;
+    max-height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.vc_templates-panel.vc_active .vc_edit-form-tab[data-tab="default_templates"].vc_active > .library_categories {
+    visibility: visible;
+}
+.vc_edit-form-tab[data-tab="default_templates"] > .library_categories {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 100;
+    padding:0px 0 18px 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    width: 235px;
+}
+.vc_edit-form-tab[data-tab="default_templates"] > .library_categories ul{background-color: #f9f9f9; padding:10px 0 10px 0; margin:0;}
+.vc_edit-form-tab[data-tab="default_templates"] { padding-top: 0; margin-top: -18px; margin-left: 0; margin-right: -17px; margin-bottom: -18px;}
+.vc_edit-form-tab[data-tab="default_templates"] > .library_categories li {
+    cursor: pointer;
+    color: #252525;
+    position: relative ;
+    padding:11px 20px 11px 20px; margin:0; border-bottom:1px solid #e7e7e7;
+}
+.vc_edit-form-tab[data-tab="default_templates"] > .vc_col-sm-12, .vc_edit-form-tab[data-tab="default_templates"] > .vc_column {
+    min-height: 0;
+}
+
+.vc_edit-form-tab[data-tab="default_templates"] > .library_categories li span {
+    right: 0;
+    padding: 4px 6px;
+    font-size: 11px;
+    line-height: 11px;
+    background-color: rgba(0,0,0,0.07);
+    border-radius: 4px; float:right;
+}
+.vc_edit-form-tab[data-tab="default_templates"] > .library_categories li.active {
+    color: #fff; background:#6059ee;
+}
+.vc_edit-form-tab[data-tab="default_templates"] > .library_categories li:hover .count,
+.vc_edit-form-tab[data-tab="default_templates"] > .library_categories li.active .count {
+    color: #6059ee;
+    background-color:#fff;
+}
+.vc_edit-form-tab[data-tab="default_templates"] > .library_categories li:not(.active):hover {
+    color: #fff; background:#6059ee;
+}
+.vc_navbar .vc_navbar-brand {
+    display: none !important;
+}
+
+/*Image gallery*/
+
+.vc_properties-list .vc_wrapper-param-type-textfield[data-vc-shortcode-param-name="slick_center_desktop_padding"],
+.vc_properties-list .vc_wrapper-param-type-textfield[data-vc-shortcode-param-name="slick_center_small_desktop_padding"],
+.vc_properties-list .vc_wrapper-param-type-textfield[data-vc-shortcode-param-name="slick_center_tablet_padding"],
+.vc_properties-list .vc_wrapper-param-type-dropdown[data-vc-shortcode-param-name="desktop_no_of_items"],
+.vc_properties-list .vc_wrapper-param-type-dropdown[data-vc-shortcode-param-name="small_desktop_no_of_items"],
+.vc_properties-list .vc_wrapper-param-type-dropdown[data-vc-shortcode-param-name="tablet_no_of_items"]{ width:33.3333%;}

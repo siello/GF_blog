@@ -1,0 +1,416 @@
+.updated,
+.error,
+#setting-error-tgmpa {
+	display: block !important;
+	max-width: calc(100% - 250px);
+}
+
+.writepress-wrap .writepress-logo {
+	background: #fff;
+	border: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 600;
+	margin: 5px 0 0;
+	display: inline-block;
+	width: 150px;
+	text-rendering: optimizeLegibility;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.writepress-wrap .writepress-logo .theme_name{ padding:44px 0 44px 3px; font-size:17px; text-transform:uppercase; letter-spacing:4px; font-weight:300;}
+.writepress-version {
+	display: block;
+	padding: 10px 0;
+	background: #90c947;
+	color: #fff;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.about-wrap .about-text {
+	margin-bottom: 55px;
+}
+
+.writepress-thanks{
+	float: left;
+	width: 100%;
+}
+.writepress-thanks p {
+	padding: 20px 0;
+}
+.writepress-important-notice {
+	padding: 20px 30px;
+	background: #fff;
+	margin: 0px 0px 30px;
+	padding-top: 5px;
+}
+.registration-form-container {
+	float: left;
+	width: 95%;
+	margin-bottom: 0;
+}
+.writepress-large-button.writepress-register {
+	float: left;
+	margin-right: 10px;
+}
+.writepress-loader > i.loader-icon {
+	display: inline-block !important;
+	font-size: 32px;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	-webkit-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+span.writepress-loader {
+	display: none;
+}
+.writepress-important-notice .about-description {
+	font-size: 17px;
+}
+.registration-form-container .dashicons {
+	display: block;
+	float: left;
+	width: 46px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 42px;
+	text-align: left;
+}
+
+.registration-form-container .about-description {
+	margin-bottom: 20px;
+}
+
+.wrap.about-wrap.writepress-wrap .nav-tab-wrapper {
+	margin-bottom: 30px;
+}
+.writepress-important-notice p.notice-description {
+	font-size: 18px;
+	font-style: italic;
+	margin: 0;
+}
+.writepress-large-button {
+	padding: 15px 20px !important;
+	height: 40px !important;
+	line-height: 7px !important;
+}
+
+.writepress-wrap.about-wrap .feature-section .col {
+	margin-top: 0;
+}
+
+
+.writepress-demo-themes .feature-section.theme-browser.rendered {
+	overflow: visible;
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+.writepress-demo-themes .theme {
+	width: 31%;
+	margin: 0 3% 3% 0;
+	overflow: hidden;
+}
+.writepress-demo-themes .theme:nth-child(3n) {
+	margin-right: 0;
+}
+
+.theme-browser .theme:nth-child(4n) {
+    margin-right: 3%;
+}
+
+.theme-browser .theme:nth-child(12n) {
+    margin-right: 0;
+}
+
+.theme-browser .theme .theme-screenshot img {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+}
+
+.theme-browser .theme .theme-screenshot:after {
+	padding-top:62%;
+}
+
+.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+.zolo-animated {
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-ms-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	animation-duration: 1s;
+
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
+}
+
+.theme:hover .zolo-animated {
+	-webkit-animation-play-state: running;
+	-moz-animation-play-state: running;
+	-ms-animation-play-state: running;
+	-o-animation-play-state: running;
+	animation-play-state: running;
+}
+.zolo-animated {
+	visibility: hidden;
+}
+.demo-import-loader{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	text-align: center;
+	display:none;
+}
+
+.demo-import-loader .loader {
+	background: rgba(255,255,255,0.7) url(../images/demo_loader.gif) no-repeat center center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0; left:0;
+	text-align: center;
+}
+
+.demo-import-loader i {
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	height: 32px;
+	width: 32px;
+	top: 110px;
+	position: relative;
+	font-size: 32px;
+	line-height: 32px;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	-webkit-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}
+
+.writepress-install-plugins .theme-name {
+	line-height: 1.3em;
+}
+
+.writepress-install-plugins .theme-screenshot,
+.writepress-install-plugins .theme-name,
+.writepress-install-plugins .theme-update,
+.writepress-install-plugins .plugin-info {
+	cursor: auto;
+}
+
+.writepress-install-plugins .plugin-info {
+	position: absolute;
+	top: 77%;
+	width: 100%;
+	font-size: 14px;
+	text-align: center;
+}
+
+.plugin-required {
+	background:#d70000;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 5px;
+	position: absolute; top:5px; right:-28px;width: 85px; text-align:center;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.writepress-install-plugins .theme-screenshot img {
+	opacity: 1 !important;
+	cursor: auto;
+}
+
+.writepress-install-plugins .theme-browser .theme .theme-actions, .writepress-demo-themes .theme-browser .theme .theme-actions {
+	opacity: 1;
+}
+
+.writepress-system-status table {
+	margin-bottom: 20px;
+}
+
+.writepress-system-status mark.error {
+	color: #a00;
+	background: 0;
+}
+
+.writepress-system-status mark.yes {
+	color: #7ad03a;
+	background: 0;
+}
+
+.writepress-system-status table tr:nth-child(2n) td, .writepress-system-status table tr:nth-child(2n) th {
+	background: #fcfcfc;
+}
+
+.writepress-system-status table td:first-child {
+	width: 33%;
+}
+
+.writepress-system-status table td.help {
+	width: 1em;
+}
+
+.writepress-system-status table th {
+	font-weight: 700;
+	padding: 9px;
+}
+
+#debug-report {
+	display: none;
+}
+
+#debug-report textarea {
+	font-family: monospace;
+	width: 100%;
+	margin: 0;
+	height: 300px;
+	padding: 20px;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	resize: none;
+	font-size: 12px;
+	line-height: 20px;
+	outline: 0;
+}
+
+.writepress-wrap .system-status-debug {
+	display: block !important;
+}
+
+.writepress-importer-issue, .writepress-importer-current-value, .writepress-importer-recommended-value, .writepress-importer-fix {
+	width: 25%;
+	display: inline-block;
+}
+
+img.writepress_featured_img{ float:left;margin: 0 5%;}
+.writepress_admin_feature_section{ width:100%; float:left; background:#fff; margin:50px 0 20px 0;}
+.writepress_admin_feature_section ul{ margin:0; padding:0 20px; list-style:none;}
+.writepress_admin_feature_section ul li{ width:50%; float: left; padding:40px 20px; text-align: center;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-o-box-sizing: border-box;
+box-sizing: border-box;
+}
+.writepress_admin_feature_section ul li h4{ margin:0;}
+.icon_box{ width:100%; float:left; text-align:center; padding-bottom:20px;}
+.writepress_admin_feature_section ul li a.button,
+.writepress_admin_feature_section ul li a.button:hover
+.writepress_admin_feature_section ul li a.button:focus{ background: none; color:#666; padding:8px 17px; height:auto; line-height:inherit; margin-top:5px;}
+
+@media only screen and (min-width: 2000px) {
+	#wpwrap .writepress-demo-themes .theme {
+		width: 31%;
+		margin: 0 3% 3% 0;
+	}
+	#wpwrap .writepress-demo-themes .theme:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	#wpwrap .theme-browser .theme:nth-child(4n),
+	#wpwrap .theme-browser .theme:nth-child(5n) {
+		margin-right: 3%;
+	}
+
+  #wpwrap .theme-browser .theme:nth-child(12n) {
+      margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+	.theme-browser .theme:nth-child(odd) {
+		margin-right: 5% !important;
+	}
+
+	.theme-browser .theme {
+		width: 47.5% !important;
+		margin-right: auto !important;
+	}
+}
+@media screen and (max-width: 620px){
+	.theme-browser .theme {
+		width: 100% !important;
+		margin-right: 0;
+	}
+	.writepress-demo-themes .theme:hover .theme-actions {
+		display: block !important;
+		opacity: 1 !important;
+	}
+	.writepress-demo-themes .theme:hover .screenshot-hover {
+		display: none !important;
+	}
+	.updated,
+	.error,
+	#setting-error-tgmpa {
+		max-width: none;
+	}
+
+	.writepress-wrap .writepress-logo {
+		display: block;
+		position:relative;
+		margin:0 auto 50px auto;
+	}
+	.about-wrap h2 .nav-tab {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.about-wrap h2.nav-tab-wrapper {
+		padding: 0;
+		width: 100%;
+	}
+	.writepress-demo-themes .theme:hover .theme-actions {
+		display: block !important;
+		opacity: 1 !important;
+	}
+	.writepress-demo-themes .theme:hover .screenshot-hover {
+		display: none !important;
+	}
+}
+@media screen and (max-width:800px){
+.writepress_admin_feature_section ul li{ width:100%; padding:20px;}
+.writepress_featured_title{ clear:both; padding-top:40px;}
+img.writepress_featured_img{ margin:0;}
+
+}
+.about-description > span{color:#F00;}

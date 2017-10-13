@@ -1,0 +1,1211 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Header
+2. Top Bar
+3. Main Menu
+  1. Menu Item Hover Style
+  2. Sub Menu 
+  3. MegaMenu
+4. Full Screen Menu
+5. Sidebar Menu
+6. Horizontal and Vertical Menu
+7. Search Design
+  1. Default Search
+  2. Full Screen Search
+  3. Expanded Search
+8. Expanded Icon
+9. Cart icon
+10.Vertical Header
+11.Sticky Header
+12.RESPONSIVE
+*/
+
+body{ overflow-x:hidden;}
+.zolo-container{ margin:0 auto; width:100%;position: relative; max-width:1280px;}
+body.boxed_layout .layout_design{ margin:0 auto; width:100%;position: relative; /*display:table;*/ display:block;}
+body.boxed_layout .layout_design{box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);}
+body.theater_layout{ margin:25px;}
+body.theater_layout #footer_fixed{ bottom:25px;}
+body.theater_layout:after,
+body.theater_layout:before{ height:25px; content:""; bottom:0; left:0; background:#fff; position:fixed; width:100%; z-index:99999;}
+body.theater_layout:before{ top:0;}
+body.theater_layout .layout_design{overflow:hidden;}
+body.theater_layout .layout_design:after,
+body.theater_layout .layout_design:before{ height:100%; content:""; top:0; right:0; background:#fff; position:fixed; width:25px; z-index:999999;}
+body.theater_layout .layout_design:before{ top:0; left:0}
+body.theater_layout .layout_design .sticky_header.fixed{ top:25px; left:0;}
+body.theater_layout .layout_design .zolo_vertical_header header.vertical_fix_menu.is-fixed{top:25px;}
+
+.portfolio_100width .container-main .zolo-container,
+.post_100width .container-main .zolo-container,
+.titlebar_100width .pagetitle_parallax .zolo-container,
+.footer_100width .footer-widgets .zolo-container,
+.footer_100per_upper .footer-layout-upper .zolo-container,
+.footer_100per_lower .footer-layout-lower .zolo-container,
+.header_100width .zolo-header-area .zolo-container{ max-width:100%;}
+
+.zolo-main-content{width:100%; float:left; clear:both;}
+
+.content-area{width:100%;}
+
+.hassidebar .content-area{width:76%;}
+.hassidebar .sidebar_container_1{/*width: 24%;*/float:left;}
+.hassidebar .sidebar_container_2{width: 24%;float: right;}
+.hassidebar.left .content-area{ padding-left:50px; float:right;}
+.hassidebar.right .content-area{ padding-right:50px;float:left;}
+
+.hassidebar .sidebar{ position:relative; z-index:9;}
+
+/*
+.hassidebar.double_sidebars .content-area{ float:left;
+	width: calc(100% - 19% - 19% - 100px);
+	margin-left: calc(19% + 50px);
+}
+.hassidebar.double_sidebars .sidebar_container_1{float:left;
+	width: 19%;
+margin-left:calc(50px - (100% - 19%));
+}
+.hassidebar.double_sidebars .sidebar_container_2{float:left;
+	width: 19%;
+	margin-left: 50px;
+}*/
+
+/*Header Design Css Start*/
+.site_layout{width:100%; float:left;}
+
+/*.headerbackground,*/
+ul.social-icon li a,
+.overlay,
+.logo-box,
+.zolo-topbar a,
+.zolo-search{ -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;}
+	
+.zolo-header-area{ float:left;width:100%;position:relative; z-index:9999;}
+
+/*Top Bar Css Start*/
+.zolo-topbar{float: left;width:100%; line-height:0; text-align:center;/*font-size:14px;line-height:35px;height:35px;background:#549ffc; color:#c9e0ff;*/ position:relative; z-index:10;}
+.zolo-topbar ul{ padding:0; margin:0; list-style:none;}
+.zolo-topbar a{ /*color:#c9e0ff; */text-decoration:none;}
+.zolo-topbar a:hover{/* color:#fff; */text-decoration:none;}
+.top-fax .fa,.top-phone .fa,
+.top-mail .fa{ margin-right:6px;}
+.copyright .zolo-social li{ border:0; display:inline-block; text-align:center;}
+.copyright_social .zolo-social{ margin:0; padding:0;}
+
+.zolo-header-area ul .zolo-social li{position: relative; display:inline-block;text-align:center;}
+.zolo-header-area ul .zolo-social li:last-child{ border-right:0;}
+.zolo-header-right-box .zolo-social li{ border:none;}
+.zolo-social li a{display: inline-block;/*float:left;font-size:18px;*/width:100%;vertical-align: middle;}
+.zolo-social.boxed-icons ul li a{ float: none;display: inline-block;/*line-height:18px;padding:10px;background:#000;*/}
+.zolo-top-menu ul{margin:0 -12px; padding:0;}
+.zolo-top-menu li{ /*float:left;line-height:35px;*/display: inline-block;position:relative; padding:0 15px;}
+.zolo-top-menu li a{ display:inline;/*line-height:14px; border-right:1px solid #c9e0ff;*/ padding:0;}
+.zolo-top-menu ul.top-menu li:last-child{ border-right:0 !important;}
+.zolo-top-menu ul.sub-menu{visibility:hidden; opacity:0;z-index:900;/*width:200px; background:#fff;*/position:absolute; display:none;}
+.zolo-top-menu .top-menu li ul.sub-menu{top:100%; left:0; margin:0; text-align:left;}
+.zolo-top-menu .top-menu li:hover ul.sub-menu{visibility:visible;opacity:1;transition:all 0.6s;display: block;}
+.zolo-top-menu ul.sub-menu li{ width:100%;line-height:initial; padding:0; border-right:none!important;}
+.zolo-top-menu ul.sub-menu li a{ width:100%; padding:10px 15px; display:inline-block; border-right:0;}
+
+/*Multilingual CSS Start*/
+.zolo-topbar .zolo-language{font-size:18px;}
+.zolo-header-area #lang_sel{ height: auto;}
+.zolo-header-area #lang_sel li{ width:auto;}
+.zolo-header-area #lang_sel ul ul{ width:auto; top:100%;border:none;}
+.zolo-header-area #lang_sel a.lang_sel_sel{ background:none !important; line-height:inherit; padding:4px 5px 4px 10px; text-align:center;}
+.zolo-header-area #lang_sel a{ border:none;}
+.zolo-header-area #lang_sel ul ul li a{padding:4px 5px 4px 10px; line-height:20px;}
+
+.zolo-header-area #lang_sel ul li ul, 
+.zolo-header-area #lang_sel ul a ul{ opacity:0;-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;}
+.zolo-header-area #lang_sel ul li:hover ul, 
+.zolo-header-area #lang_sel ul a:hover ul{ opacity:1;}
+
+.zolo-header-area #lang_sel a:hover, 
+.zolo-header-area #lang_sel ul ul a:hover, 
+.zolo-header-area #lang_sel *:hover > a, 
+.zolo-header-area #lang_sel ul ul *:hover > a{ background:#fff;}
+/*Multilingual CSS End*/
+
+
+/*Search CSS Start*/
+.zolo-topbar .zolo-search{ float:right; margin-left:0;}
+.zolo-topbar .zolo-search .search-icon{font-size:18px;float:left; padding:0 15px;/*background:#4b8de0; */text-align:center; cursor:pointer;position: relative; z-index:2;}
+/*Search CSS End*/
+
+/*Top Bar Css End*/
+
+.header_element{line-height: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.zolo-navigation ul li.zolo-middle-logo-menu-logo,
+.header_left,
+.header_right,
+.header_center{
+  /*position: relative;*/
+  width: 100%;
+  min-height: 1px;
+  width: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.header_left{align-items:flex-start;width:20%;}
+.header_center{align-items: center;}
+.header_right{align-items: flex-end;width:80%;}
+
+.header_element ul{padding:0; list-style:none;}
+.zolo_extended_sidebar .extended_sidebar_button,
+.header_element ul li.zolo-small-menu span{ cursor:pointer; z-index:100;}
+.header_element ul li.zolo-social{ margin-left:-3px;}
+.header_element.header_section_one ul li.zolo-social{ margin-left:0;}
+
+.header_section_two .zolo-navigation ul li.zolo-middle-logo-menu-logo, 
+.header_section_two{ min-height:94px;}
+
+ul.header_right_col,
+ul.header_left_col,
+ul.header_center_col{display:inline-block;margin:0 -20px;}
+
+ul.header_center_col > li,
+ul.header_left_col > li,
+ul.header_right_col > li{ display:inline-block;vertical-align:middle; padding:0 20px; position:relative;}
+
+ul.header_center_col > li.element_separator,
+ul.header_left_col > li.element_separator,
+ul.header_right_col > li.element_separator{ padding:0 !important;}
+
+ul.header_center_col > li.element_separator .element_separator_bar.small_separator,
+ul.header_left_col > li.element_separator .element_separator_bar.small_separator,
+ul.header_right_col > li.element_separator .element_separator_bar.small_separator{height:15px; width:1px; float: left;}
+ul.header_center_col > li.element_separator .element_separator_bar.oblique_separator,
+ul.header_left_col > li.element_separator .element_separator_bar.oblique_separator,
+ul.header_right_col > li.element_separator .element_separator_bar.oblique_separator{height:15px; width:1px;float: left;
+-moz-transform: rotate(18deg);
+-webkit-transform: rotate(18deg);
+-ms-transform: rotate(18deg);
+-o-transform: rotate(18deg);
+transform: rotate(18deg);
+}
+ul.header_center_col > li.element_separator .element_separator_bar.large_separator,
+ul.header_left_col > li.element_separator .element_separator_bar.large_separator,
+ul.header_right_col > li.element_separator .element_separator_bar.large_separator{width:1px; float: left;}
+
+.zolo-top-menu ul > li:after,
+.zolo-header-area ul .zolo-social li:after,
+.zolo-navigation ul > li:first-child:before,
+.zolo-navigation ul > li:after,
+ul.header_center_col > li:first-child:before,
+ul.header_left_col > li:first-child:before,
+ul.header_right_col > li:first-child:before,
+ul.header_center_col > li:after,
+ul.header_left_col > li:after,
+ul.header_right_col > li:after{ content:""; position: absolute;right: 0;top: 50%;width:1px;
+-moz-transform: translate(0px, -50%);
+-webkit-transform: translate(0px, -50%);
+-ms-transform: translate(0px, -50%);
+-o-transform: translate(0px, -50%);
+transform: translate(0px, -50%);
+}
+.zolo-navigation ul ul li:first-child::before, .zolo-navigation ul ul li::after{ display:none !important;}
+
+.zolo-top-menu >li:first-child:before,
+ul.header_center_col > li:first-child:before,
+ul.header_left_col > li:first-child:before,
+ul.header_right_col > li:first-child:before,
+.zolo-navigation ul > li:first-child:before{ left:0;}
+
+.header_element ul.social-icon{ margin:0 -25px;}
+
+header.zolo_header{float: left;width:100%;position:relative; z-index:9;}
+.headerbackground{ opacity:1;z-index:1;width:100%; height:100%; position:absolute; /*background:#fff;*/ top:0; left:0; bottom:0; right:0;}
+.headercontent{width:100%; z-index:9; position:relative; float:left;}
+.headertopcontent_box{ width:100%; float:left;}
+
+.logo-box{ float:left; /*padding:25px 0;*/ line-height:0;display: block;}
+.sticky_header_fixed .logo-box{ display: none;}
+.logo-box.sticky_logo{ display:none;}
+.sticky_header_fixed .logo-box.sticky_logo{ display: block;}
+
+.logo-box a{ display:inline-block;}
+.zolo-navigation ul li.zolo-middle-logo-menu-logo .logo-box a{ padding:0; text-align:center;}
+.logo-box img{max-width: 100%;}
+header .retina_logo{display:none}
+
+#site-navigation.header_style7_menu{ display:none;}
+.zolo-navigation_parent{ width:100%; float:left;}
+/*Main Menu CSS Start Here*/
+.navigation-area{float: left;width: 100%;}
+.zolo-navigation ul li div.zolo-megamenu-wrapper,
+.zolo-navigation li > ul,
+.zolo-navigation ul li{ -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;}
+	
+.headercontent_box{ width:100%; float:left; position:relative; z-index:2;}
+.navigation{width:100%; float:left;position: inherit !important;}
+.zolo-navigation{ width:100%; float:left;}
+
+.header_section_two .vertical_menu_area .zolo-navigation > ul,
+.header_section_three .vertical_menu_area .zolo-navigation > ul,
+.zolo-navigation ul{ padding:0; list-style:none; margin:0;}
+.zolo-navigation ul li{ float:left; /*margin: 0 20px 0 20px;*/position: relative; text-align:left;vertical-align:top;}
+
+.zolo-navigation ul li:last-child{border:none;}
+.zolo-navigation ul li a{ display:block;position: relative; padding:40px 20px; line-height:14px;/* color:#999;*/}
+.mobile-nav ul li a .new,
+.zolo-navigation ul li a .new{ padding:1px 4px 1px; margin-left:8px; background:#F00; color:#fff; font-size:10px; line-height:13px; position: relative;top: -2px;}
+.zolo-navigation ul li > ul li{ border-right:0;}
+
+.zolo-navigation ul .current_page_item a,
+.zolo-navigation ul .current-menu-item a,
+.zolo-navigation ul > .current-menu-parent a {
+  /*color: #000;*/
+  text-decoration: none;
+  border-color: #f8f8f8;
+}
+
+.zolo-navigation ul .current_page_item li a, 
+.zolo-navigation ul .current-menu-item li a,
+.zolo-navigation ul > .current-menu-parent li a,
+.zolo-navigation ul li:hover li a{background:none;}
+
+.zolo-navigation ul li.zolo-small-menu span,
+.zolo-navigation ul li.zolo-search-menu span{ float:left; cursor:pointer;}
+
+
+/*Menu Item Hover Style css Start*/
+.menu_hover_styles .zolo-navigation ul li a{position: relative;overflow: hidden;}
+
+.menu_hover_styles .zolo-navigation ul li ul li a:after,
+.menu_hover_styles .zolo-navigation ul li ul li a:before{ display:none;}
+
+.menu_hover_styles .zolo-navigation ul li a span:before,
+.menu_hover_styles .zolo-navigation ul li a span:after,
+.menu_hover_styles .zolo-navigation ul li a:after,
+.menu_hover_styles .zolo-navigation ul li a:before{ 
+	content: '';
+    position: absolute;
+    -moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+	}
+
+/*menu_hover_style1*/
+.menu_hover_style1 .zolo-navigation ul li a:before{
+    left: 0;
+    bottom: 0;
+	/*background:#4b933b;height: 2px;*/
+	border-bottom: 2px dotted #00ffff;
+    width: 100%;
+    -moz-transform:  scaleX(0);
+	-webkit-transform:  scaleX(0);
+	-ms-transform:  scaleX(0);
+	-o-transform:  scaleX(0);
+	transform:  scaleX(0);
+  }
+
+.menu_hover_style1 .zolo-navigation ul li a.current:before,
+.menu_hover_style1 .zolo-navigation ul .current_page_item a:before, 
+.menu_hover_style1 .zolo-navigation ul .current-menu-item a:before, 
+.menu_hover_style1 .zolo-navigation ul > .current-menu-parent a:before,
+.menu_hover_style1 .zolo-navigation ul > .current-menu-ancestor a:before,
+.menu_hover_style1 .zolo-navigation ul li:hover a:before{
+	-moz-transform:  scaleX(1);
+	-webkit-transform:  scaleX(1);
+	-ms-transform:  scaleX(1);
+	-o-transform:  scaleX(1);
+	transform:  scaleX(1);
+	}
+
+/*menu_hover_style2*/
+
+
+.menu_hover_style2 .zolo-navigation ul li a:before, 
+.menu_hover_style2 .zolo-navigation ul li a:after {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-style:solid;
+    border-color:#4b933b;
+  }
+.menu_hover_style2 .zolo-navigation ul li a:before {
+    border-width: 2px 0 2px 0;
+    -moz-transform:  scaleX(0);
+	-webkit-transform:  scaleX(0);
+	-ms-transform:  scaleX(0);
+	-o-transform:  scaleX(0);
+	transform:  scaleX(0);
+  }
+.menu_hover_style2 .zolo-navigation ul li a:after {
+    border-width: 0 2px 0 2px;
+    -webkit-transform:  scaleY(0);
+	-moz-transform:  scaleY(0);
+	-ms-transform:  scaleY(0);
+	-o-transform:  scaleY(0);
+	transform:  scaleY(0);
+  }
+  
+.menu_hover_style2 .zolo-navigation ul li a.current:before,
+.menu_hover_style2 .zolo-navigation ul .current_page_item a:before, 
+.menu_hover_style2 .zolo-navigation ul .current-menu-item a:before, 
+.menu_hover_style2 .zolo-navigation ul > .current-menu-parent a:before,
+.menu_hover_style2 .zolo-navigation ul > .current-menu-ancestor a:before,
+.menu_hover_style2 .zolo-navigation ul li a.current:after,
+.menu_hover_style2 .zolo-navigation ul .current_page_item a:after, 
+.menu_hover_style2 .zolo-navigation ul .current-menu-item a:after, 
+.menu_hover_style2 .zolo-navigation ul > .current-menu-parent a:after,
+.menu_hover_style2 .zolo-navigation ul > .current-menu-ancestor a:after,
+.menu_hover_style2 .zolo-navigation ul li:hover a:before,
+.menu_hover_style2 .zolo-navigation ul li:hover a:after {
+    -moz-transform:  scale(1, 1);
+	-ms-transform:  scale(1, 1);
+	-o-transform:  scale(1, 1);
+	-webkit-transform:  scale(1, 1);
+	transform:  scale(1, 1);
+  }
+
+/*menu_hover_style3*/
+
+.menu_hover_style3 .zolo-navigation ul li a{ overflow:hidden;}
+.menu_hover_style3 .zolo-navigation ul li a:before {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*height: 2px;background: #4b933b;*/
+	border-bottom: 2px dotted #00ffff;
+    -moz-transform:  translateX(-100%);
+	-ms-transform:  translateX(-100%);
+	-o-transform:  translateX(-100%);
+	-webkit-transform:  translateX(-100%);
+	transform:  translateX(-100%);
+  }
+.menu_hover_style3 .zolo-navigation ul li a.current:before,
+.menu_hover_style3 .zolo-navigation ul .current_page_item a:before, 
+.menu_hover_style3 .zolo-navigation ul .current-menu-item a:before, 
+.menu_hover_style3 .zolo-navigation ul > .current-menu-parent a:before,
+.menu_hover_style3 .zolo-navigation ul > .current-menu-ancestor a:before,
+.menu_hover_style3 .zolo-navigation ul li:hover a:before {
+    -moz-transform:  translateX(0);
+	-ms-transform:  translateX(0);
+	-o-transform:  translateX(0);
+	-webkit-transform:  translateX(0);
+	transform:  translateX(0);
+  }
+
+/*menu_hover_style4*/
+
+.menu_hover_style4 .zolo-navigation ul li a{overflow: hidden;}
+.menu_hover_style4 .zolo-navigation ul li a:before,
+.menu_hover_style4 .zolo-navigation ul li a:after{left: 0;width: 100%;}
+.menu_hover_style4 .zolo-navigation ul li a:before {
+    bottom: 0;
+    -moz-transform:  translateX(-100%);
+	-ms-transform:  translateX(-100%);
+	-o-transform:  translateX(-100%);
+	-webkit-transform:  translateX(-100%);
+	transform:  translateX(-100%);
+  }
+.menu_hover_style4 .zolo-navigation ul li a:after {
+    top: 0;
+    -moz-transform:  translateX(100%);
+	-ms-transform:  translateX(100%);
+	-o-transform:  translateX(100%);
+	-webkit-transform:  translateX(100%);
+	transform:  translateX(100%);
+  }
+.menu_hover_style4 .zolo-navigation ul li a.current:before,
+.menu_hover_style4 .zolo-navigation ul .current_page_item a:before, 
+.menu_hover_style4 .zolo-navigation ul .current-menu-item a:before, 
+.menu_hover_style4 .zolo-navigation ul > .current-menu-parent a:before,
+.menu_hover_style4 .zolo-navigation ul > .current-menu-ancestor a:before,
+.menu_hover_style4 .zolo-navigation ul li a.current:after,
+.menu_hover_style4 .zolo-navigation ul .current_page_item a:after, 
+.menu_hover_style4 .zolo-navigation ul .current-menu-item a:after, 
+.menu_hover_style4 .zolo-navigation ul > .current-menu-parent a:after,
+.menu_hover_style4 .zolo-navigation ul > .current-menu-ancestor a:after,
+.menu_hover_style4 .zolo-navigation ul li:hover a:before,
+.menu_hover_style4 .zolo-navigation ul li:hover a:after {
+    -moz-transform:  translateX(0);
+	-webkit-transform:  translateX(0);
+	-ms-transform:  translateX(0);
+	-o-transform:  translateX(0);
+	transform:  translateX(0);
+  }
+/*Menu Item Hover Style css End*/
+
+/*Sub Menu css Start*/
+.zolo-navigation ul ul.sub-menu {position: absolute;left: 0px;width: 170px;z-index: 99997;box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);border-top: 3px solid #f82eb3;background:#fff;}
+
+.zolo-navigation ul li ul li{
+  float: none; width:100%;
+  margin: 0;
+  padding: 0;
+}
+.zolo-navigation ul li ul li a {
+  border: 0;
+  border-bottom: 1px solid #dcdadb;
+  height: auto;
+  text-indent: 0px;
+  display:block;line-height: normal;
+  padding:10px 20px;
+}
+.zolo-navigation ul ul ul{top: -3px;left: 170px;}
+.zolo-navigation ul li ul.sub-menu li ul.sub-menu{left: 170px;}
+.zolo-navigation li > ul{
+    opacity: 0;
+    visibility: hidden; /*display:none;*/
+}
+.zolo-navigation li:hover > ul{ opacity:1; visibility:visible; z-index:99997;}
+/*Sub Menu css End*/
+
+/*MegaMenu  CSS Start Here*/
+.zolo-megamenu-wrapper .zolo-megamenu-holder{padding: 0;width: 100%;}
+.zolo-navigation .zolo-megamenu-wrapper{position:absolute; left:0;}
+
+.zolo-navigation .zolo-megamenu-wrapper div.zolo-megamenu-title{ margin:0; /*font-size:18px;*/ font-weight:normal; line-height:normal;padding: 0 30px 15px;display: table;table-layout: fixed; width:100%}
+.zolo-navigation .zolo-megamenu-wrapper ul ul{ background: none;position:relative; border:none;display: table;left: 0;table-layout: fixed;top: 0;width: 100%; opacity:1;}
+
+.zolo_vertical_header .zolo-megamenu-wrapper .zolo-megamenu-holder ul.sub-menu{ border:0 !important;}
+.zolo-navigation li .zolo-megamenu-wrapper ul ul{border: 0;}
+.zolo-navigation li:hover .zolo-megamenu-wrapper ul ul{visibility:visible;box-shadow: none;}
+.zolo-navigation .zolo-megamenu-wrapper .zolo-megamenu-border{border-bottom: 1px solid #dcd9d9;}
+.zolo-navigation .zolo-megamenu-wrapper .zolo-megamenu-submenu{ padding:30px 0;border-right: 1px solid transparent;display: table-cell;}
+.zolo-navigation .zolo-megamenu-wrapper .zolo-megamenu-submenu:last-child{ border-right:0;}
+.zolo-navigation .zolo-megamenu-wrapper.zolo-megamenu-fullwidth .zolo-megamenu-submenu.zolo-megamenu-columns-1{ width:100%;}
+.zolo-navigation .zolo-megamenu-wrapper.zolo-megamenu-fullwidth .zolo-megamenu-submenu.zolo-megamenu-columns-2{ width:50%;}
+.zolo-navigation .zolo-megamenu-wrapper.zolo-megamenu-fullwidth .zolo-megamenu-submenu.zolo-megamenu-columns-3{ width:33.333333%;}
+.zolo-navigation .zolo-megamenu-wrapper.zolo-megamenu-fullwidth .zolo-megamenu-submenu.zolo-megamenu-columns-4{ width:25%;}
+.zolo-navigation .zolo-megamenu-wrapper.zolo-megamenu-fullwidth .zolo-megamenu-submenu.zolo-megamenu-columns-5{ width:20%;}
+.zolo-navigation .zolo-megamenu-wrapper.zolo-megamenu-fullwidth .zolo-megamenu-submenu.zolo-megamenu-columns-6{ width:16.666666%;}
+.zolo-navigation .zolo-megamenu-wrapper .sub-menu{ width:100%;}
+
+.zolo-navigation .zolo-megamenu-wrapper li div.zolo-megamenu-title a:hover,
+.zolo-navigation .zolo-megamenu-wrapper li div.zolo-megamenu-title a{ border:none;font: inherit; background:none; padding:0; line-height:inherit;}
+
+.zolo-navigation .zolo-megamenu-wrapper a,
+.zolo-navigation .zolo-megamenu-wrapper li ul.sub-menu li a{ border:none; /*padding:5px 30px;*/ padding-left:30px;padding-right:30px; position:relative;}
+.zolo-navigation .zolo-megamenu-wrapper li ul.sub-menu .deep-level a{ border:none; /*padding:5px 45px;*/padding-left:45px;padding-right:45px;}
+.zolo-navigation .zolo-megamenu-wrapper li ul.sub-menu .deep-level .deep-level a{ border:none; /*padding:5px 60px;*/padding-left:60px;padding-right:60px;}
+.zolo-navigation .zolo-megamenu-wrapper li ul.sub-menu .deep-level .deep-level .deep-level a{ border:none; /*padding:5px 75px;*/padding-left:75px;padding-right:75px;}
+.zolo-navigation .zolo-megamenu-wrapper li ul.sub-menu .deep-level .deep-level .deep-level .deep-level a{ border:none;/* padding:5px 90px;*/padding-left:90px;padding-right:90px;}
+
+.zolo-megamenu-bullet{font-family:FontAwesome;float:left; width:15px; height:13px;position:absolute;line-height:13px; font-size:13px; top:50%; margin-top:-5px; display:none;}
+.zolo-megamenu-bullet:after{ position:absolute; left:0; top:0;content:"\f105";}
+.zolo-megamenu-icon{ margin-right:10px;}
+.zolo-megamenu-icon img{ max-height:15px;vertical-align: middle; margin-top:-2px;}
+
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container {padding: 0 30px;}
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container .widget{ margin-bottom:20px; width:100%;display: inline-block;}
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container .widget:last-child{ /*margin-bottom:0;*/}
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container h3{/* font-weight:bold; */padding:0 0 15px;}
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container .widget_calendar a{padding:0px !important;}
+
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container select{ width:100%; float:left; padding:5px 8px; height:30px; border:1px solid #eee; }
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container #wp-calendar{ width:100%; text-align:center;}
+
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container .wp-caption a{padding:0 !important;}
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container .wp-caption a:hover,
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container #recentcomments a:hover{ background:none; }
+
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container .tagcloud a{ padding:5px 4px !important; float:left; border: 1px solid #eee !important;}
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container .widget_rss h3 a{ padding:0 4px 0 0 !important; float:left;}
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container img{ margin-bottom:10px;}
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container p{ padding:10px 0;}
+.zolo-megamenu-wrapper .zolo-megamenu-widgets-container p:last-child{ padding-bottom:0;}
+.zolo-navigation .zolo-megamenu-wrapper li ul.sub-menu li .woocommerce a{ padding:0; display:inline;background:none;}
+.zolo-navigation .zolo-megamenu-wrapper li ul.sub-menu li .woocommerce a:hover{ padding:0; display:inline; background:none;}
+
+
+.zolo-navigation .woocommerce ul.cart_list li a, 
+.zolo-navigation .woocommerce ul.product_list_widget li a, 
+.zolo-navigation .woocommerce-page ul.cart_list li a, 
+.zolo-navigation .woocommerce-page ul.product_list_widget li a{ float:left; width:100%;}
+.zolo-navigation ul li div.zolo-megamenu-wrapper{
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1; /*display:none;*/
+} 
+.zolo-navigation ul li:hover div.zolo-megamenu-wrapper{
+opacity: 1;
+visibility: visible;
+z-index: 99997; /*display:block;*/
+	}
+.zolo-navigation ul li div.zolo-megamenu-wrapper ul{ -moz-transform:translate(0px,0px);
+-webkit-transform:translate(0px,0px);
+-ms-transform:translate(0px,0px);
+-o-transform:translate(0px,0px);
+transform:translate(0px,0px);
+
+ -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;}
+/*MegaMenu  CSS end Here*/
+
+/*dropdown_loading_slide_down*/
+.dropdown_loading_slide_down .zolo-navigation li > ul,
+.dropdown_loading_slide_down .zolo-navigation ul li div.zolo-megamenu-wrapper{
+-moz-transform:translate(0px,-20px);
+-webkit-transform:translate(0px,-20px);
+-ms-transform:translate(0px,-20px);
+-o-transform:translate(0px,-20px);
+transform:translate(0px,-20px);
+}
+.dropdown_loading_slide_down .zolo-navigation li:hover > ul,
+.dropdown_loading_slide_down .zolo-navigation ul li:hover div.zolo-megamenu-wrapper{
+-moz-transform:translate(0px,0px);
+-webkit-transform:translate(0px,0px);
+-ms-transform:translate(0px,0px);
+-o-transform:translate(0px,0px);
+transform:translate(0px,0px);}
+
+/*dropdown_loading_slide_up*/
+.dropdown_loading_slide_up .zolo-navigation li > ul,
+.dropdown_loading_slide_up .zolo-navigation ul li div.zolo-megamenu-wrapper{
+-moz-transform:translate(0px,20px);
+-webkit-transform:translate(0px,20px);
+-ms-transform:translate(0px,20px);
+-o-transform:translate(0px,20px);
+transform:translate(0px,20px);
+}
+
+.dropdown_loading_slide_up .zolo-navigation li:hover > ul,
+.dropdown_loading_slide_up .zolo-navigation ul li:hover div.zolo-megamenu-wrapper{
+-moz-transform:translate(0px,0px);
+-webkit-transform:translate(0px,0px);
+-ms-transform:translate(0px,0px);
+-o-transform:translate(0px,0px);
+transform:translate(0px,0px);
+}
+/************** Full Screen Menu CSS Start **************/
+
+.full_screen_menu_area,
+.full_screen_menu_area_responsive{position: fixed;width: 100%;height: 100%;top: 0;left: 0;z-index:9999999;background: rgba(84,159,252,1);opacity: 0;visibility: hidden;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	-ms-transition: opacity 0.5s, visibility 0s 0.5s;
+	-moz-transition: opacity 0.5s, visibility 0s 0.5s;
+	-o-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+.full_screen_menu_area.open, 
+.full_screen_menu_area_responsive.open{opacity: 1;visibility: visible;
+-webkit-transition: opacity 0.5s;
+-moz-transition: opacity 0.5s;
+-o-transition: opacity 0.5s;
+-ms-transition: opacity 0.5s;
+transition: opacity 0.5s;
+
+}
+.search_overlay #mob_search_close_but, .search_overlay .search_close_but,
+.full_screen_menu_area .fullscreen_menu_close_button, #full_screen_menu_close_responsive {width:40px;height:40px;position: absolute;right:30px;top:30px;z-index: 100; text-indent:200%; cursor:pointer;}
+.search_overlay #mob_search_close_but:after, .search_overlay .search_close_but:after,
+.search_overlay #mob_search_close_but:before, .search_overlay .search_close_but:before,
+.full_screen_menu_area .fullscreen_menu_close_button:after, .full_screen_menu_area .fullscreen_menu_close_button:before,
+#full_screen_menu_close_responsive:after, #full_screen_menu_close_responsive:before{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 0;
+	border-bottom: 2px solid #555555;
+	top: 50%;
+	left: 0;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+.search_overlay #mob_search_close_but:before, .search_overlay .search_close_but:before,
+.full_screen_menu_area .fullscreen_menu_close_button:before,
+#full_screen_menu_close_responsive:before {
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg)
+}
+.search_overlay #mob_search_close_but:after, .search_overlay .search_close_but:after,
+.full_screen_menu_area .fullscreen_menu_close_button:after,
+#full_screen_menu_close_responsive:after{
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg)
+}
+
+.full_screen_menu_area_responsive .full_screen_menu,
+.full_screen_menu_area .full_screen_menu {position: relative;top: 47%;font-size: 54px; width:100%; float:left;
+-moz-transition: all 0.8s;
+-webkit-transition: all 0.8s;
+-ms-transition: all 0.8s;
+-o-transition: all 0.8s;
+transition: all 0.8s;
+-webkit-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+.full_screen_menu_area_responsive.open .full_screen_menu,
+.full_screen_menu_area.open .full_screen_menu {top: 50%;}
+.full_screen_menu .zolo-navigation ul{ margin:0; padding:0; list-style:none;}
+.full_screen_menu .zolo-navigation ul li{ width:100%; float:left; margin:0; padding:12px 0;text-align: center;}
+.full_screen_menu .zolo-navigation li a{ width:100%; color:#fff; font-size:36px; line-height:40px; padding:0;}
+.full_screen_menu .zolo-navigation ul > li:first-child::before, .full_screen_menu .zolo-navigation ul > li::after{ display:none;}
+
+.full_screen_menu li.current-menu-item a,
+.full_screen_menu li a:hover{ opacity:0.7;}
+
+.full_screen_menu ul li ul{ display:none;}
+.full_screen_menu ul li div{ display:none;}
+
+/************** Full Screen Menu CSS End **************/
+
+/************** Sidebar Menu CSS Start **************/
+
+.extended_sidebar_area,
+.extended_sidebar_box,
+.extended_sidebar_area.sidemenu_open,
+.extended_sidebar_box.sidemenu_open .extended_sidebar_mask,
+.extended_sidebar_box .extended_sidebar_mask{
+-moz-transition: all 0.8s;
+-webkit-transition: all 0.8s;
+-ms-transition: all 0.8s;
+-o-transition: all 0.8s;
+transition: all 0.8s;
+}
+.extended_sidebar_area{width:300px;background:#fff; float:right; height:100%; position:fixed; top:0; z-index:999999; padding:30px;}
+.extended_sidebar_position_right .extended_sidebar_area{right:-300px;}
+.extended_sidebar_position_right .extended_sidebar_area.sidemenu_open { top:0; left:auto; right:0; overflow:auto;}
+.extended_sidebar_position_left .extended_sidebar_area{left:-300px;}
+.extended_sidebar_position_left .extended_sidebar_area.sidemenu_open{ top:0; left:0; overflow:auto;}
+.extended_sidebar_box{ float: left;position: relative;top: 0;width: 100%;z-index: 10;}
+.extended_sidebar_box.extended_sidebar_position_right{right:0; left:auto;}
+.extended_sidebar_box.extended_sidebar_position_left{left:0;}
+.extended_sidebar_box.extended_sidebar_position_right.extended_sidebar_mask_open{right:300px;left:auto;}
+.extended_sidebar_box.extended_sidebar_position_left.extended_sidebar_mask_open{left:300px;}
+.extended_sidebar_box .extended_sidebar_mask{ width:100%; float:left; height:100%; position:absolute; top:0; left:0; background:rgba(0,0,0,0.5); z-index:999999; opacity:0; visibility:hidden}
+.extended_sidebar_box.extended_sidebar_mask_open .extended_sidebar_mask{ opacity:1;visibility:visible; cursor:url(../images/cross.png), pointer;}
+
+/************** Sidebar Menu CSS End **************/
+
+/************** Horizontal and Vertical Menu CSS Start **************/
+
+.horizontal_menu_area,
+.vertical_menu_area{
+-webkit-transition:0.4s ease-in-out;    
+-moz-transition:0.4s ease-in-out;
+-ms-transition:0.4s ease-in-out;    
+-o-transition:0.4s ease-in-out;
+}
+.header_element ul li.zolo-small-menu span.vertical_menu,
+.header_element ul li.zolo-small-menu span.horizontal_menu{ position:relative; z-index:999;}
+ul li.zolo-small-menu{ position:relative;}
+.horizontal_menu_area{position:absolute;top:50%; visibility:hidden; opacity:0; right:-100%; padding-right:40px;padding-left:20px;
+	-moz-transform:translate(0px, -50%);
+	-webkit-transform:translate(0px, -50%);
+	-o-transform:translate(0px, -50%);
+	-ms-transform:translate(0px, -50%);
+	transform:translate(0px, -50%);
+	transition: 0.4s ease-in-out;
+	
+}
+.horizontal_menu_open .horizontal_menu_area{ opacity:1; visibility:visible;right:0; z-index:99;}
+.horizontal_menu_area .zolo-navigation{ float:right; width:auto;}
+.header_left .horizontal_menu_area{ left:-100%;padding-left:40px;padding-right:20px;}
+.header_left .horizontal_menu_open .horizontal_menu_area{left:0;}
+.header_left .horizontal_menu_area .zolo-navigation{ float:left;}
+
+
+.vertical_menu_area{position:absolute;top:100%; visibility:hidden; opacity:0; right:-100px; text-align:right; z-index:9999;}
+.vertical_menu_open .vertical_menu_area{opacity:1; visibility:visible;right:0;}
+.vertical_menu_area .zolo-navigation ul li{ float:right; clear:both;}
+.vertical_menu_area .zolo-navigation ul > li:first-child::before, .vertical_menu_area .zolo-navigation ul > li::after{ display:none;}
+
+.header_left .vertical_menu_area{left:-100px; text-align:left;}
+.header_left .vertical_menu_open .vertical_menu_area{left:0;}
+.header_left .vertical_menu_area .zolo-navigation ul li{ float:left;}
+/************** Horizontal and Vertical Menu CSS End **************/
+
+/*Main Menu  CSS End Here*/
+
+/** Search Design CSS Start **/
+
+.zolo_navbar_search{ float:left;/* width:30px; */position:relative;text-align:center; }
+
+.nav_search-icon{position:relative;z-index:99; cursor:pointer; width:20px; height:15px; display:inline-block;vertical-align: middle;}
+.nav_search-icon:after{ position:absolute; left:0; top:0; content:""; width:12px; height:12px; border:1px solid #000;
+-moz-border-radius:20px;
+-webkit-border-radius:20px;
+-ms-border-radius:20px;
+-o-border-radius:20px;
+border-radius:20px;
+}
+.nav_search-icon:before{ position:absolute; left:12px; top:9px; content:""; width:2px; height:7px; background:#000;
+-moz-transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+.nav_search-icon.search_close_icon:after{height:20px;left:7px;width:2px;background:#000; border:0; top:-2px;
+-moz-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.nav_search-icon.search_close_icon:before{ height:20px;left:7px; top:-2px;}
+
+/************** Navigation Bar Default Search CSS Start **************/
+.header_left .zolo_navbar_search.default_search_but .nav_search_form_area{ left:0;}
+.zolo_navbar_search.default_search_but .nav_search_form_area{background:#fff; box-shadow:0 0 3px #999;padding:20px;width:314px; position:absolute;top:100%; right:0;
+opacity: 0;pointer-events: none;
+-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+-ms-transition: opacity 0.5s, visibility 0s 0.5s;
+-moz-transition: opacity 0.5s, visibility 0s 0.5s;
+-o-transition: opacity 0.5s, visibility 0s 0.5s;
+transition: opacity 0.5s, visibility 0s 0.5s;
+
+-moz-border-radius:0px 0px 6px 6px;
+-webkit-border-radius:0px 0px 6px 6px;
+-ms-border-radius:0px 0px 6px 6px;
+-o-border-radius:0px 0px 6px 6px;
+border-radius:0px 0px 6px 6px;
+}
+
+.zolo-topbar .header_element .zolo_navbar_search.default_search_but .nav_search_form_area{ top:100% !important;}
+.zolo_navbar_search.default_search_but .nav_search_form_area.search_area_open{pointer-events:auto;z-index:999999;opacity: 1;
+-webkit-transition: opacity 0.5s;
+-moz-transition: opacity 0.5s;
+-o-transition: opacity 0.5s;
+-ms-transition: opacity 0.5s;
+transition: opacity 0.5s;
+}
+
+.zolo_navbar_search.default_search_but .nav_search_form_area input{ background:none; border:1px solid #ccc;color:#ccc; padding:5px 15px; height:40px; width:200px; float:left; border-right:0px;
+-moz-border-radius:4px 0 0 4px;
+-webkit-border-radius:4px 0 0 4px;
+-ms-border-radius:4px 0 0 4px;
+-o-border-radius:4px 0 0 4px;
+border-radius:4px 0 0 4px;
+}
+.zolo_navbar_search.default_search_but .nav_search_form_area .search-form .search-submit{ display:block; width:74px;float:left;/*border:1px solid #000; background:#000;*/ color:#fff; padding:5px 2px;font-size: 13px;
+-moz-border-radius:0 4px 4px 0;
+-webkit-border-radius:0 4px 4px 0;
+-ms-border-radius:0 4px 4px 0;
+-o-border-radius:0 4px 4px 0;
+border-radius:0 4px 4px 0;
+}
+
+/************************************ Default Search Area End ************************************/
+
+/************** Full Screen Search CSS Start **************/
+
+.search_overlay {opacity: 0;pointer-events: none;
+ -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+ -ms-transition: opacity 0.5s, visibility 0s 0.5s;
+ -moz-transition: opacity 0.5s, visibility 0s 0.5s;
+ -o-transition: opacity 0.5s, visibility 0s 0.5s;
+ transition: opacity 0.5s, visibility 0s 0.5s;
+}
+.search_overlay.open {pointer-events:auto;padding:20px 30px;position: fixed;width: 100%;height: 100%;top: 0;left: 0;z-index:999999;background:#fff;opacity: 1;-webkit-transition: opacity 0.5s;transition: opacity 0.5s;}
+.search_overlay.open .content_div{ opacity:1; height: auto}
+.search_overlay .content_div {text-align: center;position: relative;top: 47%;font-size:40px; opacity:0; height:0;
+-moz-transition: all 0.8s;
+-webkit-transition: all 0.8s;
+-ms-transition: all 0.8s;
+-o-transition: all 0.8s;
+transition: all 0.8s;
+-webkit-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+.search_overlay.open .content_div {top: 50%;}
+.full_screen_search input{ background:none; border:0; border-bottom:1px solid #555555; color:#555555; height:100px; line-height:80px; font-size:46px; padding-right:80px;}
+.full_screen_search .search-form .search-submit{ width:80px; height:80px; top:18px;}
+.search_overlay .full_screen_search .search-form::after{ height:52px; width:52px; line-height:52px; right:12px; top:28px; display:none;}
+.search_overlay.open .full_screen_search .search-form::after{ display:block;}
+/************** Full Screen Search CSS End **************/
+
+/************** Navigation Bar Expanded Search CSS Start **************/
+.zolo-topbar .zolo_navbar_search.expanded_search_but .nav_search_form_area{ padding:0;}
+.zolo_navbar_search.expanded_search_but .nav_search_form_area{position:absolute;top:0; right:0;width:100%; display:none; padding:0 20px;}
+.zolo_navbar_search.expanded_search_but .nav_search_form_area.search_area_open{z-index:9999;top:0; display:block;}
+.zolo_navbar_search.expanded_search_but .nav_search_form_area .search-form {position: relative;top: 50%;transform: translate(0px, -50%);}
+
+.zolo_navbar_search.expanded_search_but .nav_search_form_area input{border-width:0 0 1px 0;padding:5px 40px 5px 0px;height:40px;  background:none !important;text-transform: uppercase;letter-spacing: 1px;}
+.zolo_navbar_search.expanded_search_but .nav_search_form_area input.search-submit{ display:none;}
+.zolo_navbar_search.expanded_search_but .nav_search_form_area .search-form:after{ display:none;}
+.nav_search-icon.search_close_icon.expanded_close_button{ position:absolute; top:50%; right:17px; margin-top:-10px; z-index:9999;}
+.zolo-topbar .nav_search-icon.search_close_icon.expanded_close_button{ position:absolute; top:50%; right:0; margin-top:-10px; z-index:9999;}
+::-webkit-search-cancel-button{ display:none;}
+.zolo_navbar_search.expanded_search_but{ position:inherit;}
+/************** Expanded Search CSS End **************/
+
+/****************************************************************
+******************** Search Design CSS End ********************
+****************************************************************/
+
+/************** Expanded Icon CSS Start **************/
+.zolo_small_bars {
+	position: relative;
+	margin: 5px 0 8px;
+	display: block;
+	width: 26px;
+	height: 16px;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid
+}
+.zolo_small_bars:after, .zolo_small_bars:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0;
+	border-bottom: 2px solid;
+	-webkit-transform-origin: 0 50%;
+	-ms-transform-origin: 0 50%;
+	transform-origin: 0 50%;
+	-webkit-transition: color .4s, -webkit-transform-origin .4s, -webkit-transform .4s;
+	transition: color .4s, -webkit-transform-origin .4s, -webkit-transform .4s;
+	transition: color .4s, transform-origin .4s, transform .4s;
+	transition: color .4s, transform-origin .4s, transform .4s, -webkit-transform-origin .4s, -ms-transform-origin .4s, -webkit-transform .4s
+}
+.zolo_small_bars:before {
+	-webkit-transform: scaleX(.88);
+	-ms-transform: scaleX(.88);
+	transform: scaleX(.88)
+}
+.zolo_small_bars:after {
+	top: 6px;
+	-webkit-transform: scaleX(.73);
+	-ms-transform: scaleX(.73);
+	transform: scaleX(.73)
+}
+.extended_sidebar_button .zolo_small_bars:after, .extended_sidebar_button .zolo_small_bars:before,
+.zolo_small_bars:hover:after, .zolo_small_bars:hover:before {
+	-webkit-transform: scaleX(1);
+	-ms-transform: scaleX(1);
+	transform: scaleX(1)
+}
+.horizontal_menu_open .zolo_small_bars,
+.vertical_menu_open .zolo_small_bars {
+	border-bottom-color: transparent;width: 20px;
+}
+.horizontal_menu_open .zolo_small_bars:after, .horizontal_menu_open .zolo_small_bars:before,
+.vertical_menu_open .zolo_small_bars:after, .vertical_menu_open .zolo_small_bars:before {
+	-webkit-transform-origin: 50%;
+	-ms-transform-origin: 50%;
+	transform-origin: 50%
+}
+.horizontal_menu_open .zolo_small_bars:before, .horizontal_menu_open .zolo_small_bars:hover:before,
+.vertical_menu_open .zolo_small_bars:before, .vertical_menu_open .zolo_small_bars:hover:before {
+	-webkit-transform: translateY(6px) scaleX(1) rotate(-45deg);
+	-ms-transform: translateY(6px) scaleX(1) rotate(-45deg);
+	transform: translateY(6px) scaleX(1) rotate(-45deg)
+}
+.horizontal_menu_open .zolo_small_bars:after, .horizontal_menu_open .zolo_small_bars:hover:after,
+.vertical_menu_open .zolo_small_bars:after, .vertical_menu_open .zolo_small_bars:hover:after {
+	-webkit-transform: scaleX(1) rotate(45deg);
+	-ms-transform: scaleX(1) rotate(45deg);
+	transform: scaleX(1) rotate(45deg)
+}
+
+/************** Expanded Icon CSS End **************/
+
+
+/************** Cart icon CSS Start **************/
+.cart-dropdown-form{ opacity:0; visibility:hidden;position:absolute; line-height:normal;}
+.zt-tiny-cart-wrapper:hover .cart-dropdown-form{ opacity:1; visibility: visible; width:280px; float: left; right:0; top:100%; padding:20px; background:#fff;}
+.cart-control{height: 20px;display: inline-block;position:relative; padding-left:18px;vertical-align: middle;white-space: nowrap;}
+.cart-control:before{ position:absolute; content:""; border:1px solid #000; width:8px; height:6px; top:-1px; left:3px;
+-moz-border-radius:5px 5px 0 0;
+-webkit-border-radius:5px 5px 0 0;
+-ms-border-radius:5px 5px 0 0;
+-o-border-radius:5px 5px 0 0;
+border-radius:5px 5px 0 0;
+}
+.cart-control:after{ position:absolute; content:""; border:1px solid #000; width:14px; height:14px;left:0; top:4px;}
+
+ul.header_left_col .zt-tiny-cart-wrapper:hover .cart-dropdown-form{ left:0;}
+.cart-number{ font-size:12px; width:20px; height:20px; line-height:20px; background:#666; display:block; color:#FFF; text-align:center;
+margin-left:-8px;margin-top:-5px;position: relative;z-index:9999;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+-ms-border-radius:15px;
+-o-border-radius:15px;
+border-radius:15px;
+}
+.zt-tiny-cart-wrapper .cart-dropdown-form ul.cart-list{ margin:-15px 0 0 0; padding:0;}
+.zt-tiny-cart-wrapper .cart-dropdown-form ul.cart-list li{ width:100%; float:left; padding:15px 10px 15px 0; position:relative; border-bottom:1px solid rgba(0,0,0,0.07); text-align:left;}
+.zt-tiny-cart-wrapper .cart-dropdown-form ul.cart-list li img{ width:50px; margin-right:20px;}
+.zt-tiny-cart-wrapper .cart-dropdown-form ul.cart-list li a{ float:left}
+.zt-tiny-cart-wrapper .cart-dropdown-form ul.cart-list li a.remove{ float:none;}
+.zt-tiny-cart-wrapper .cart-dropdown-form ul.cart-list li .cart-item-wrapper{ white-space:normal; font-size:12px; line-height:16px;}
+.zt-tiny-cart-wrapper .cart-dropdown-form ul.cart-list li h3.product-name{ clear:none; padding:0; display:block; font-size:16px; line-height:18px;}
+.zt-tiny-cart-wrapper .cart-dropdown-form ul.cart-list li h3.product-name a{ float:none;}
+.woocommerce .zt-tiny-cart-wrapper .cart-dropdown-form ul.cart-list li a.remove,
+.zt-tiny-cart-wrapper .cart-dropdown-form ul.cart-list li a.remove,
+.woocommerce .zt-tiny-cart-wrapper .cart-dropdown-form ul.cart-list li a.remove:hover{ display:inline-block;background:none; font-size:18px; font-weight:normal; position:absolute; top:50%; right:0;
+-moz-transform: translate(0px, -50%);
+-webkit-transform: translate(0px, -50%);
+-o-transform: translate(0px, -50%);
+-ms-transform: translate(0px, -50%);
+transform: translate(0px, -50%);
+}
+.zt-tiny-cart-wrapper .cart-dropdown-form .dropdown-footer{ clear:both;font-size:14px; line-height:16px; font-weight:bold; text-align:left;}
+.zt-tiny-cart-wrapper .cart-dropdown-form .dropdown-footer .total{ padding:15px 0;}
+.zt-tiny-cart-wrapper .cart-dropdown-form .dropdown-footer .amount{ float:right;}
+.woocommerce .zt-tiny-cart-wrapper .cart-dropdown-form .dropdown-footer a.button,
+.zt-tiny-cart-wrapper .cart-dropdown-form .dropdown-footer a.button{ height:30px; width:116px; line-height:30px !important; color:#fff; display:inline-block; text-align:center; background:#000!important;margin-right: 4px; float:left; padding:0; font-weight:normal;text-transform:uppercase;
+-moz-border-radius:0px;
+-webkit-border-radius:0px;
+-ms-border-radius:0px;
+-o-border-radius:0px;
+border-radius:0px;
+}
+.woocommerce .zt-tiny-cart-wrapper .cart-dropdown-form .dropdown-footer a.button:hover,
+.zt-tiny-cart-wrapper .cart-dropdown-form .dropdown-footer a.button:hover{ opacity:0.8;}
+
+/************** Cart icon CSS End **************/
+
+.zolo-navigation .zolo-megamenu-wrapper li ul.sub-menu li ul.sub-menu{ left:0; }
+.zolo-navigation .zolo-megamenu-wrapper ul.sub-menu{margin-top:0 !important;}
+.zolo-navigation .zolo-megamenu-wrapper ul ul.sub-menu ul.sub-menu{top:0 !important;}
+
+/*vertical_header CSS Start*/
+.vertical_headercontent_box{position:relative;z-index:9;}
+.zolo_vertical_header header.vertical_fix_menu .vertical_headercontent_box{ min-height:100vh;}
+.zolo_right_vertical_header .vertical_fix_header_box{position: relative;float:right;}
+.zolo_vertical_header header.vertical_fix_menu{
+    position: absolute;
+    float: left;
+    /*top: 0;left:0;*/
+    min-height: 100vh;
+    visibility: visible;
+    overflow: visible;
+    max-height: none;
+  }
+
+.zolo_vertical_header header.vertical_fix_menu.is-fixed {position: fixed;}
+.zolo_vertical_header .headercontent_box{ padding:0;}
+.zolo_vertical_header .vertical_fix_menu .header_left{justify-content: inherit;}
+.zolo_vertical_header ul.header_left_col,
+.zolo_vertical_header .header_left{ width:100%;}
+.zolo_vertical_header .vertical_fix_menu .header_left ul.header_left_col{ margin:0;}
+.zolo_vertical_header .vertical_fix_menu .header_left ul.header_left_col > li{ width:100%; padding:0;}
+.zolo_vertical_header .vertical_fix_menu .header_left ul.header_left_col > li.vertical_header_menu{ padding-left:0; padding-right:0;}
+.zolo_vertical_header .logo-box{ float:none;}
+/*vertical menu CSS Start*/
+.zolo_vertical_header .zolo-navigation li.zolo-dropdown-menu > ul{ top:0; left:100%;}
+.zolo_vertical_header .zolo-navigation ul li{ width:100%; position:relative;}
+
+.zolo_vertical_header .zolo-navigation ul li.zolo-dropdown-menu ul.sub-menu,
+.zolo_vertical_header .zolo-navigation .zolo-megamenu-wrapper{margin-top:0px;top:0; left:100%;}
+
+.zolo_vertical_header .zolo-navigation ul li ul li:last-child{ padding-right:0 !important;}
+.zolo_vertical_header .zolo-navigation ul li ul li:first-child{ padding-left:0 !important;}
+
+.zolo_right_vertical_header .zolo_vertical_header .zolo-navigation .zolo-megamenu-wrapper,
+.zolo_right_vertical_header .zolo_vertical_header .zolo-navigation li.zolo-dropdown-menu > ul{ left:auto !important; right:100% !important;}
+/*vertical menu CSS End*/
+
+body.ver_full_screen_slider .headerbackground{ opacity:0;}
+body.ver_full_screen_slider .zolo-header-area{ position:absolute; z-index:999999;}
+
+
+/*vertical Header Search CSS Start*/
+.zolo_vertical_header_box .search-form,
+.woocommerce-product-search{ width:100%; position:relative;}
+.zolo_vertical_header_box .search-form:after,
+.woocommerce-product-search:after{ text-align:center;width:40px; height:38px; line-height:38px;content:"\f002"; position:absolute; top:0; right:0; font-family:FontAwesome;}
+.zolo_vertical_header_box .search-form input[type="search"],
+.woocommerce-product-search input[type="search"]{ height:38px; padding:7px 45px 7px 12px;border:0; width:100%;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;-ms-border-radius:0;-o-border-radius:0;}
+.zolo_vertical_header_box .search-form input[type="submit"],
+.woocommerce-product-search input[type="submit"]{ display:inline-block; font-size:0; height:38px; width:40px;position:absolute; top:0; right:0; z-index:2; background:none; padding:0;border:0;}
+/*vertical_header CSS End*/
+
+
+/*Sticky Header CSS Start*/
+.sticky_header_wrapper{ width:100%; float:left;}
+.sticky_header{ width:100%; float:left;}
+body .sticky_header_fixed{position:fixed !important;top:0; z-index:9999 !important; width:100%; left:0;}
+body.admin-bar .sticky_header_fixed{ top:32px;}
+.sticky_header_fixed .header_section_two{ transition: all 0.8s ease-in-out}
+
+.sticky_slide_down{position:fixed !important;top:0; z-index:9999 !important; width:100%; left:0;}
+.sticky_header.sticky_slide_down.fadeInDown {
+	animation-delay: 0s;
+	animation-direction: normal;
+	animation-duration: 0.15s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-name: fadeInDown1 !important;
+	animation-play-state: running;
+	animation-timing-function: ease;
+}
+.sticky_header.fadeInDown {
+  -webkit-animation-name: inherit!important;
+  animation-name: inherit!important;
+}
+
+@-webkit-keyframes fadeInDown1 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-125px);
+    transform: translateY(-125px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInDown1 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-125px);
+    -ms-transform: translateY(-125px);
+    transform: translateY(-125px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/*Sticky Header CSS End*/
+
+.fullscreen_header_area{ display:block;}
+.mobile_header_area{ display: none;}
+
+
+/*RESPONSIVE CSS START*/
+@media (max-width:1050px) {
+.site_layout{ padding:0 !important;}
+.fullscreen_header_area{ display:none !important;}
+.fullscreen_header_area.fullscreen_menu_open_button{ display:block!important;}
+.mobile_header_area{ display: block !important;}
+
+.modern_mobile_menu .headercontent_box{ display:table;}
+.zolo_mobile_navigation_area{ width:100%; float:left;background:#000; padding-bottom:10px;padding-top:10px; text-align:left;}
+.zolo_mobile_navigation_area.zolo_mobile_navigation_menu,
+.modern_mobile_menu .zolo_mobile_navigation_area{ padding:0;}
+.mobile_header_area.modern_mobile_menu .logo-box{ float:left;}
+
+.mob_nav_icon_area{ display:table-cell; vertical-align:middle; width:140px;}
+.modern_mobile_menu .mobile-nav ul#mobile-nav{ margin:0;}
+
+.mobile_header_area{ text-align:center;}
+.mobile_header_area .logo-box{ float:none; display:inline-block;}
+
+.mobile_header_area ul.mob_nav_icons{ margin:0; padding:0; list-style:none; float:right;}
+.mobile_header_area ul.mob_nav_icons li{float:left; padding:0 0 0 15px; color:#f4421a;line-height:20px;}
+.mobile_header_area ul.mob_nav_icons li a{color:#f4421a; cursor:pointer;}
+.mobile_header_area ul.mob_nav_icons li .fa{font-size:22px;}
+
+.mobile_header_area .zolo_mobile_navigation_area #nav_toggle{margin-left:30px;}
+.mobile_header_area .zolo_mobile_navigation_area ul.mob_nav_icons{margin-right:30px;}
+
+.mobile_header_area .logo-box{padding:38px 0!important;}
+
+/*Mobile Nav Start Here*/
+.mobile-nav ul{ list-style:none; padding:0; margin:0;width:100%; float:left; display:none;}
+.mobile-nav ul li{ width:100%; float:left;}
+.mobile-nav ul li.zolo-dropdown-menu ul.sub-menu{box-shadow: none;}
+.mobile-nav ul li a{ width:100%; float:left; padding:0 30px;}
+
+.mobile-nav ul li ul, .mobile-nav ul.sub-menu{ width:100%; background: none;}
+
+.mobile-nav ul li li a{ padding-left:40px;}
+.mobile-nav ul li li li a{ padding-left:50px;}
+.mobile-nav ul li li li li a{ padding-left:60px;}
+
+
+.mobile-nav {
+	/*float: left;
+	width: 100%;*/z-index:9999; 
+}
+
+.mobile-nav ul li{position: relative;}
+
+.mobile-nav .mobile-collapse-toggle{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	display: block;
+	cursor: pointer;
+	font-size: 20px;
+	padding:0px 12px 0px; line-height:50px;
+	color: #fff;
+	z-index: 9989999;
+}
+.mobile-nav .mobile-collapse-toggle [class*="genericon"]{ line-height:50px;}
+
+#nav_toggle{position:relative;width:25px; height:20px;float:left; cursor:pointer;}
+
+.mobile_header_area.modern_mobile_menu #nav_toggle{ margin-left:20px; float:right;}
+
+#nav_toggle .nav_bar{background:#f4421a; width:100%;height:2px; float:left; cursor:pointer; margin:3px 0;}
+
+#nav_toggle.active .nav_bar_2nd{ height:0;margin:0;}
+
+#nav_toggle.active .nav_bar_1st{ margin:11px 0 0 0;
+transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+ }
+#nav_toggle.active .nav_bar_3rd{transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+margin:-3px 0 0;
+}
+.open-submenu{ position:absolute; top:0; right:0; width:60px; cursor:pointer;}
+.open-submenu:after{ width: 0; height: 0;content: "\f107";top:50%; left:50%; margin:-8px 0 0 -5px; position:absolute;font-family: FontAwesome; font-size:16px; line-height:16px;}
+/*Mobile Nav End Here*/
+
+.full_screen_search input{ font-size:40px; height:72px; line-height:60px;}
+.search_overlay .content_div{ font-size:30px;}
+.full_screen_search .search-form::after{ top:10px;}
+.full_screen_search .search-form .search-submit{height: 60px;right: 10px;top: 10px;width: 55px;}
+
+body.ver_full_screen_slider .zolo-header-area,
+body.titlebar_position_from_top .zolo-header-area,
+body.slider_position_from_top .mobile_header_area .zolo-header-area{ position:relative;}
+
+.full_screen_menu .zolo-navigation ul li{ padding:10px 0;}
+.full_screen_menu .zolo-navigation li a{ font-size: 26px;line-height: 30px;}
+}
+@media (max-width:900px) {
+.mobile_header_area .header_element{display: inline;}
+.mobile_header_area .header_section_one .header_center,
+.mobile_header_area .header_section_one .header_right,
+.mobile_header_area .header_section_one .header_left{width:100%;align-items: center;}
+}
+@media (max-width:450px) {
+.mobile_header_area ul.mob_nav_icons li .fa{font-size:15px;}
+#nav_toggle{ width:20px;}
+.mobile_header_area.modern_mobile_menu #nav_toggle,
+.mobile_header_area .zolo_mobile_navigation_area #nav_toggle{ margin-top: 3px;}
+#nav_toggle .nav_bar{margin: 2px 0;}
+}
+
+

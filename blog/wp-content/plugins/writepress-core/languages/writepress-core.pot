@@ -1,0 +1,2798 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-13 08:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: actions.php:34
+msgid "Woocommerce Widgets"
+msgstr ""
+
+#: actions.php:36
+msgid "Appears in the shop page"
+msgstr ""
+
+#: actions.php:44
+msgid "Extended Sidebar Widget Area"
+msgstr ""
+
+#: actions.php:46
+msgid "Appears on Extended Sidebar."
+msgstr ""
+
+#: actions.php:71
+#, php-format
+msgid "Footer Widget %s"
+msgstr ""
+
+#: actions.php:87
+#, php-format
+msgid "Upper Footer Widget %s"
+msgstr ""
+
+#: actions.php:104
+#, php-format
+msgid "Lower Footer Widget %s"
+msgstr ""
+
+#: actions.php:114
+msgid "Right Sidebar Widget Area"
+msgstr ""
+
+#: actions.php:116
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: actions.php:132 writepress_welcome/writepress_welcome.php:83
+#: writepress_welcome/writepress_welcome.php:83
+msgid "Theme Options"
+msgstr ""
+
+#: sidebar_generator.php:44
+msgid "Sidebar"
+msgstr ""
+
+#: sidebar_generator.php:92
+msgid "Widget Section already exists, please use a different name."
+msgstr ""
+
+#: sidebar_generator.php:146 sidebar_generator.php:225
+msgid "No Widget Sections defined."
+msgstr ""
+
+#: sidebar_generator.php:150
+msgid "Sidebar does not exist."
+msgstr ""
+
+#: sidebar_generator.php:174 sidebar_generator.php:174
+#: sidebar_generator.php:200
+msgid "Widget Sections"
+msgstr ""
+
+#: sidebar_generator.php:180
+msgid "Are you sure you want to remove"
+msgstr ""
+
+#: sidebar_generator.php:180
+msgid "This will remove any widgets you have assigned to this widget section."
+msgstr ""
+
+#: sidebar_generator.php:189
+msgid "Widget Section Name:"
+msgstr ""
+
+#: sidebar_generator.php:205
+msgid "Widget Section Name"
+msgstr ""
+
+#: sidebar_generator.php:206
+msgid "CSS Class"
+msgstr ""
+
+#: sidebar_generator.php:207
+msgid "Remove"
+msgstr ""
+
+#: sidebar_generator.php:219
+msgid "Remove this Widget Section"
+msgstr ""
+
+#: sidebar_generator.php:219
+msgid "remove"
+msgstr ""
+
+#: sidebar_generator.php:229 sidebar_generator.php:229
+msgid "Add New Widget Section"
+msgstr ""
+
+#: sidebar_generator.php:287
+msgid "Select Sidebar 1:"
+msgstr ""
+
+#: sidebar_generator.php:288
+msgid ""
+"Select sidebar 1 that will display on this page. Choose \"No Sidebar\" for "
+"full width."
+msgstr ""
+
+#: sidebar_generator.php:296
+msgid "WP Default Sidebar"
+msgstr ""
+
+#: sidebar_generator.php:301 sidebar_generator.php:307
+#: sidebar_generator.php:322 sidebar_generator.php:328
+#: sidebar_generator.php:334 sidebar_generator.php:376
+msgid "Left Sidebar Widget Area"
+msgstr ""
+
+#: sidebar_generator.php:302 sidebar_generator.php:308
+#: sidebar_generator.php:329 sidebar_generator.php:336
+msgid "Default Sidebar"
+msgstr ""
+
+#: sidebar_generator.php:317
+msgid "No Sidebar"
+msgstr ""
+
+#: zilla-likes.php:95
+msgid "Like this"
+msgstr ""
+
+#: zilla-likes.php:98
+msgid "You already like this"
+msgstr ""
+
+#: metaboxes/metaboxes.php:89
+msgid "Sliders"
+msgstr ""
+
+#: metaboxes/metaboxes.php:90
+msgid "Page"
+msgstr ""
+
+#: metaboxes/metaboxes.php:91
+msgid "Post"
+msgstr ""
+
+#: metaboxes/metaboxes.php:92
+msgid "Header"
+msgstr ""
+
+#: metaboxes/metaboxes.php:93
+msgid "Footer"
+msgstr ""
+
+#: metaboxes/metaboxes.php:94
+msgid "Sidebars"
+msgstr ""
+
+#: metaboxes/metaboxes.php:95
+msgid "Background"
+msgstr ""
+
+#: metaboxes/metaboxes.php:96 metaboxes/tabs/tab_pagetitlebar.php:10
+msgid "Page Title Bar"
+msgstr ""
+
+#: metaboxes/metaboxes.php:97
+msgid "Portfolio"
+msgstr ""
+
+#: metaboxes/metaboxes.php:98
+msgid "Team"
+msgstr ""
+
+#: metaboxes/metaboxes.php:99
+msgid "Testimonial"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "No Animation"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "bounce"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "flash"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "pulse"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rubberBand"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "shake"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "headShake"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "swing"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "tada"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "wobble"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "jello"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "bounceIn"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "bounceInDown"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "bounceInLeft"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "bounceInRight"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "bounceInUp"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "bounceOut"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "bounceOutDown"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "bounceOutLeft"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "bounceOutRight"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "bounceOutUp"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeIn"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeInDown"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeInDownBig"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeInLeft"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeInRight"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeInRightBig"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeInUp"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeInUpBig"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeOut"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeOutDown"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeOutDownBig"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeOutLeft"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeOutLeftBig"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeOutRight"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeOutRightBig"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeOutUp"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "fadeOutUpBig"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "flipInX"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "flipInY"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "flipOutX"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "flipOutY"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "lightSpeedIn"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "lightSpeedOut"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rotateIn"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rotateInDownRight"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rotateInUpRight"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rotateOut"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rotateOutDownLeft"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rotateOutDownRight"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rotateOutUpLeft"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rotateOutUpRight"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "hinge"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rollIn"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "rollOut"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "zoomIn"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "zoomInDown"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "zoomInLeft"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "zoomInRight"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "zoomInUp"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "zoomOut"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "zoomOutDown"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "zoomOutLeft"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "zoomOutRight"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "zoomOutUp"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "slideInDown"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "slideInLeft"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "slideInRight"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "slideInUp"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "slideOutDown"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "slideOutLeft"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "slideOutRight"
+msgstr ""
+
+#: vc_custom/vc-functions.php:47
+msgid "slideOutUp"
+msgstr ""
+
+#: vc_custom/vc-functions.php:170
+msgid "Icon"
+msgstr ""
+
+#: vc_custom/vc-functions.php:172
+msgid "Chevron"
+msgstr ""
+
+#: vc_custom/vc-functions.php:172 vc_custom/vc-functions.php:189
+#: widgets/zt_about_me.php:269 widgets/zt_widget_instagram.php:230
+#: metaboxes/tabs/tab_sidebars.php:13
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:253
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:85
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:163
+msgid "None"
+msgstr ""
+
+#: vc_custom/vc-functions.php:172
+msgid "Plus"
+msgstr ""
+
+#: vc_custom/vc-functions.php:172
+msgid "Triangle"
+msgstr ""
+
+#: vc_custom/vc-functions.php:172
+msgid "Cross"
+msgstr ""
+
+#: vc_custom/vc-functions.php:173
+msgid "Select accordion shape."
+msgstr ""
+
+#: vc_custom/vc-functions.php:179
+msgid "Icon Border"
+msgstr ""
+
+#: vc_custom/vc-functions.php:187
+msgid "Accordian Title Border Style"
+msgstr ""
+
+#: vc_custom/vc-functions.php:189
+msgid "Border"
+msgstr ""
+
+#: vc_custom/vc-functions.php:189
+msgid "Bottom Border"
+msgstr ""
+
+#: vc_custom/vc-functions.php:190
+msgid "Select Title Border style."
+msgstr ""
+
+#: vc_custom/vc-functions.php:196
+msgid "Accordian Title Spacing"
+msgstr ""
+
+#: vc_custom/vc-functions.php:199
+msgid "Accordion title to title Spacing"
+msgstr ""
+
+#: vc_custom/vc-functions.php:205
+msgid "Accordian Content Spacing"
+msgstr ""
+
+#: vc_custom/vc-functions.php:208
+msgid "Accordion title to content Spacing"
+msgstr ""
+
+#: vc_custom/vc-functions.php:214
+msgid "Title Left padding"
+msgstr ""
+
+#: vc_custom/vc-functions.php:217
+msgid "Accordion title left Padding ( e.g 10 )"
+msgstr ""
+
+#: vc_custom/vc-functions.php:222
+msgid "Title  Right padding"
+msgstr ""
+
+#: vc_custom/vc-functions.php:225
+msgid "Accordion title right Padding ( e.g 10 )"
+msgstr ""
+
+#: vc_custom/vc-functions.php:231
+msgid "Title Top and Bottom padding"
+msgstr ""
+
+#: vc_custom/vc-functions.php:234
+msgid "Accordion title left and right Padding ( e.g 10 )"
+msgstr ""
+
+#: vc_custom/vc-functions.php:240
+msgid "Content Left and Right padding"
+msgstr ""
+
+#: vc_custom/vc-functions.php:243
+msgid "Accordion content Left and Right padding ( e.g 10 )"
+msgstr ""
+
+#: vc_custom/vc-functions.php:249
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:75
+msgid "Title color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:252
+msgid "Select the Title color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:258
+msgid "Title background color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:261
+msgid "Select the Title background color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:267
+msgid "Tab border color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:270
+msgid "Select the border color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:276
+msgid "Content text color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:279
+msgid "Select the tab content text color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:286
+msgid "Content background color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:289
+msgid "Select the tab content background color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:296
+msgid "Content Border color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:299
+msgid "Select the tab content border color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:306
+msgid "Active Tab title color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:309
+msgid "Select the Active Tab Title color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:316
+msgid "Active Tab background color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:319
+msgid "Select the Active Tab Title background color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:326
+msgid "Active Tab Border color"
+msgstr ""
+
+#: vc_custom/vc-functions.php:329
+msgid "Select the Active Tab Title Border color"
+msgstr ""
+
+#: widgets/zt_about_me.php:21
+msgid "Adds a About Me widget."
+msgstr ""
+
+#: widgets/zt_about_me.php:142
+msgid "About Me"
+msgstr ""
+
+#: widgets/zt_about_me.php:144 widgets/zt_about_me.php:221
+#: metaboxes/tabs/tab_background.php:15 metaboxes/tabs/tab_background.php:47
+#: metaboxes/tabs/tab_background.php:58 metaboxes/tabs/tab_background.php:89
+#: metaboxes/tabs/tab_background.php:99 metaboxes/tabs/tab_footer.php:14
+#: metaboxes/tabs/tab_footer.php:25 metaboxes/tabs/tab_footer.php:36
+#: metaboxes/tabs/tab_footer.php:47 metaboxes/tabs/tab_footer.php:58
+#: metaboxes/tabs/tab_header.php:25 metaboxes/tabs/tab_pagetitlebar.php:14
+#: metaboxes/tabs/tab_pagetitlebar.php:35
+#: metaboxes/tabs/tab_pagetitlebar.php:77
+#: metaboxes/tabs/tab_pagetitlebar.php:109
+#: metaboxes/tabs/tab_pagetitlebar.php:121 metaboxes/tabs/tab_post.php:60
+#: metaboxes/tabs/tab_post.php:70 metaboxes/tabs/tab_post.php:99
+#: metaboxes/tabs/tab_post.php:109 metaboxes/tabs/tab_post.php:119
+#: metaboxes/tabs/tab_post.php:144 metaboxes/tabs/tab_post.php:154
+#: metaboxes/tabs/tab_post.php:164 metaboxes/tabs/tab_sidebars.php:13
+msgid "Default"
+msgstr ""
+
+#: widgets/zt_about_me.php:210 widgets/zt_contact_info.php:97
+#: widgets/zt_widget_twitter.php:362
+msgid "Title:"
+msgstr ""
+
+#: widgets/zt_about_me.php:214 widgets/zt_widget_instagram.php:138
+#: widgets/zt_widget_twitter.php:367
+msgid "Class Wrap (optional):"
+msgstr ""
+
+#: widgets/zt_about_me.php:218 widgets/zt_widget_twitter.php:372
+msgid "Style:"
+msgstr ""
+
+#: widgets/zt_about_me.php:222 widgets/zt_widget_twitter.php:375
+msgid "Simple"
+msgstr ""
+
+#: widgets/zt_about_me.php:226
+msgid "Avtar Style:"
+msgstr ""
+
+#: widgets/zt_about_me.php:229 widgets/zt_about_me.php:266
+msgid "Circle"
+msgstr ""
+
+#: widgets/zt_about_me.php:230 widgets/zt_about_me.php:267
+#: widgets/zt_widget_instagram.php:264
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:253
+msgid "Square"
+msgstr ""
+
+#: widgets/zt_about_me.php:234
+msgid "Avatar Border Color:"
+msgstr ""
+
+#: widgets/zt_about_me.php:238
+msgid "Background Image:"
+msgstr ""
+
+#: widgets/zt_about_me.php:239
+msgid "select image full size"
+msgstr ""
+
+#: widgets/zt_about_me.php:241 widgets/zt_about_me.php:247
+#: widgets/zt_about_me.php:260
+msgid "Upload Image"
+msgstr ""
+
+#: widgets/zt_about_me.php:244
+msgid "Avatar:"
+msgstr ""
+
+#: widgets/zt_about_me.php:245
+msgid "Image size - 125px X 125px"
+msgstr ""
+
+#: widgets/zt_about_me.php:250
+msgid "Name:"
+msgstr ""
+
+#: widgets/zt_about_me.php:254
+msgid "Text:"
+msgstr ""
+
+#: widgets/zt_about_me.php:258
+msgid "Signature:"
+msgstr ""
+
+#: widgets/zt_about_me.php:263
+msgid "Social Style:"
+msgstr ""
+
+#: widgets/zt_about_me.php:268
+msgid "Modern"
+msgstr ""
+
+#: widgets/zt_about_me.php:273
+msgid "Social Link Target:"
+msgstr ""
+
+#: widgets/zt_about_me.php:276 widgets/zt_widget_instagram.php:301
+msgid "Blank"
+msgstr ""
+
+#: widgets/zt_about_me.php:277 widgets/zt_widget_instagram.php:302
+msgid "Self"
+msgstr ""
+
+#: widgets/zt_about_me.php:280
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:17
+msgid "Social Links"
+msgstr ""
+
+#: widgets/zt_about_me.php:281
+msgid "Enter the full URL to your social profile"
+msgstr ""
+
+#: widgets/zt_contact_info.php:101
+msgid "Address:"
+msgstr ""
+
+#: widgets/zt_contact_info.php:109
+msgid "Phone:"
+msgstr ""
+
+#: widgets/zt_contact_info.php:117
+msgid "Mobile:"
+msgstr ""
+
+#: widgets/zt_contact_info.php:125
+msgid "Fax:"
+msgstr ""
+
+#: widgets/zt_contact_info.php:133
+msgid "Email:"
+msgstr ""
+
+#: widgets/zt_contact_info.php:140
+msgid "Web:"
+msgstr ""
+
+#: widgets/zt_contact_info.php:149
+msgid "Textarea:"
+msgstr ""
+
+#: widgets/zt_contact_info.php:156
+msgid "Textarea Position:"
+msgstr ""
+
+#: widgets/zt_recent_posts_by_category.php:115
+#: widgets/zt_widget_instagram.php:133
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:57
+msgid "Title"
+msgstr ""
+
+#: widgets/zt_recent_posts_by_category.php:146
+msgid "Display Post date?"
+msgstr ""
+
+#: widgets/zt_recent_posts_by_category.php:150
+msgid "Display Featured Image?"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:17
+msgid "Displays Instagram photos."
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:104
+msgid "Instagram"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:107
+msgid "adidas"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:112 widgets/zt_widget_instagram.php:247
+#: widgets/zt_widget_instagram.php:256 metaboxes/tabs/tab_background.php:47
+#: metaboxes/tabs/tab_background.php:89 metaboxes/tabs/tab_footer.php:14
+#: metaboxes/tabs/tab_footer.php:25 metaboxes/tabs/tab_footer.php:36
+#: metaboxes/tabs/tab_footer.php:47 metaboxes/tabs/tab_footer.php:58
+#: metaboxes/tabs/tab_header.php:14 metaboxes/tabs/tab_header.php:25
+#: metaboxes/tabs/tab_header.php:69 metaboxes/tabs/tab_page.php:25
+#: metaboxes/tabs/tab_pagetitlebar.php:109
+#: metaboxes/tabs/tab_pagetitlebar.php:121 metaboxes/tabs/tab_post.php:70
+msgid "No"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:113 widgets/zt_widget_instagram.php:120
+#: widgets/zt_widget_instagram.php:248 widgets/zt_widget_instagram.php:255
+#: metaboxes/tabs/tab_background.php:47 metaboxes/tabs/tab_background.php:89
+#: metaboxes/tabs/tab_footer.php:14 metaboxes/tabs/tab_footer.php:25
+#: metaboxes/tabs/tab_footer.php:36 metaboxes/tabs/tab_footer.php:47
+#: metaboxes/tabs/tab_footer.php:58 metaboxes/tabs/tab_header.php:14
+#: metaboxes/tabs/tab_header.php:25 metaboxes/tabs/tab_header.php:69
+#: metaboxes/tabs/tab_page.php:25 metaboxes/tabs/tab_pagetitlebar.php:109
+#: metaboxes/tabs/tab_pagetitlebar.php:121 metaboxes/tabs/tab_post.php:70
+msgid "Yes"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:114 widgets/zt_widget_instagram.php:263
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:163
+msgid "Rounded"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:117
+msgid "Before"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:118 widgets/zt_widget_instagram.php:290
+#: metaboxes/tabs/tab_pagetitlebar.php:35 metaboxes/tabs/tab_sidebars.php:13
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:111
+msgid "Left"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:126
+msgid "Follow"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:143
+msgid "Search Instagram for:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:147
+msgid "Username:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:155
+msgid "Hashtag:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:157
+msgid "without # sign"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:162
+msgid "Block Users"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:164
+msgid "Enter usernames separated by commas whose images you don't want to show"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:168
+msgid "Number Images To Show:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:174
+msgid "Check New Images Every:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:176
+msgid "hours"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:181
+msgid "Images Style:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:183
+msgid "2 Columns"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:184
+msgid "3 Columns"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:185
+msgid "4 Columns"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:186
+msgid "5 Columns"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:187
+msgid "6 Columns"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:188
+msgid "7 Columns"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:189
+msgid "8 Columns"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:190
+msgid "9 Columns"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:191
+msgid "10 Columns"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:196
+msgid "Margin:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:198
+msgid "Margin"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:199
+msgid "No Margin"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:204
+msgid "Image format"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:206
+msgid "Square - Cropped"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:207
+msgid "Original - No Crop"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:209
+msgid ""
+"<strong>Square - Cropped</strong> - images in 640x640 pixels. <br/><strong>"
+"Original - No Crop</strong> - original image size."
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:213
+msgid "Order by"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:215
+msgid "Date - Ascending"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:216
+msgid "Date - Descending"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:217
+msgid "Popularity - Ascending"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:218
+msgid "Popularity - Descending"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:219
+msgid "Random"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:225
+msgid "Link To"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:227
+msgid "Instagram Image"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:228
+msgid "Instagram Profile"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:229
+msgid "Custom Link"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:236
+msgid "Custom Link:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:238
+msgid ""
+"Use this field only if the above option is set to <strong>Custom "
+"Link</strong>"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:243
+msgid "Header Options"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:245
+msgid "Display Header:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:253
+msgid "Display Profile Picture:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:261
+msgid "Picture Radius:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:269
+msgid "Display Name:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:270
+msgid "Default is username"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:275
+msgid "Description:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:280
+msgid "Position:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:282
+msgid "Before Images"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:283
+msgid "After Images"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:288
+msgid "Align:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:291 metaboxes/tabs/tab_pagetitlebar.php:35
+#: metaboxes/tabs/tab_sidebars.php:13
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:111
+msgid "Right"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:292 metaboxes/tabs/tab_pagetitlebar.php:35
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:122
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:111
+msgid "Center"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:299
+msgid "Button Target:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:307
+msgid "Button Text:"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:312
+msgid "Image Link Class"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:314
+msgid "Usefull if you are using jQuery lightbox plugins to open links"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:397
+msgid "No images found! <br> Try some other hashtag or username"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:577
+msgid "Nothing to search for"
+msgstr ""
+
+#: widgets/zt_widget_instagram.php:637
+msgid "No images found"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:17
+msgid "Adds support for your tweets."
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:305
+msgid "second"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:305
+msgid "minute"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:305
+msgid "hour"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:305
+msgid "day"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:305
+msgid "week"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:305
+msgid "month"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:305
+msgid "year"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:305
+msgid "decade"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:309
+msgid "ago"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:318
+msgid "s"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:346
+msgid "Recent Tweets"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:348 widgets/zt_widget_twitter.php:399
+msgid "Light"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:374
+msgid "Expand"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:380
+msgid "Expand Style"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:382
+msgid "Twitter ID:"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:387
+msgid "Width:"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:392
+msgid "Height:"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:397
+msgid "Color Scheme:"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:400
+msgid "Dark"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:406
+msgid "Simple Style"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:408
+msgid "Consumer Key:"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:413
+msgid "Consumer Secret:"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:418
+msgid "Access Token:"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:423
+msgid "Access Token Secret:"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:428
+msgid "Twitter Username:"
+msgstr ""
+
+#: widgets/zt_widget_twitter.php:433
+msgid "Number of Tweets:"
+msgstr ""
+
+#: writepress_welcome/writepress_welcome.php:82
+msgid "Install Writepress Demos"
+msgstr ""
+
+#: writepress_welcome/writepress_welcome.php:82
+msgid "Install Demos"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:11
+msgid "Layout"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:12
+msgid "Select boxed or wide layout."
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:15
+msgid "Wide"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:15
+msgid "Boxed"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:15
+msgid "Theater"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:20
+msgid "Following options only work in boxed mode:"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:24
+msgid "Background Image for Outer Area"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:25
+msgid "Select an image to use for the outer background."
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:33 metaboxes/tabs/tab_background.php:76
+#: metaboxes/tabs/tab_header.php:56
+msgid "Background Color"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:34
+msgid "Controls the background color for the outer background."
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:43 metaboxes/tabs/tab_background.php:85
+#: metaboxes/tabs/tab_header.php:65 metaboxes/tabs/tab_pagetitlebar.php:105
+msgid "100% Background Image"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:44 metaboxes/tabs/tab_background.php:86
+#: metaboxes/tabs/tab_header.php:66 metaboxes/tabs/tab_pagetitlebar.php:106
+msgid "Choose to have the background image display at 100%."
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:54 metaboxes/tabs/tab_background.php:95
+#: metaboxes/tabs/tab_header.php:76
+msgid "Background Repeat"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:55 metaboxes/tabs/tab_background.php:96
+#: metaboxes/tabs/tab_header.php:77
+msgid "Select how the background image repeats."
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:58 metaboxes/tabs/tab_background.php:99
+#: metaboxes/tabs/tab_header.php:80
+msgid "Repeat"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:58 metaboxes/tabs/tab_background.php:99
+#: metaboxes/tabs/tab_header.php:80
+msgid "Repeat-x"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:58 metaboxes/tabs/tab_background.php:99
+#: metaboxes/tabs/tab_header.php:80
+msgid "Repeat-y"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:58 metaboxes/tabs/tab_background.php:99
+#: metaboxes/tabs/tab_header.php:80
+msgid "No Repeat"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:63
+msgid "Following options work in boxed and wide mode:"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:67
+msgid "Background Image for Main Content Area"
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:68
+msgid "Select an image to use for the main content area."
+msgstr ""
+
+#: metaboxes/tabs/tab_background.php:77
+msgid "Controls the background color for the main content area."
+msgstr ""
+
+#: metaboxes/tabs/tab_footer.php:10
+msgid "Display Footer Widget Area"
+msgstr ""
+
+#: metaboxes/tabs/tab_footer.php:11
+msgid "Choose to show or hide the footer."
+msgstr ""
+
+#: metaboxes/tabs/tab_footer.php:21
+msgid "Display Copyright Area"
+msgstr ""
+
+#: metaboxes/tabs/tab_footer.php:22
+msgid "Choose to show or hide the copyright area."
+msgstr ""
+
+#: metaboxes/tabs/tab_footer.php:32
+#, php-format
+msgid "100% Footer Width"
+msgstr ""
+
+#: metaboxes/tabs/tab_footer.php:33
+#, php-format
+msgid ""
+"Choose to set footer width to 100% of the browser width. Select \"No\" for "
+"site width."
+msgstr ""
+
+#: metaboxes/tabs/tab_footer.php:43
+msgid "100% Layout for Widget Area Above Footer"
+msgstr ""
+
+#: metaboxes/tabs/tab_footer.php:44
+#, php-format
+msgid ""
+"Choose to set Above Footer Widget Area width to 100% of the browser width. "
+"Select \"No\" for site width."
+msgstr ""
+
+#: metaboxes/tabs/tab_footer.php:54
+msgid "100% Layout for Widget Area Below Footer"
+msgstr ""
+
+#: metaboxes/tabs/tab_footer.php:55
+#, php-format
+msgid ""
+"Choose to set below footer Widget Area width to 100% of the browser width. "
+"Select \"No\" for site width."
+msgstr ""
+
+#: metaboxes/tabs/tab_header.php:10
+msgid "Display Header"
+msgstr ""
+
+#: metaboxes/tabs/tab_header.php:11
+msgid "Choose to show or hide the header."
+msgstr ""
+
+#: metaboxes/tabs/tab_header.php:21
+msgid "100% Header Width"
+msgstr ""
+
+#: metaboxes/tabs/tab_header.php:22
+#, php-format
+msgid ""
+"Choose to set header width to 100% of the browser width. Select \"No\" for "
+"site width."
+msgstr ""
+
+#: metaboxes/tabs/tab_header.php:31
+msgid "Header Left/Right Padding"
+msgstr ""
+
+#: metaboxes/tabs/tab_header.php:32
+msgid ""
+"Controls the left/right padding for header when using 100% header width. "
+"Insert with px ex: 10px"
+msgstr ""
+
+#: metaboxes/tabs/tab_header.php:47
+msgid "Background Image"
+msgstr ""
+
+#: metaboxes/tabs/tab_header.php:48
+msgid "Select an image to use for the header background."
+msgstr ""
+
+#: metaboxes/tabs/tab_header.php:57
+msgid "Controls the background color of the header."
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:11 metaboxes/tabs/tab_post.php:56
+msgid "Featured Image"
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:12
+msgid "Show / Hide featured images and videos on single page."
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:15 metaboxes/tabs/tab_pagetitlebar.php:14
+#: metaboxes/tabs/tab_post.php:60 metaboxes/tabs/tab_post.php:89
+#: metaboxes/tabs/tab_post.php:99 metaboxes/tabs/tab_post.php:109
+#: metaboxes/tabs/tab_post.php:119 metaboxes/tabs/tab_post.php:144
+#: metaboxes/tabs/tab_post.php:154 metaboxes/tabs/tab_post.php:164
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:85
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:140
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:213
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:281
+msgid "Show"
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:15 metaboxes/tabs/tab_pagetitlebar.php:14
+#: metaboxes/tabs/tab_post.php:60 metaboxes/tabs/tab_post.php:89
+#: metaboxes/tabs/tab_post.php:99 metaboxes/tabs/tab_post.php:109
+#: metaboxes/tabs/tab_post.php:119 metaboxes/tabs/tab_post.php:144
+#: metaboxes/tabs/tab_post.php:154 metaboxes/tabs/tab_post.php:164
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:85
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:140
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:213
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:281
+msgid "Hide"
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:21 metaboxes/tabs/tab_post.php:66
+msgid "Use 100% Width Page"
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:22 metaboxes/tabs/tab_post.php:67
+#, php-format
+msgid "Choose to set this post to 100% browser width."
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:31 metaboxes/tabs/tab_post.php:76
+msgid "Video Embed Code"
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:32 metaboxes/tabs/tab_post.php:77
+msgid "Insert Youtube or Vimeo embed code."
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:40
+msgid "Page Content Top Padding"
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:41 metaboxes/tabs/tab_page.php:51
+msgid "Insert with px ex: 10px. Leave empty for default value."
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:50
+msgid "Page Content Bottom Padding"
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:60
+msgid "100% Width Left/Right Padding"
+msgstr ""
+
+#: metaboxes/tabs/tab_page.php:61
+msgid ""
+"This option controls the left/right padding for page content when using 100% "
+"site width or 100% width page template. Insert with px ex: 10px"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:11
+msgid "Choose to show or hide the page title bar."
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:31
+msgid "Page Title Bar Text Alignment"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:32
+msgid "Choose the title and subhead text alignment"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:43
+msgid "Page Title Bar Text Size"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:44
+msgid "Insert without px"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:53
+msgid "Page Title Font Color"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:54
+msgid "Controls the text color of the page title fonts."
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:63
+msgid "Page Title Bar Height"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:64
+msgid "Set the height of the page title bar. Insert without px ex: 10."
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:73
+msgid "Page Title Bar Background Position"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:74
+msgid "Choose the title bar Background Position"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:77
+msgid "Below"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:77
+msgid "From Top"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:85
+msgid "Page Title Bar Background Color"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:86
+msgid "Controls the background color of the page title bar."
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:95
+msgid "Page Title Bar Background Image"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:96
+msgid "Select an image to use for the page title bar background."
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:117
+msgid "Parallax Background Image"
+msgstr ""
+
+#: metaboxes/tabs/tab_pagetitlebar.php:118
+msgid "Choose a parallax scrolling effect for the background image."
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:10
+msgid "Post Layout"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:11
+msgid "Select post layout"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:48
+msgid "Single Post Content Max Width"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:49
+msgid "Insert with px ex: 900px. Leave empty for default value."
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:57
+msgid "Show / Hide featured images and videos on single post pages."
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:85
+msgid "Image Rollover Icons"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:86
+msgid "Choose Icons Show/Hide on this post."
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:95
+msgid "Show Related Posts"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:96
+msgid "Choose to show or hide related posts on this post."
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:105
+msgid "Show Social Share Box"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:106
+msgid "Choose to show or hide the social share box."
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:115
+msgid "Show Previous/Next Pagination"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:116
+msgid "Choose to show or hide the post navigation"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:124
+msgid "Navigation Style"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:125
+msgid "Controls the Navigation style."
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:128
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:46
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:46
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:46
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:29
+msgid "Style 1"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:128
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:46
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:46
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:46
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:29
+msgid "Style 2"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:128
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:46
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:46
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:46
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:29
+msgid "Style 3"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:128
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:46
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:46
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:46
+msgid "Style 4"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:140
+msgid "Show Author Info Box"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:141
+msgid "Choose to show or hide the author info box"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:150
+msgid "Show Post Meta"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:151
+msgid "Choose to show or hide the post meta"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:160
+msgid "Show Comments"
+msgstr ""
+
+#: metaboxes/tabs/tab_post.php:161
+msgid "Choose to show or hide comments area"
+msgstr ""
+
+#: metaboxes/tabs/tab_sidebars.php:9
+msgid "Sidebar Position"
+msgstr ""
+
+#: metaboxes/tabs/tab_sidebars.php:10
+msgid "Select the sidebar position."
+msgstr ""
+
+#: metaboxes/tabs/tab_sidebars.php:13
+msgid "Both"
+msgstr ""
+
+#: metaboxes/tabs/tab_sidebars.php:29
+msgid "Left Sidebar"
+msgstr ""
+
+#: metaboxes/tabs/tab_sidebars.php:30
+msgid "Select the left sidebar position."
+msgstr ""
+
+#: metaboxes/tabs/tab_sidebars.php:55
+msgid "Right Sidebar"
+msgstr ""
+
+#: metaboxes/tabs/tab_sidebars.php:56
+msgid "Select the right sidebar position."
+msgstr ""
+
+#: writepress_welcome/screens/install-demos.php:32
+#: writepress_welcome/screens/install-demos.php:41
+msgid ""
+"We're sorry but the demo data could not be imported. It is most likely due "
+"to low PHP configurations on your server. There are two possible solutions."
+msgstr ""
+
+#: writepress_welcome/screens/install-demos.php:34
+#: writepress_welcome/screens/install-demos.php:43
+msgid "Solution 1:"
+msgstr ""
+
+#: writepress_welcome/screens/install-demos.php:34
+#: writepress_welcome/screens/install-demos.php:43
+msgid "Import the demo using an alternate method."
+msgstr ""
+
+#: writepress_welcome/screens/install-demos.php:34
+#: writepress_welcome/screens/install-demos.php:43
+msgid "Alternate Method"
+msgstr ""
+
+#: writepress_welcome/screens/install-demos.php:35
+#: writepress_welcome/screens/install-demos.php:44
+msgid "Solution 2:"
+msgstr ""
+
+#: writepress_welcome/screens/install-demos.php:35
+#: writepress_welcome/screens/install-demos.php:44
+#, php-format
+msgid "Fix the PHP configurations, then use the %s, then reimport."
+msgstr ""
+
+#: writepress_welcome/screens/install-demos.php:35
+msgid "System Status"
+msgstr ""
+
+#: writepress_welcome/screens/install-demos.php:48
+msgid "Writepress"
+msgstr ""
+
+#: writepress_welcome/screens/install-demos.php:87
+msgid "New"
+msgstr ""
+
+#: writepress_welcome/screens/install-demos.php:94
+msgid "Please activate Writepress Importer"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:23
+msgid "No contact forms found"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:28
+msgid "Contact Form"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:39
+msgid "Select contact form"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:42
+msgid "Choose previously created contact form from the drop down list."
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:47
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:135
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:143
+msgid "Text Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:54
+msgid "Input Field Background Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:61
+msgid "Input Field Border Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:68
+msgid "Button Text Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:75
+msgid "Button Hover Text Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:82
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:173
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:244
+msgid "Button Background Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:89
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:180
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:252
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:96
+msgid "Button Border Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:103
+msgid "Button Hover Border Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:110
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:175
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:105
+msgid "Button Size"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:125
+#: vc_custom/zolo_vc_addons/contact_form_7/zt_contactform.php:128
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:266
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:269
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:179
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:182
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:302
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:305
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:218
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:221
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:318
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:321
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:244
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:247
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:109
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:112
+msgid "Delay"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:34
+msgid "Blog Carousel Styles"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:44
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:44
+msgid "Choose Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:46
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:46
+msgid "Style 5"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:51
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:51
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:51
+msgid "Category"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:54
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:54
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:54
+msgid "Choose the category to show (optional)"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:59
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:59
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:67
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:75
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:59
+msgid "Number of Posts"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:66
+msgid "Number of Items per row"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:68
+msgid "Four"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:68
+msgid "Three"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:68
+msgid "Two"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:73
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:34
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:54
+msgid "Box Background Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:81
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:42
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:68
+msgid "Box Border Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:89
+msgid "Box Border Radius"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:96
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:104
+msgid "Box Padding(Top, Right, Bottom, Left)"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:112
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:120
+msgid "Title Position"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:114
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:122
+msgid "Bottom"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:114
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:122
+msgid "Top"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:128
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:115
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:59
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:65
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:102
+msgid "Title Font Size"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:151
+msgid "Text Hover Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:159
+msgid "Title Hover Background"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:167
+msgid "Post meta Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:175
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:139
+msgid "Image Overlay Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:182
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:190
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:147
+msgid "Image Overlay Opacity"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:198
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:155
+msgid "Hover Background"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:205
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:213
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:163
+msgid "Hover Opacity"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:221
+msgid "Fontawesome Zoom Icon"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:229
+msgid "Fontawesome Link Icon"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:237
+msgid "Button Background"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:244
+msgid "Button Hover Background"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:251
+msgid "Slider Navigation Design"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_carousel.php:253
+msgid "Round"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:34
+msgid "Blog Modern Styles"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:69
+msgid "5"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:69
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:36
+msgid "10"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:69
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:77
+msgid "15"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:69
+msgid "20"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:69
+msgid "25"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:77
+msgid "3"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:77
+msgid "6"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:77
+msgid "9"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:77
+msgid "12"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:83
+msgid "Slider"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:91
+msgid "Box Background"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:99
+msgid "Box Hover Background"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:107
+msgid "Box Padding"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:123
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:116
+msgid "Title Text Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_blog_modern.php:131
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:287
+msgid "Meta Text Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:17
+msgid "Call to Action"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:27
+msgid "Call to Action Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:30
+msgid "Choose Box Design"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:35
+msgid "Box Top & Bottom Padding"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:38
+msgid "Enter the top and bottom padding for the Box"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:43
+msgid "Box Left & Right Padding"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:46
+msgid "Enter the left and right padding for the Box"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:51
+msgid "Box Title"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:54
+msgid "Enter the Title for the Box"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:62
+msgid "Enter the font size for the title"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:67
+msgid "Title Line Height"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:70
+msgid "Enter the line height for the title"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:78
+msgid "Choose the Title color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:83
+msgid "Box Text"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:86
+msgid "Text for the module"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:91
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:97
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:109
+msgid "Text Align"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:94
+msgid "Choose the box text align"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:99
+msgid "Text color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:102
+msgid "Choose the Text color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:108
+msgid "Box Background color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:111
+msgid "Choose the box background color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:120
+msgid "Choose the box background Image"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:125
+msgid "Top Border Width"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:128
+msgid "Enter the box top border Width"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:133
+msgid "Right Border Width"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:136
+msgid "Enter the box Right border Width"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:141
+msgid "Bottom Border Width"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:144
+msgid "Enter the box bottom border Width"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:149
+msgid "Left Border Width"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:152
+msgid "Enter the box left border Width"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:158
+msgid "Box Border color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:161
+msgid "Choose the box Border color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:166
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:121
+msgid "Button Position"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:169
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:210
+msgid "Choose Button Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:182
+msgid "Button text"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:185
+msgid "Enter the button text"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:191
+msgid "Button Icon"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:194
+msgid "Enter the fontawesome icon class"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:200
+msgid "Button Icon position"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:207
+msgid "Button Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:216
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:150
+msgid "Button Hover Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:223
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:143
+msgid "Button Border Radius"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:231
+msgid "Button Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:233
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:205
+msgid "http://example.com"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:239
+msgid "Button Font color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:242
+msgid "Choose the button font color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:248
+msgid "Button Hover Font color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:251
+msgid "Choose the Button hover Font color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:258
+msgid "Button Background color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:261
+msgid "Choose the Button background color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:267
+msgid "Button Hover Background color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:270
+msgid "Choose the Button hover background color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:276
+msgid "Button Border color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:279
+msgid "Choose the Button Border color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:285
+msgid "Button Hover Border color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_callto_action.php:288
+msgid "Choose the Button hover border color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:17
+msgid "Image Box"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:27
+msgid "Image Box Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:73
+msgid "Title font Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:81
+msgid "Description Text Area"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:89
+msgid "Description font Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:112
+msgid "Button Show on hover"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:115
+msgid "Check the box to display Button Show on hover"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:129
+msgid "Button Text"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:136
+msgid "Button Text Font Size"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:158
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:227
+msgid "Button font Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:165
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:235
+msgid "Button Hover font Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:188
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:261
+msgid "Button border Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:196
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:270
+msgid "Button Hover border Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_imagebox.php:203
+msgid "Imagee Box Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:34
+msgid "Blog Post Slider"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:44
+msgid "Slider Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:66
+msgid "Slider height"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:74
+msgid "Slider Caption height"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:81
+msgid "Slider Caption width"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:88
+msgid "Slider Caption Padding(Top, Right, Bottom, Left)"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:124
+msgid "Title Top Padding"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:131
+msgid "Title Bottom Padding"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:138
+msgid "Post title separator Show/Hide"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:154
+msgid "Excerpt Length"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:161
+msgid "Category Design"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:163
+msgid "Box"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:168
+msgid "Category Item font Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:175
+msgid "Category Item Hover font Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:183
+msgid "Category Item Background Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:190
+msgid "Category Item hover Background Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:197
+msgid "Category Item Border Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:204
+msgid "Category Item hover Border Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:211
+msgid "Continue Reading Show/Hide"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:218
+msgid "Modify the Continue Reading text"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:279
+msgid "Meta Show/Hide"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:295
+msgid "Meta Text hover Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:303
+msgid "Post content Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:419
+msgid " / "
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_post_slider.php:421
+msgid " "
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:17
+msgid "Progress Bar"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:26
+msgid "Progress bar style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:29
+msgid "Choose the Progress bar style ( visual )"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:34
+msgid "Container Height"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:37
+msgid "Enter the height for the progress bar  ( e.g 10 )"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:42
+msgid "Progress bar padding"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:44
+msgid "0"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:45
+msgid "Enter padding for the progress bar ( e.g 0 )"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:51
+msgid "Progress bar Top/Bottom Margin"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:53
+msgid "14"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:54
+msgid "Enter Margin for the progress bar ( e.g 14 )"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:59
+msgid "Progress bar title"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:61
+msgid "Webdesign"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:62
+msgid "Enter the title for the progress bar"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:67
+msgid "Progress bar Title position"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:70
+msgid "Choose title position"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:75
+msgid "Percentage"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:77
+msgid "80"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:78
+msgid "Enter the percentage ( e.g 80 )"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:83
+msgid "Percentage Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:86
+msgid "Choose Percentage Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:91
+msgid "Tooltip Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:94
+msgid "Choose Tooltip Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:135
+msgid "Progress bar color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:138
+msgid "Choose Progress bar color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:143
+msgid "Progress bar second color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:146
+msgid "Add this color to create gradient (optional)"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:151
+msgid "Progress bar container color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:154
+msgid "Choose Progress container color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:159
+msgid "Border color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:162
+msgid "Choose border color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:166
+msgid "Add Stripe?"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:169
+msgid "Select if you want to add stripe to the bar"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:173
+msgid "Animate the stripe?"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_progressbar.php:176
+msgid "Select if you want to make the stripe move"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:26
+msgid "Social Icon Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:33
+msgid "Social Icon Design"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:40
+msgid "Social Icon Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:47
+msgid "Social Icon Hover Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:61
+msgid "Box Hover Background Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:75
+msgid "Box Hover Border Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:82
+msgid "Facebook Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:89
+msgid "Twitter Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:96
+msgid "Instagram Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:103
+msgid "Dribbble Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:110
+msgid "Google+ Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:117
+msgid "LinkedIn Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:124
+msgid "Tumblr Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:131
+msgid "Reddit Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:138
+msgid "Yahoo Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:145
+msgid "Deviantart Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:152
+msgid "Vimeo Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:159
+msgid "Youtube Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:166
+msgid "Pinterest Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:173
+msgid "RSS Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:180
+msgid "Digg Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:187
+msgid "Flickr Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:194
+msgid "Skype Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:201
+msgid "Dropbox Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:208
+msgid "SoundCloud Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:215
+msgid "VK Link"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:222
+msgid "Email Address"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_sociallinks.php:229
+msgid "Social Icon's Alignment"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:18
+msgid "Testimonials"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:27
+msgid "Testimonials Style"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:35
+msgid "Image"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:38
+msgid "Enter Image"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:44
+msgid "Client Image Border Radius(Set 0 for Square And 50 for Circle)"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:52
+msgid "Author"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:59
+msgid "Designation"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:66
+msgid "Content"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:73
+msgid "Testimonial Font Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:80
+msgid "Testimonial Background Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:87
+msgid "Testimonial Border Color"
+msgstr ""
+
+#: vc_custom/zolo_vc_addons/modules/zt_testimonial_shortcode.php:94
+msgid "Testimonial Author Color"
+msgstr ""
+
+#. Name of the plugin
+msgid "Writepress Core"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Writepress theme extensions plugin contains custom shortcodes for Visual "
+"Composer, custom shortcodes, custom sidebars, custom widgets"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://wpblogtheme.org/demo/writepress/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Writepress Themes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/zplus"
+msgstr ""

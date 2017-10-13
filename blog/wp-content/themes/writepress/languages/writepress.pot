@@ -1,0 +1,4110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Writepress\n"
+"POT-Creation-Date: 2017-06-13 13:19+0530\n"
+"PO-Revision-Date: 2017-06-13 13:19+0530\n"
+"Last-Translator: \n"
+"Language-Team: Writepress Themes <partha.rkl@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "404"
+msgstr ""
+
+#: 404.php:16
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:32
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:35
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:45
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:7
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:13
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:17
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:22
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: framework/breadcrumb.php:12
+msgid "Home"
+msgstr ""
+
+#: framework/breadcrumb.php:13
+#, php-format
+msgid "Search Result of \"%s\""
+msgstr ""
+
+#: framework/breadcrumb.php:14
+msgid "404 Not Found"
+msgstr ""
+
+#: framework/breadcrumb.php:24
+msgid "&gt; "
+msgstr ""
+
+#: framework/custom_functions.php:139
+msgid "View your shopping cart"
+msgstr ""
+
+#: framework/custom_functions.php:140
+msgid "Start shopping"
+msgstr ""
+
+#: framework/custom_functions.php:313
+msgid "Search results for:"
+msgstr ""
+
+#: framework/custom_functions.php:320
+msgid "Error 404 Page"
+msgstr ""
+
+#: framework/custom_functions.php:327
+msgid "Daily Archives:"
+msgstr ""
+
+#: framework/custom_functions.php:329
+msgid "Monthly Archives:"
+msgstr ""
+
+#: framework/custom_functions.php:331
+msgid "Yearly Archives:"
+msgstr ""
+
+#: framework/custom_functions.php:586
+msgid "Posts navigation"
+msgstr ""
+
+#: framework/custom_functions.php:591
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: framework/custom_functions.php:596
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: framework/custom_functions.php:774 framework/custom_functions.php:781
+#: framework/custom_functions.php:848 framework/custom_functions.php:936
+#: framework/custom_functions.php:1005
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: framework/custom_functions.php:809 framework/custom_functions.php:976
+msgid "&nbsp;"
+msgstr ""
+
+#: framework/custom_functions.php:811 framework/custom_functions.php:854
+#: framework/custom_functions.php:906 framework/custom_functions.php:943
+#: framework/custom_functions.php:978
+msgid " / "
+msgstr ""
+
+#: framework/custom_functions.php:862 framework/custom_functions.php:952
+#: framework/custom_functions.php:1021 search.php:26
+msgid "By"
+msgstr ""
+
+#: framework/custom_functions.php:864 framework/custom_functions.php:954
+#: framework/custom_functions.php:1016 framework/custom_functions.php:1023
+#: post_layout/layout_style5.php:30 post_layout/layout_style6.php:28
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: framework/custom_functions.php:888
+msgid "Tags:"
+msgstr ""
+
+#: framework/custom_functions.php:1305
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: framework/custom_functions.php:1309
+msgid "Edit"
+msgstr ""
+
+#: framework/custom_functions.php:1313
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/headers/extended_sidebar.php:2
+#: framework/headers/mobile_header.php:148
+#: framework/headers/preset_header/header1.php:79
+#: framework/headers/preset_header/header2.php:110
+#: framework/headers/preset_header/header3.php:108
+#: framework/headers/preset_header/header4.php:103
+#: framework/headers/preset_header/header5.php:116
+#: framework/headers/preset_header/header6.php:148
+#: framework/headers/preset_header/header7.php:156
+#: framework/headers/preset_header/header8.php:39
+msgid "Close"
+msgstr ""
+
+#: framework/mega-menus.php:18
+msgid "Enable Mega Menu"
+msgstr ""
+
+#: framework/mega-menus.php:24
+msgid "Full Width Mega Menu"
+msgstr ""
+
+#: framework/mega-menus.php:29
+msgid "Mega Menu Number of Columns"
+msgstr ""
+
+#: framework/mega-menus.php:31
+msgid "Auto"
+msgstr ""
+
+#: framework/mega-menus.php:43
+msgid "Mega Menu Column Width (in percentage, ex: 30%)"
+msgstr ""
+
+#: framework/mega-menus.php:50
+msgid "Disable Mega Menu Column Title"
+msgstr ""
+
+#: framework/mega-menus.php:55
+msgid "Mega Menu Widget Area"
+msgstr ""
+
+#: framework/mega-menus.php:57
+msgid "Select Widget Area"
+msgstr ""
+
+#: framework/mega-menus.php:70
+msgid "Mega Menu Icon (use full font awesome name)"
+msgstr ""
+
+#: framework/mega-menus.php:74
+msgid "Set Thumbnail"
+msgstr ""
+
+#: framework/mega-menus.php:79
+msgid "Remove Image"
+msgstr ""
+
+#: framework/mega-menus.php:696
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: framework/mega-menus.php:700
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/mega-menus.php:713
+msgid "sub item"
+msgstr ""
+
+#: framework/mega-menus.php:745
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/mega-menus.php:754
+msgid "URL"
+msgstr ""
+
+#: framework/mega-menus.php:761
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/mega-menus.php:767
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/mega-menus.php:774
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/mega-menus.php:779
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/mega-menus.php:785
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/mega-menus.php:791
+msgid "Description"
+msgstr ""
+
+#: framework/mega-menus.php:793
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: framework/mega-menus.php:801
+msgid "Move"
+msgstr ""
+
+#: framework/mega-menus.php:802
+msgid "Up one"
+msgstr ""
+
+#: framework/mega-menus.php:803
+msgid "Down one"
+msgstr ""
+
+#: framework/mega-menus.php:806
+msgid "To the top"
+msgstr ""
+
+#: framework/mega-menus.php:813
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: framework/mega-menus.php:826
+msgid "Remove"
+msgstr ""
+
+#: framework/mega-menus.php:827
+msgid "Cancel"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:326 framework/plugins/plugins.php:93
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:327 framework/plugins/plugins.php:94
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:329 framework/plugins/plugins.php:95
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:331
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:332 framework/plugins/plugins.php:96
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:384
+#: framework/plugins/plugins.php:107
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:385
+#: framework/plugins/plugin-activation.php:856
+#: framework/plugins/plugin-activation.php:2580
+#: framework/plugins/plugin-activation.php:3629
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:386
+#: framework/plugins/plugin-activation.php:3208
+#: framework/plugins/plugins.php:108
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:387
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:389
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:391
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:393
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:394
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:395
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:396
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:541
+msgid "Update Required"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:658
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:963
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:963
+#: framework/plugins/plugin-activation.php:966
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:966
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2011
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2320
+msgid "Required"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2323
+msgid "Recommended"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2339
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2342
+msgid "External Source"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2345
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2362
+msgid "Not Installed"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2366
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2368
+msgid "Active"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2374
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2377
+msgid "Requires Update"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2380
+msgid "Update recommended"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2537
+msgid "Installed version:"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2545
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2557
+msgid "Available version:"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2580
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2594
+msgid "Plugin"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2595
+msgid "Source"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2596
+msgid "Type"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2600
+msgid "Version"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2601
+msgid "Status"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2650
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2655
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2661
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2733
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2766
+msgid "Install"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2772
+msgid "Update"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2775
+msgid "Activate"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2806
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2808
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2849
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2851
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2957
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:2983
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3207
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3547
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3550
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3552
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3556
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3558
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3558
+#: framework/plugins/plugin-activation.php:3566
+msgid "Show Details"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3558
+#: framework/plugins/plugin-activation.php:3566
+msgid "Hide Details"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3559
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3561
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3564
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3566
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3567
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/plugins/plugin-activation.php:3569
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/plugins/plugins.php:109
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: framework/redux/redux-config.php:24 framework/redux/redux-config.php:25
+msgid "Theme Options"
+msgstr ""
+
+#: framework/redux/redux-config.php:47
+msgid "Global"
+msgstr ""
+
+#: framework/redux/redux-config.php:53
+msgid "Pre Loader"
+msgstr ""
+
+#: framework/redux/redux-config.php:54
+msgid "Check the box to disable Pre Loader."
+msgstr ""
+
+#: framework/redux/redux-config.php:58 framework/redux/redux-config.php:145
+#: framework/redux/redux-config.php:182 framework/redux/redux-config.php:576
+#: framework/redux/redux-config.php:663 framework/redux/redux-config.php:1136
+#: framework/redux/redux-config.php:1316 framework/redux/redux-config.php:1441
+#: framework/redux/redux-config.php:2006 framework/redux/redux-config.php:2146
+#: framework/redux/redux-config.php:2157 framework/redux/redux-config.php:2231
+#: framework/redux/redux-config.php:2279 framework/redux/redux-config.php:2589
+#: framework/redux/redux-config.php:2778 framework/redux/redux-config.php:2810
+#: framework/redux/redux-config.php:2842 framework/redux/redux-config.php:2869
+#: framework/redux/redux-config.php:2899 framework/redux/redux-config.php:2925
+#: framework/redux/redux-config.php:2991 framework/redux/redux-config.php:3162
+#: framework/redux/redux-config.php:3258 framework/redux/redux-config.php:3837
+#: framework/redux/redux-config.php:4076 framework/redux/redux-config.php:4110
+#: framework/redux/redux-config.php:4121 framework/redux/redux-config.php:4132
+#: framework/redux/redux-config.php:4143 framework/redux/redux-config.php:4247
+#: framework/redux/redux-config.php:4258 framework/redux/redux-config.php:4269
+#: framework/redux/redux-config.php:4280 framework/redux/redux-config.php:4671
+#: framework/redux/redux-config.php:4682 framework/redux/redux-config.php:4693
+#: framework/redux/redux-config.php:4704 framework/redux/redux-config.php:4715
+#: framework/redux/redux-config.php:4726 framework/redux/redux-config.php:4737
+msgid "ON"
+msgstr ""
+
+#: framework/redux/redux-config.php:59 framework/redux/redux-config.php:146
+#: framework/redux/redux-config.php:183 framework/redux/redux-config.php:577
+#: framework/redux/redux-config.php:664 framework/redux/redux-config.php:1137
+#: framework/redux/redux-config.php:1317 framework/redux/redux-config.php:1442
+#: framework/redux/redux-config.php:2007 framework/redux/redux-config.php:2147
+#: framework/redux/redux-config.php:2158 framework/redux/redux-config.php:2232
+#: framework/redux/redux-config.php:2280 framework/redux/redux-config.php:2590
+#: framework/redux/redux-config.php:2779 framework/redux/redux-config.php:2811
+#: framework/redux/redux-config.php:2843 framework/redux/redux-config.php:2870
+#: framework/redux/redux-config.php:2900 framework/redux/redux-config.php:2926
+#: framework/redux/redux-config.php:2992 framework/redux/redux-config.php:3163
+#: framework/redux/redux-config.php:3259 framework/redux/redux-config.php:3838
+#: framework/redux/redux-config.php:4077 framework/redux/redux-config.php:4111
+#: framework/redux/redux-config.php:4122 framework/redux/redux-config.php:4133
+#: framework/redux/redux-config.php:4144 framework/redux/redux-config.php:4248
+#: framework/redux/redux-config.php:4259 framework/redux/redux-config.php:4270
+#: framework/redux/redux-config.php:4281 framework/redux/redux-config.php:4672
+#: framework/redux/redux-config.php:4683 framework/redux/redux-config.php:4694
+#: framework/redux/redux-config.php:4705 framework/redux/redux-config.php:4716
+#: framework/redux/redux-config.php:4727 framework/redux/redux-config.php:4738
+msgid "OFF"
+msgstr ""
+
+#: framework/redux/redux-config.php:64
+msgid "Pre Loader Image"
+msgstr ""
+
+#: framework/redux/redux-config.php:65
+msgid "Upload Preloader Image (70px x 70px)."
+msgstr ""
+
+#: framework/redux/redux-config.php:73
+msgid "Pre Loader screen Logo"
+msgstr ""
+
+#: framework/redux/redux-config.php:74
+msgid ""
+"Upload site Logo or Image for Preloader screen. This will appear above "
+"preloader image."
+msgstr ""
+
+#: framework/redux/redux-config.php:82
+msgid "Preloader Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:83
+msgid "Choose Preloader screen background color"
+msgstr ""
+
+#: framework/redux/redux-config.php:93
+msgid "Tracking Code"
+msgstr ""
+
+#: framework/redux/redux-config.php:94
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the header template of your theme. Please put code inside script "
+"tags."
+msgstr ""
+
+#: framework/redux/redux-config.php:105 framework/redux/redux-config.php:112
+#: framework/redux/redux-config.php:117
+msgid "Logo"
+msgstr ""
+
+#: framework/redux/redux-config.php:106
+msgid "Logo Options"
+msgstr ""
+
+#: framework/redux/redux-config.php:118 framework/redux/redux-config.php:152
+#: framework/redux/redux-config.php:189
+msgid "Select an image file for your logo."
+msgstr ""
+
+#: framework/redux/redux-config.php:126
+msgid "Logo (Retina Version @2x) "
+msgstr ""
+
+#: framework/redux/redux-config.php:127 framework/redux/redux-config.php:162
+#: framework/redux/redux-config.php:199
+msgid ""
+"Select an image file for the retina version of the logo. <br> It should be "
+"exactly 2x the size of main logo. "
+msgstr ""
+
+#: framework/redux/redux-config.php:135 framework/redux/redux-config.php:141
+#: framework/redux/redux-config.php:151
+msgid "Sticky Header Logo"
+msgstr ""
+
+#: framework/redux/redux-config.php:161
+msgid "Sticky Header Logo (Retina Version @2x) "
+msgstr ""
+
+#: framework/redux/redux-config.php:172 framework/redux/redux-config.php:178
+#: framework/redux/redux-config.php:188
+msgid "Mobile Header Logo"
+msgstr ""
+
+#: framework/redux/redux-config.php:198
+msgid "Mobile Header Logo (Retina Version @2x) "
+msgstr ""
+
+#: framework/redux/redux-config.php:208
+msgid "Standard Logo dimensions for Retina Logo"
+msgstr ""
+
+#: framework/redux/redux-config.php:209
+msgid "Please enter logo height and width"
+msgstr ""
+
+#: framework/redux/redux-config.php:221
+msgid "Logo Margins"
+msgstr ""
+
+#: framework/redux/redux-config.php:222
+msgid ""
+"Controls the top/right/bottom/left margins for the logo. Enter values "
+"including any valid CSS unit, ex: 30px, 0px, 29px, 0px."
+msgstr ""
+
+#: framework/redux/redux-config.php:240 framework/redux/redux-config.php:245
+msgid "Favicon"
+msgstr ""
+
+#: framework/redux/redux-config.php:246
+msgid "Favicon for your website (16px x 16px)."
+msgstr ""
+
+#: framework/redux/redux-config.php:251
+msgid "Apple iPhone Icon Upload"
+msgstr ""
+
+#: framework/redux/redux-config.php:252
+msgid "Favicon for Apple iPhone (57px x 57px)."
+msgstr ""
+
+#: framework/redux/redux-config.php:257
+msgid "Apple iPhone Retina Icon Upload"
+msgstr ""
+
+#: framework/redux/redux-config.php:258
+msgid "Favicon for Apple iPhone Retina Version (114px x 114px)."
+msgstr ""
+
+#: framework/redux/redux-config.php:263
+msgid "Apple iPad Icon Upload"
+msgstr ""
+
+#: framework/redux/redux-config.php:264
+msgid "Favicon for Apple iPad (72px x 72px)."
+msgstr ""
+
+#: framework/redux/redux-config.php:269
+msgid "Apple iPad Retina Icon Upload"
+msgstr ""
+
+#: framework/redux/redux-config.php:270
+msgid "Favicon for Apple iPad Retina Version (144px x 144px)."
+msgstr ""
+
+#: framework/redux/redux-config.php:278 framework/redux/redux-config.php:285
+#: framework/redux/redux-config.php:2784
+msgid "Layout"
+msgstr ""
+
+#: framework/redux/redux-config.php:279 framework/redux/redux-config.php:302
+msgid "Site Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:290
+msgid "Site Layout"
+msgstr ""
+
+#: framework/redux/redux-config.php:291
+msgid "Controls the site layout."
+msgstr ""
+
+#: framework/redux/redux-config.php:295
+msgid "Wide"
+msgstr ""
+
+#: framework/redux/redux-config.php:296
+msgid "Boxed"
+msgstr ""
+
+#: framework/redux/redux-config.php:297
+msgid "Theater"
+msgstr ""
+
+#: framework/redux/redux-config.php:303
+msgid "Controls the overall site width. In px or %, ex: 100% or 1280px."
+msgstr ""
+
+#: framework/redux/redux-config.php:314
+msgid "Site Layout Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:315
+msgid ""
+"Controls the top/bottom padding for site layout. Enter valid value, ex: 10, "
+"10."
+msgstr ""
+
+#: framework/redux/redux-config.php:328
+msgid "Page Content Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:329
+msgid "Controls the top/bottom padding for page content"
+msgstr ""
+
+#: framework/redux/redux-config.php:342
+msgid "100% Width Left/Right Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:343
+msgid ""
+"Controls the left/right padding for page content when using 100% site width "
+"or 100% width page template. Enter value including any valid CSS unit, ex: "
+"30px."
+msgstr ""
+
+#: framework/redux/redux-config.php:358
+msgid "Single Sidebar Layout"
+msgstr ""
+
+#: framework/redux/redux-config.php:363 framework/redux/redux-config.php:396
+msgid "Content Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:364
+msgid "Controls the width of the content area. In px or %, ex: 79% or 1010px."
+msgstr ""
+
+#: framework/redux/redux-config.php:376
+msgid "Sidebar Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:377
+msgid "Controls the width of the sidebar. In px or %, ex: 21% or 270px."
+msgstr ""
+
+#: framework/redux/redux-config.php:391
+msgid "Dual Sidebar Layouts"
+msgstr ""
+
+#: framework/redux/redux-config.php:397
+msgid "Controls the width of the content area. In px or %, ex: 58% or 740px."
+msgstr ""
+
+#: framework/redux/redux-config.php:409
+msgid "Sidebar 1 Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:410
+msgid "Controls the width of the sidebar 1. In px or %, ex: 21% or 270px."
+msgstr ""
+
+#: framework/redux/redux-config.php:422
+msgid "Sidebar 2 Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:423
+msgid "Controls the width of the sidebar 2. In px or %, ex: 21% or 270px."
+msgstr ""
+
+#: framework/redux/redux-config.php:439
+msgid "Header"
+msgstr ""
+
+#: framework/redux/redux-config.php:445
+msgid "Header Content"
+msgstr ""
+
+#: framework/redux/redux-config.php:450
+msgid "Header Position"
+msgstr ""
+
+#: framework/redux/redux-config.php:451
+msgid "Select the position of header. Vertical will work on Desktop only."
+msgstr ""
+
+#: framework/redux/redux-config.php:456
+msgid "LEFT"
+msgstr ""
+
+#: framework/redux/redux-config.php:457
+msgid "TOP"
+msgstr ""
+
+#: framework/redux/redux-config.php:458
+msgid "RIGHT"
+msgstr ""
+
+#: framework/redux/redux-config.php:462 framework/redux/redux-config.php:506
+#: framework/redux/redux-config.php:522
+msgid "Select a Header Layout"
+msgstr ""
+
+#: framework/redux/redux-config.php:538
+msgid "Header Options"
+msgstr ""
+
+#: framework/redux/redux-config.php:545
+msgid "Search Design"
+msgstr ""
+
+#: framework/redux/redux-config.php:546
+msgid "Select search design from dropdown."
+msgstr ""
+
+#: framework/redux/redux-config.php:550 framework/redux/redux-config.php:1329
+#: framework/redux/redux-config.php:2955 framework/redux/redux-config.php:3151
+msgid "Default"
+msgstr ""
+
+#: framework/redux/redux-config.php:551
+msgid "Expanded"
+msgstr ""
+
+#: framework/redux/redux-config.php:552
+msgid "Full Screen"
+msgstr ""
+
+#: framework/redux/redux-config.php:558
+msgid "Extended Menu Action"
+msgstr ""
+
+#: framework/redux/redux-config.php:559
+msgid "Select the action of extended menu."
+msgstr ""
+
+#: framework/redux/redux-config.php:563
+msgid "Full Screen Menu"
+msgstr ""
+
+#: framework/redux/redux-config.php:564
+msgid "Vertical Menu"
+msgstr ""
+
+#: framework/redux/redux-config.php:565
+msgid "Horizontal Menu"
+msgstr ""
+
+#: framework/redux/redux-config.php:571
+msgid "Multilingual Options"
+msgstr ""
+
+#: framework/redux/redux-config.php:572
+msgid ""
+"WPML plugin must be installed. It is not packed with theme. You can find it "
+"here: http://wpml.org/"
+msgstr ""
+
+#: framework/redux/redux-config.php:583
+msgid "Header Contact Details"
+msgstr ""
+
+#: framework/redux/redux-config.php:590
+msgid "Phone Number"
+msgstr ""
+
+#: framework/redux/redux-config.php:591
+msgid "Phone number will display in header section."
+msgstr ""
+
+#: framework/redux/redux-config.php:598
+msgid "Email Address For Contact Info"
+msgstr ""
+
+#: framework/redux/redux-config.php:599
+msgid "Email address will display in header section."
+msgstr ""
+
+#: framework/redux/redux-config.php:608
+msgid "Header Ad area"
+msgstr ""
+
+#: framework/redux/redux-config.php:609
+msgid "Add HTML code for Header"
+msgstr ""
+
+#: framework/redux/redux-config.php:619
+msgid "Header Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:624
+msgid "Header Background"
+msgstr ""
+
+#: framework/redux/redux-config.php:625 framework/redux/redux-config.php:1266
+msgid ""
+"Controls the background image, background position, background size, etc for "
+"the header."
+msgstr ""
+
+#: framework/redux/redux-config.php:634
+msgid "Header Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:635
+msgid "These settings control the typography for Header Font."
+msgstr ""
+
+#: framework/redux/redux-config.php:658
+msgid "100% Header Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:659
+#, php-format
+msgid ""
+"Check this box to set the header to 100% of the browser width. Uncheck to "
+"follow site width. Only works with wide layout mode."
+msgstr ""
+
+#: framework/redux/redux-config.php:672
+msgid "Header Left/Right Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:673
+msgid ""
+"Controls the left/right padding for header when using 100% header width. "
+"Enter value including any valid CSS unit."
+msgstr ""
+
+#: framework/redux/redux-config.php:687 framework/redux/redux-config.php:693
+msgid "Top Bar Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:694
+msgid ""
+"Turn on to change default styling.Work for Preset 2, 5, 6 and Custom Header."
+msgstr ""
+
+#: framework/redux/redux-config.php:698 framework/redux/redux-config.php:814
+#: framework/redux/redux-config.php:940 framework/redux/redux-config.php:1963
+#: framework/redux/redux-config.php:3913 framework/redux/redux-config.php:3971
+#: framework/redux/redux-config.php:3991 framework/redux/redux-config.php:4015
+msgid "Show"
+msgstr ""
+
+#: framework/redux/redux-config.php:699 framework/redux/redux-config.php:815
+#: framework/redux/redux-config.php:941 framework/redux/redux-config.php:1962
+#: framework/redux/redux-config.php:3386 framework/redux/redux-config.php:3914
+#: framework/redux/redux-config.php:3972 framework/redux/redux-config.php:3992
+#: framework/redux/redux-config.php:4016
+msgid "Hide"
+msgstr ""
+
+#: framework/redux/redux-config.php:704 framework/redux/redux-config.php:821
+#: framework/redux/redux-config.php:947
+msgid "Section Height"
+msgstr ""
+
+#: framework/redux/redux-config.php:705
+msgid "Controls the Section One height. In px ex: 40px."
+msgstr ""
+
+#: framework/redux/redux-config.php:717
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:718
+msgid "Controls the background color of the Search Button in header."
+msgstr ""
+
+#: framework/redux/redux-config.php:726
+msgid "Top Bar Border"
+msgstr ""
+
+#: framework/redux/redux-config.php:727
+msgid "This will work with Top Bar only."
+msgstr ""
+
+#: framework/redux/redux-config.php:742
+msgid "Top Bar Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:743
+msgid "Controls the border colors for the Top Bar."
+msgstr ""
+
+#: framework/redux/redux-config.php:751
+msgid "Top Bar Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:752
+msgid "Controls the color of the Top Bar Font."
+msgstr ""
+
+#: framework/redux/redux-config.php:763
+msgid "Section One Element Space"
+msgstr ""
+
+#: framework/redux/redux-config.php:764
+msgid ""
+"Controls the space of the section One Element like space between social and "
+"tagline."
+msgstr ""
+
+#: framework/redux/redux-config.php:771 framework/redux/redux-config.php:878
+#: framework/redux/redux-config.php:1002
+msgid "Header Element Separator"
+msgstr ""
+
+#: framework/redux/redux-config.php:775 framework/redux/redux-config.php:882
+#: framework/redux/redux-config.php:1006 framework/redux/redux-config.php:1652
+#: framework/redux/redux-config.php:1859
+msgid "No Separator"
+msgstr ""
+
+#: framework/redux/redux-config.php:776 framework/redux/redux-config.php:883
+#: framework/redux/redux-config.php:1007 framework/redux/redux-config.php:1653
+#: framework/redux/redux-config.php:1860
+msgid "Oblique Separator"
+msgstr ""
+
+#: framework/redux/redux-config.php:777 framework/redux/redux-config.php:884
+#: framework/redux/redux-config.php:1008 framework/redux/redux-config.php:1654
+#: framework/redux/redux-config.php:1861
+msgid "Small Separator"
+msgstr ""
+
+#: framework/redux/redux-config.php:778 framework/redux/redux-config.php:885
+#: framework/redux/redux-config.php:1009 framework/redux/redux-config.php:1655
+#: framework/redux/redux-config.php:1862
+msgid "Large Separator"
+msgstr ""
+
+#: framework/redux/redux-config.php:784 framework/redux/redux-config.php:891
+#: framework/redux/redux-config.php:1015
+msgid "Header Element Separator Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:785 framework/redux/redux-config.php:892
+#: framework/redux/redux-config.php:1016
+msgid "Controls the separator color for the  header element."
+msgstr ""
+
+#: framework/redux/redux-config.php:794
+msgid "Top Bar Font Size"
+msgstr ""
+
+#: framework/redux/redux-config.php:795 framework/redux/redux-config.php:901
+#: framework/redux/redux-config.php:1025 framework/redux/redux-config.php:1091
+#: framework/redux/redux-config.php:1099
+msgid "Insert css code"
+msgstr ""
+
+#: framework/redux/redux-config.php:802 framework/redux/redux-config.php:809
+msgid "Section Two Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:810
+msgid ""
+"Turn on to change default styling. Work for all preset and custom Header"
+msgstr ""
+
+#: framework/redux/redux-config.php:822
+msgid "Controls the Section Two height. In px, ex: 94px."
+msgstr ""
+
+#: framework/redux/redux-config.php:835
+msgid "Header Background Color and Opacity"
+msgstr ""
+
+#: framework/redux/redux-config.php:836
+msgid ""
+"Controls the background color and opacity for the header. Opacity only works "
+"with header top position and ranges between 0 (transparent) and 1 (opaque). "
+"ex: .4"
+msgstr ""
+
+#: framework/redux/redux-config.php:844
+msgid "Header Border"
+msgstr ""
+
+#: framework/redux/redux-config.php:845
+msgid "This will work with top header only."
+msgstr ""
+
+#: framework/redux/redux-config.php:860
+msgid "Header Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:861
+msgid "Controls the border colors for the header."
+msgstr ""
+
+#: framework/redux/redux-config.php:870
+msgid "Section Two Element Space"
+msgstr ""
+
+#: framework/redux/redux-config.php:871
+msgid ""
+"Controls the space of the section Two Element like space between social and "
+"tagline."
+msgstr ""
+
+#: framework/redux/redux-config.php:900 framework/redux/redux-config.php:1024
+#: framework/redux/redux-config.php:1090
+msgid "Font Size"
+msgstr ""
+
+#: framework/redux/redux-config.php:908 framework/redux/redux-config.php:1032
+#: framework/redux/redux-config.php:1098
+msgid "Line Height"
+msgstr ""
+
+#: framework/redux/redux-config.php:909 framework/redux/redux-config.php:1033
+msgid "This will works only tagline"
+msgstr ""
+
+#: framework/redux/redux-config.php:916 framework/redux/redux-config.php:1040
+#: framework/redux/redux-config.php:1106 framework/redux/redux-config.php:1414
+msgid "Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:917
+msgid "Controls the color of the Section Two Font."
+msgstr ""
+
+#: framework/redux/redux-config.php:928 framework/redux/redux-config.php:935
+msgid "Section Three Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:936
+msgid ""
+"Turn on to change default styling. Work for Preset 3, 4, 5, 6 and Custom "
+"Header"
+msgstr ""
+
+#: framework/redux/redux-config.php:948
+msgid "Controls the Section Three height. In px or %, ex: 54px."
+msgstr ""
+
+#: framework/redux/redux-config.php:960
+msgid "Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:961 framework/redux/redux-config.php:986
+msgid "Controls the background color of the menu when using header 3 or 5."
+msgstr ""
+
+#: framework/redux/redux-config.php:969
+msgid "Navbar Border"
+msgstr ""
+
+#: framework/redux/redux-config.php:970
+msgid "Controls the top/right/bottom/left border for navbar"
+msgstr ""
+
+#: framework/redux/redux-config.php:985
+msgid "Navbar Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:994
+msgid "Section Three Element Space"
+msgstr ""
+
+#: framework/redux/redux-config.php:995
+msgid ""
+"Controls the space of the section Three Element like space between social "
+"and tagline."
+msgstr ""
+
+#: framework/redux/redux-config.php:1041
+msgid "Controls the color of the Section Three Font."
+msgstr ""
+
+#: framework/redux/redux-config.php:1053
+msgid "Vertical Header Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:1060
+msgid "Element Space"
+msgstr ""
+
+#: framework/redux/redux-config.php:1061
+msgid "Controls the top/right/bottom/left spacing for header Element."
+msgstr ""
+
+#: framework/redux/redux-config.php:1078
+msgid "Vertical Header Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:1079
+msgid "Controls width of the vertical side header.Insert without 'px' ex: 280"
+msgstr ""
+
+#: framework/redux/redux-config.php:1107
+msgid "Controls the color of the vertical header Font."
+msgstr ""
+
+#: framework/redux/redux-config.php:1118
+msgid "Text Alignment"
+msgstr ""
+
+#: framework/redux/redux-config.php:1119
+msgid "Select text alignment for vertical header"
+msgstr ""
+
+#: framework/redux/redux-config.php:1124 framework/redux/redux-config.php:1247
+#: framework/redux/redux-config.php:2319 framework/redux/redux-config.php:2374
+#: framework/redux/redux-config.php:2428 framework/redux/redux-config.php:2483
+#: framework/redux/redux-config.php:2561 framework/redux/redux-config.php:3901
+msgid "Left"
+msgstr ""
+
+#: framework/redux/redux-config.php:1125 framework/redux/redux-config.php:2562
+#: framework/redux/redux-config.php:3152 framework/redux/redux-config.php:3902
+msgid "Center"
+msgstr ""
+
+#: framework/redux/redux-config.php:1126 framework/redux/redux-config.php:1246
+#: framework/redux/redux-config.php:2323 framework/redux/redux-config.php:2378
+#: framework/redux/redux-config.php:2432 framework/redux/redux-config.php:2487
+#: framework/redux/redux-config.php:2563 framework/redux/redux-config.php:3903
+msgid "Right"
+msgstr ""
+
+#: framework/redux/redux-config.php:1131
+msgid "Vertical Header Shadow"
+msgstr ""
+
+#: framework/redux/redux-config.php:1132
+msgid "This will work only for Vertical Header Shadow."
+msgstr ""
+
+#: framework/redux/redux-config.php:1143
+msgid "Search Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:1149
+msgid "Height between Search box and Icon"
+msgstr ""
+
+#: framework/redux/redux-config.php:1150
+msgid ""
+"Please enter the height between search box and search icon in px. e.g - 50"
+msgstr ""
+
+#: framework/redux/redux-config.php:1157
+msgid "Search Font Color."
+msgstr ""
+
+#: framework/redux/redux-config.php:1158
+msgid "Controls the text color of the Full Screen and expanded Search."
+msgstr ""
+
+#: framework/redux/redux-config.php:1166
+msgid "Search Background Color and Opacity."
+msgstr ""
+
+#: framework/redux/redux-config.php:1167
+msgid "Controls the background color for the Full Screen and expanded Search."
+msgstr ""
+
+#: framework/redux/redux-config.php:1179
+msgid "Extended Menu Options"
+msgstr ""
+
+#: framework/redux/redux-config.php:1183
+msgid "Horizontal Menu Max-Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:1184
+msgid "Controls the the max width of the Horizontal Menu"
+msgstr ""
+
+#: framework/redux/redux-config.php:1196
+msgid "Vertical Menu Max-Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:1197
+msgid "Controls the max width of the Vertical Menu"
+msgstr ""
+
+#: framework/redux/redux-config.php:1209
+msgid "Vertical Menu Space From Top"
+msgstr ""
+
+#: framework/redux/redux-config.php:1210
+msgid "Controls the space from top of the Vertical Menu. e.g - 53px"
+msgstr ""
+
+#: framework/redux/redux-config.php:1217
+msgid "Full Screen and Horizontal Menu Background"
+msgstr ""
+
+#: framework/redux/redux-config.php:1218
+msgid "Controls the color of the full screen and horizontal menu background."
+msgstr ""
+
+#: framework/redux/redux-config.php:1226
+msgid "Full Screen Menu Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1227
+msgid "Controls the Color of the full screen menu font."
+msgstr ""
+
+#: framework/redux/redux-config.php:1235
+msgid "Extended Sidebar Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:1241
+msgid "Extended Sidebar Position"
+msgstr ""
+
+#: framework/redux/redux-config.php:1242
+msgid "Controls the Extended Sidebar position."
+msgstr ""
+
+#: framework/redux/redux-config.php:1253
+msgid "Extended Sidebar Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:1254
+msgid "Controls the Extended Sidebar Width. In px or %, ex: 100% or 1280px."
+msgstr ""
+
+#: framework/redux/redux-config.php:1265
+msgid "Extended Sidebar Background"
+msgstr ""
+
+#: framework/redux/redux-config.php:1276
+msgid "Extended Sidebar Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1277
+msgid "Controls the font color of the Extended Sidebar."
+msgstr ""
+
+#: framework/redux/redux-config.php:1284
+msgid "Extended Sidebar Link Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1285
+msgid "Controls the link color of the Extended Sidebar."
+msgstr ""
+
+#: framework/redux/redux-config.php:1295
+msgid "Extended Sidebar Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1296
+msgid "Controls the Border color of the Extended Sidebar."
+msgstr ""
+
+#: framework/redux/redux-config.php:1306
+msgid "Sticky Header"
+msgstr ""
+
+#: framework/redux/redux-config.php:1311
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: framework/redux/redux-config.php:1312
+msgid "Turn on to show sticky header."
+msgstr ""
+
+#: framework/redux/redux-config.php:1323
+msgid "Sticky Effect"
+msgstr ""
+
+#: framework/redux/redux-config.php:1324
+msgid "Select the sticky effect."
+msgstr ""
+
+#: framework/redux/redux-config.php:1330
+msgid "Shrink"
+msgstr ""
+
+#: framework/redux/redux-config.php:1331 framework/redux/redux-config.php:1945
+msgid "Slide Down"
+msgstr ""
+
+#: framework/redux/redux-config.php:1338
+msgid "Sticky Header Height"
+msgstr ""
+
+#: framework/redux/redux-config.php:1339
+msgid "Controls the sticky header height. In px ex: 40px."
+msgstr ""
+
+#: framework/redux/redux-config.php:1351
+msgid "Sticky Header Menu Item Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:1352 framework/redux/redux-config.php:1792
+msgid ""
+"Controls the top/right/bottom/left padding for Menu Item. Enter values "
+"including any valid CSS unit, ex: 0px, 30px, 10px, 30px"
+msgstr ""
+
+#: framework/redux/redux-config.php:1369
+msgid "Sticky Header Menu Item margin"
+msgstr ""
+
+#: framework/redux/redux-config.php:1370 framework/redux/redux-config.php:1809
+msgid ""
+"Controls the top/right/bottom/left margin for Menu Item. Enter values "
+"including any valid CSS unit, ex: 0px, 30px, 10px, 30px"
+msgstr ""
+
+#: framework/redux/redux-config.php:1387
+msgid "Sticky Header Display For Headers"
+msgstr ""
+
+#: framework/redux/redux-config.php:1388
+msgid "Controls what to displays in the sticky header"
+msgstr ""
+
+#: framework/redux/redux-config.php:1392
+msgid "Section Two"
+msgstr ""
+
+#: framework/redux/redux-config.php:1393
+msgid "Section Three"
+msgstr ""
+
+#: framework/redux/redux-config.php:1394
+msgid "Section Two + Section Three"
+msgstr ""
+
+#: framework/redux/redux-config.php:1403
+msgid "Sticky Header Background Color and Opacity."
+msgstr ""
+
+#: framework/redux/redux-config.php:1404
+msgid "Controls the background color for the sticky header."
+msgstr ""
+
+#: framework/redux/redux-config.php:1415
+msgid "Controls the color of the Sticky Header."
+msgstr ""
+
+#: framework/redux/redux-config.php:1431
+msgid "Mobile Header"
+msgstr ""
+
+#: framework/redux/redux-config.php:1436
+msgid "Show top bar on mobile"
+msgstr ""
+
+#: framework/redux/redux-config.php:1437
+msgid "Select Top bar to show or hide"
+msgstr ""
+
+#: framework/redux/redux-config.php:1447
+msgid "Mobile header padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:1448
+msgid ""
+"Controls the top/right/bottom/left padding for mobile header. Enter values "
+"including any valid CSS unit, ex: 0px, 30px, 10px, 30px"
+msgstr ""
+
+#: framework/redux/redux-config.php:1464
+msgid "Mobile Menu Design Style"
+msgstr ""
+
+#: framework/redux/redux-config.php:1465
+msgid "Select mobile header design."
+msgstr ""
+
+#: framework/redux/redux-config.php:1468
+msgid "With Menu Bar"
+msgstr ""
+
+#: framework/redux/redux-config.php:1469
+msgid "Without Menu Bar"
+msgstr ""
+
+#: framework/redux/redux-config.php:1475
+msgid "Mobile Menu Font Size"
+msgstr ""
+
+#: framework/redux/redux-config.php:1476 framework/redux/redux-config.php:1951
+msgid "Insert without \"px\" ex: 14"
+msgstr ""
+
+#: framework/redux/redux-config.php:1482
+msgid "Mobile Menu Line Height"
+msgstr ""
+
+#: framework/redux/redux-config.php:1483
+msgid "Insert without \"px\" ex: 40"
+msgstr ""
+
+#: framework/redux/redux-config.php:1490
+msgid "Mobile Header Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:1496
+msgid "Mobile Header Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1497
+msgid "Controls the background color of the mobile header."
+msgstr ""
+
+#: framework/redux/redux-config.php:1504
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1505
+msgid "Controls the background color of the mobile menu box and dropdown."
+msgstr ""
+
+#: framework/redux/redux-config.php:1515
+msgid "Mobile Navbar Icon Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1516
+msgid "Controls the color of the mobile nav bar icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:1523
+msgid "Mobile Menu Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1524
+msgid "Controls the color of the mobile menu items."
+msgstr ""
+
+#: framework/redux/redux-config.php:1534
+msgid "Mobile Menu Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1535
+msgid "Controls the border, divider and icon colors of the mobile menu."
+msgstr ""
+
+#: framework/redux/redux-config.php:1545
+msgid "Header Social"
+msgstr ""
+
+#: framework/redux/redux-config.php:1550
+msgid "Header Social Icons Font Size"
+msgstr ""
+
+#: framework/redux/redux-config.php:1551
+msgid "Select header social Icons font size. Insert without 'px' ex: 18."
+msgstr ""
+
+#: framework/redux/redux-config.php:1557
+msgid "Header Social Icon Color Option"
+msgstr ""
+
+#: framework/redux/redux-config.php:1558
+msgid "Select a custom social icon color."
+msgstr ""
+
+#: framework/redux/redux-config.php:1568
+msgid "Header Social Icons Boxed"
+msgstr ""
+
+#: framework/redux/redux-config.php:1569
+msgid "Turn on to show header social icons background."
+msgstr ""
+
+#: framework/redux/redux-config.php:1573
+msgid "Yes"
+msgstr ""
+
+#: framework/redux/redux-config.php:1574
+msgid "No"
+msgstr ""
+
+#: framework/redux/redux-config.php:1579
+msgid "Header Social Icons Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:1580
+msgid "Social Icon Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:1587 framework/redux/redux-config.php:1588
+msgid "Header Social Icons Box Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1597
+msgid "Header Social Icons Box Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1605
+msgid "Header Social Icons Boxed Radius"
+msgstr ""
+
+#: framework/redux/redux-config.php:1606
+msgid "Box radius for the social icons. Insert without 'px' ex: 4"
+msgstr ""
+
+#: framework/redux/redux-config.php:1613
+msgid "Header Social Icons Box Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:1614
+msgid ""
+"Controls the top/bottom padding for Header Social Icons Box. Enter values "
+"including any valid CSS unit, ex: 8px, 8px"
+msgstr ""
+
+#: framework/redux/redux-config.php:1631
+msgid "Header Social Icons Box Margin"
+msgstr ""
+
+#: framework/redux/redux-config.php:1632
+msgid ""
+"Controls the right/left margin for Header Social Icons Box. Enter values "
+"including any valid CSS unit, ex: 12px, 12px"
+msgstr ""
+
+#: framework/redux/redux-config.php:1648
+msgid "Header Social Separator"
+msgstr ""
+
+#: framework/redux/redux-config.php:1661
+msgid "Header Social Separator Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1662
+msgid "Controls the separator color for the Header Social."
+msgstr ""
+
+#: framework/redux/redux-config.php:1673 framework/redux/redux-config.php:1674
+msgid "Menu"
+msgstr ""
+
+#: framework/redux/redux-config.php:1679
+msgid "Menu Options"
+msgstr ""
+
+#: framework/redux/redux-config.php:1684
+msgid "Menu Design"
+msgstr ""
+
+#: framework/redux/redux-config.php:1690
+msgid "menu1"
+msgstr ""
+
+#: framework/redux/redux-config.php:1694
+msgid "menu2"
+msgstr ""
+
+#: framework/redux/redux-config.php:1698
+msgid "menu3"
+msgstr ""
+
+#: framework/redux/redux-config.php:1702
+msgid "menu4"
+msgstr ""
+
+#: framework/redux/redux-config.php:1706 framework/redux/redux-config.php:1744
+msgid "Menu Hover Style1"
+msgstr ""
+
+#: framework/redux/redux-config.php:1710 framework/redux/redux-config.php:1748
+msgid "Menu Hover Style2"
+msgstr ""
+
+#: framework/redux/redux-config.php:1714 framework/redux/redux-config.php:1752
+msgid "Menu Hover Style3"
+msgstr ""
+
+#: framework/redux/redux-config.php:1718 framework/redux/redux-config.php:1756
+msgid "Menu Hover Style4"
+msgstr ""
+
+#: framework/redux/redux-config.php:1726
+msgid "Vertical Menu Design"
+msgstr ""
+
+#: framework/redux/redux-config.php:1732
+msgid "Menu Five"
+msgstr ""
+
+#: framework/redux/redux-config.php:1736
+msgid "Menu Six"
+msgstr ""
+
+#: framework/redux/redux-config.php:1740
+msgid "Menu Seven"
+msgstr ""
+
+#: framework/redux/redux-config.php:1760
+msgid "Menu Hover Style5"
+msgstr ""
+
+#: framework/redux/redux-config.php:1767
+msgid "Main Menu Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:1773
+msgid "Main Menu Highlight Border"
+msgstr ""
+
+#: framework/redux/redux-config.php:1783
+msgid "Main Menu Highlight Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1784
+msgid "Controls the color of the menu hover Highlight Border."
+msgstr ""
+
+#: framework/redux/redux-config.php:1791
+msgid "Menu Item Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:1808
+msgid "Menu Item margin"
+msgstr ""
+
+#: framework/redux/redux-config.php:1825
+msgid "Main Menu Font Color - First Level"
+msgstr ""
+
+#: framework/redux/redux-config.php:1826
+msgid "Controls the text color of first level menu items."
+msgstr ""
+
+#: framework/redux/redux-config.php:1837
+msgid "Main Menu Background Color - First Level"
+msgstr ""
+
+#: framework/redux/redux-config.php:1838
+msgid "This will only work with vertical expanding menu."
+msgstr ""
+
+#: framework/redux/redux-config.php:1847
+msgid "Main Menu Hover Background Color - First Level"
+msgstr ""
+
+#: framework/redux/redux-config.php:1848
+msgid "Controls the color of the menu hover background color  First Level."
+msgstr ""
+
+#: framework/redux/redux-config.php:1855
+msgid "Menu Separator"
+msgstr ""
+
+#: framework/redux/redux-config.php:1868
+msgid "Menu Separator Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:1869
+msgid "Controls the separator color for the menu item."
+msgstr ""
+
+#: framework/redux/redux-config.php:1877
+msgid "Vertical Header Menu Separator"
+msgstr ""
+
+#: framework/redux/redux-config.php:1878
+msgid "Controls the color of the Vertical Header menu separator."
+msgstr ""
+
+#: framework/redux/redux-config.php:1886
+msgid "Main Menu Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:1891
+msgid "Menus Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:1892
+msgid "These settings control the typography for all menus."
+msgstr ""
+
+#: framework/redux/redux-config.php:1922
+msgid "Menu Dropdown"
+msgstr ""
+
+#: framework/redux/redux-config.php:1927
+msgid "Menu Dropdown Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:1938
+msgid "Dropdown loading design"
+msgstr ""
+
+#: framework/redux/redux-config.php:1939
+msgid "Select Drop down loading design Style"
+msgstr ""
+
+#: framework/redux/redux-config.php:1943
+msgid "Fade"
+msgstr ""
+
+#: framework/redux/redux-config.php:1944
+msgid "Slide Up"
+msgstr ""
+
+#: framework/redux/redux-config.php:1950
+msgid "Main Menu Dropdown Font Size"
+msgstr ""
+
+#: framework/redux/redux-config.php:1957
+msgid "Dropdown Menu Indicator"
+msgstr ""
+
+#: framework/redux/redux-config.php:1958
+msgid "Select Drop Down Menu Indicator show/hide"
+msgstr ""
+
+#: framework/redux/redux-config.php:1968
+msgid "Menu Dropdown Top Border"
+msgstr ""
+
+#: framework/redux/redux-config.php:1969
+msgid "Controls the border Height of the menu highlight bar."
+msgstr ""
+
+#: framework/redux/redux-config.php:1984
+msgid "Menu Dropdown Item Top/Bottom Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:1985
+msgid ""
+"Controls the top/bottom padding for Main Menu Dropdown. Enter values "
+"including any valid CSS unit, ex: 0px, 30px"
+msgstr ""
+
+#: framework/redux/redux-config.php:2001
+msgid "Menu Dropdown Shadow"
+msgstr ""
+
+#: framework/redux/redux-config.php:2002
+msgid "Check to enable the dropshadow for menu dropdowns, uncheck to disable."
+msgstr ""
+
+#: framework/redux/redux-config.php:2013
+msgid "Menu Font Color - Sublevels"
+msgstr ""
+
+#: framework/redux/redux-config.php:2014
+msgid "Controls the color of the menu font sublevels."
+msgstr ""
+
+#: framework/redux/redux-config.php:2024
+msgid "Menu Background Color - Sublevels"
+msgstr ""
+
+#: framework/redux/redux-config.php:2025
+msgid "Controls the color of the menu sublevel background."
+msgstr ""
+
+#: framework/redux/redux-config.php:2035
+msgid "Menu Separator - Sublevels"
+msgstr ""
+
+#: framework/redux/redux-config.php:2036
+msgid "Controls the color of the menu separator sublevels."
+msgstr ""
+
+#: framework/redux/redux-config.php:2043
+msgid "Menu Icon Color(Cart,Search and Extended Menu Icon)"
+msgstr ""
+
+#: framework/redux/redux-config.php:2044
+msgid "Controls the text color of the Menu Icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:2057
+msgid "Mega Menu"
+msgstr ""
+
+#: framework/redux/redux-config.php:2062
+msgid "Mega Menu Max-Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:2063
+msgid "Controls the the max width of the mega menu"
+msgstr ""
+
+#: framework/redux/redux-config.php:2074
+msgid "Mega Menu Column Title Size"
+msgstr ""
+
+#: framework/redux/redux-config.php:2075
+msgid ""
+"Set the font size for mega menu column titles (menu 2nd level labels). "
+"Insert without 'px' ex: 18"
+msgstr ""
+
+#: framework/redux/redux-config.php:2086
+msgid "Top Menu Style"
+msgstr ""
+
+#: framework/redux/redux-config.php:2091
+msgid "Top Menu Dropdown Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:2102
+msgid "Top Bar Menu Font Color - Sublevels"
+msgstr ""
+
+#: framework/redux/redux-config.php:2103
+msgid "Controls the text color of the secondary menu font sublevels."
+msgstr ""
+
+#: framework/redux/redux-config.php:2113
+msgid "Top Bar Menu Background Color - Sublevels"
+msgstr ""
+
+#: framework/redux/redux-config.php:2114
+msgid "Controls the background color of the secondary menu sublevels."
+msgstr ""
+
+#: framework/redux/redux-config.php:2124
+msgid "Top Menu Border\t- Sublevels"
+msgstr ""
+
+#: framework/redux/redux-config.php:2125
+msgid "Controls the border color of the secondary menu sublevels."
+msgstr ""
+
+#: framework/redux/redux-config.php:2137 framework/redux/redux-config.php:2141
+msgid "Page Title Bar"
+msgstr ""
+
+#: framework/redux/redux-config.php:2142
+msgid "Controls how the page title bar displays. "
+msgstr ""
+
+#: framework/redux/redux-config.php:2152
+msgid "100% Page Title Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:2153
+msgid ""
+"Turn on to have the page title area display at 100% width according to the "
+"window size. Turn off to follow site width."
+msgstr ""
+
+#: framework/redux/redux-config.php:2164
+msgid "Page Title Bar Height"
+msgstr ""
+
+#: framework/redux/redux-config.php:2165
+msgid "Insert without 'px' ex: 100"
+msgstr ""
+
+#: framework/redux/redux-config.php:2176
+msgid "Page Title Bar Padding."
+msgstr ""
+
+#: framework/redux/redux-config.php:2177
+msgid "Controls the top/right/bottom/left padding for Page Title Bar."
+msgstr ""
+
+#: framework/redux/redux-config.php:2192
+msgid "Page Title Bar Text Alignment"
+msgstr ""
+
+#: framework/redux/redux-config.php:2193
+msgid "Choose the title and subheader text alignment"
+msgstr ""
+
+#: framework/redux/redux-config.php:2204
+msgid "Page Title Bar Background Position"
+msgstr ""
+
+#: framework/redux/redux-config.php:2205
+msgid ""
+"Choose the title bar Background Position. Below will start page title bar "
+"after header and From top will show page title bar from top same as that of "
+"header position."
+msgstr ""
+
+#: framework/redux/redux-config.php:2209 framework/redux/redux-config.php:3891
+#: framework/redux/redux-config.php:3933
+msgid "Below"
+msgstr ""
+
+#: framework/redux/redux-config.php:2210
+msgid "From Top"
+msgstr ""
+
+#: framework/redux/redux-config.php:2215
+msgid "Page Title Bar Background"
+msgstr ""
+
+#: framework/redux/redux-config.php:2216
+msgid "Controls the background image for the Title Bar."
+msgstr ""
+
+#: framework/redux/redux-config.php:2226
+msgid "Parallax Background Image"
+msgstr ""
+
+#: framework/redux/redux-config.php:2227
+msgid "Check to enable parallax background image when scrolling."
+msgstr ""
+
+#: framework/redux/redux-config.php:2237
+msgid "Page Title Area Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:2243
+msgid "Page Title Line Height"
+msgstr ""
+
+#: framework/redux/redux-config.php:2244
+msgid "Insert without 'px' ex: 36"
+msgstr ""
+
+#: framework/redux/redux-config.php:2251
+msgid "Page Title Bar Overlay Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:2252
+msgid "Page Title Bar Overlay Color."
+msgstr ""
+
+#: framework/redux/redux-config.php:2259
+msgid "Page Title And Breadcrumbs Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:2260
+msgid "Controls the text color of the page title font."
+msgstr ""
+
+#: framework/redux/redux-config.php:2267
+msgid "Page Title Font Size"
+msgstr ""
+
+#: framework/redux/redux-config.php:2268
+msgid "Insert without \"px\" ex: 30"
+msgstr ""
+
+#: framework/redux/redux-config.php:2274
+msgid "Display Breadcrumbs"
+msgstr ""
+
+#: framework/redux/redux-config.php:2275
+msgid "Check to display the breadcrumbs. Uncheck to hide."
+msgstr ""
+
+#: framework/redux/redux-config.php:2285
+msgid "Breadcrumbs Font Size"
+msgstr ""
+
+#: framework/redux/redux-config.php:2286
+msgid "Insert without \"px\" ex: 13"
+msgstr ""
+
+#: framework/redux/redux-config.php:2299
+msgid "Sidebars"
+msgstr ""
+
+#: framework/redux/redux-config.php:2304
+msgid "Pages"
+msgstr ""
+
+#: framework/redux/redux-config.php:2309 framework/redux/redux-config.php:2364
+#: framework/redux/redux-config.php:2418 framework/redux/redux-config.php:2473
+msgid "Sidebar Position"
+msgstr ""
+
+#: framework/redux/redux-config.php:2310 framework/redux/redux-config.php:2365
+#: framework/redux/redux-config.php:2419 framework/redux/redux-config.php:2474
+#: framework/redux/redux-config.php:4038
+msgid "Select sidebar position."
+msgstr ""
+
+#: framework/redux/redux-config.php:2315 framework/redux/redux-config.php:2370
+#: framework/redux/redux-config.php:2424 framework/redux/redux-config.php:2479
+msgid "Full"
+msgstr ""
+
+#: framework/redux/redux-config.php:2327 framework/redux/redux-config.php:2382
+#: framework/redux/redux-config.php:2436 framework/redux/redux-config.php:2491
+msgid "Both"
+msgstr ""
+
+#: framework/redux/redux-config.php:2335 framework/redux/redux-config.php:2389
+#: framework/redux/redux-config.php:2444 framework/redux/redux-config.php:2498
+#: framework/redux/redux-config.php:4845
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/redux/redux-config.php:2336
+msgid "Select Left Sidebar that will display on the pages."
+msgstr ""
+
+#: framework/redux/redux-config.php:2346 framework/redux/redux-config.php:2400
+#: framework/redux/redux-config.php:2455 framework/redux/redux-config.php:2509
+#: framework/redux/redux-config.php:4846
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/redux/redux-config.php:2347
+msgid "Select right Sidebar that will display on the pages."
+msgstr ""
+
+#: framework/redux/redux-config.php:2359
+msgid "Blog Posts"
+msgstr ""
+
+#: framework/redux/redux-config.php:2390
+msgid "Select Left Sidebar that will display on the blog posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:2401
+msgid "Select right Sidebar that will display on the blog posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:2413
+msgid "Blog Archive/Category"
+msgstr ""
+
+#: framework/redux/redux-config.php:2445
+msgid ""
+"Select Left Sidebar that will display on the blog archive/category pages."
+msgstr ""
+
+#: framework/redux/redux-config.php:2456
+msgid ""
+"Select right Sidebar that will display on the blog archive/category pages."
+msgstr ""
+
+#: framework/redux/redux-config.php:2468
+msgid "Search Page"
+msgstr ""
+
+#: framework/redux/redux-config.php:2499
+msgid "Select Left Sidebar that will display on the search posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:2510
+msgid "Select right Sidebar that will display on the search posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:2522
+msgid "Sidebar Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:2527
+msgid "Sidebar Widgets Style"
+msgstr ""
+
+#: framework/redux/redux-config.php:2528
+msgid "Select sidebar design style."
+msgstr ""
+
+#: framework/redux/redux-config.php:2532 framework/redux/redux-config.php:2600
+#: framework/redux/redux-config.php:3397 framework/redux/redux-config.php:3946
+#: framework/redux/redux-config.php:4003
+msgid "None"
+msgstr ""
+
+#: framework/redux/redux-config.php:2533 framework/redux/redux-config.php:2602
+#: framework/redux/redux-config.php:3943 framework/redux/redux-config.php:4004
+msgid "Box"
+msgstr ""
+
+#: framework/redux/redux-config.php:2538
+msgid "Sidebar Widget Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:2539 framework/redux/redux-config.php:2667
+msgid "Controls the Background color of the Sidebar Widget."
+msgstr ""
+
+#: framework/redux/redux-config.php:2547
+msgid "Sidebar Widget Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:2548
+msgid "Controls the Border color of the Sidebar Widget."
+msgstr ""
+
+#: framework/redux/redux-config.php:2556
+msgid "Sidebar Title Alignment"
+msgstr ""
+
+#: framework/redux/redux-config.php:2557
+msgid "Select sidebar Widgets Title Alingment."
+msgstr ""
+
+#: framework/redux/redux-config.php:2568
+msgid "Widget title Top & Bottom Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:2569
+msgid "Controls the widgets title padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:2584
+msgid "Sidebar Widgets Title Seperator"
+msgstr ""
+
+#: framework/redux/redux-config.php:2585
+msgid "Check the box to display sidebar widgets title Seperator."
+msgstr ""
+
+#: framework/redux/redux-config.php:2595
+msgid "Sidebar Title Decoration"
+msgstr ""
+
+#: framework/redux/redux-config.php:2596
+msgid "Select sidebar Widgets Title Design."
+msgstr ""
+
+#: framework/redux/redux-config.php:2601
+msgid "Separator"
+msgstr ""
+
+#: framework/redux/redux-config.php:2603
+msgid "Box Full Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:2604 framework/redux/redux-config.php:3945
+msgid "Image"
+msgstr ""
+
+#: framework/redux/redux-config.php:2612
+msgid "Title separator Image"
+msgstr ""
+
+#: framework/redux/redux-config.php:2621
+msgid "Separator Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:2622
+msgid ""
+"Controls the widgets title separator width. In px or %, ex: 100% or 80px."
+msgstr ""
+
+#: framework/redux/redux-config.php:2629
+msgid "Title separator & Image Height"
+msgstr ""
+
+#: framework/redux/redux-config.php:2630
+msgid "Controls the widgets title separator height. Insert without px ex: 2"
+msgstr ""
+
+#: framework/redux/redux-config.php:2637
+msgid "Title Bottom Margin"
+msgstr ""
+
+#: framework/redux/redux-config.php:2638
+msgid "Controls the widgets title Bottom Margin"
+msgstr ""
+
+#: framework/redux/redux-config.php:2657
+msgid "Sidebar Widget Headings separator Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:2658
+msgid "Controls the sidebar widget separator color."
+msgstr ""
+
+#: framework/redux/redux-config.php:2666
+msgid "Sidebar Widget Title Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:2675
+msgid "Sidebar Widget Title Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:2676
+msgid "Controls the border color of the Sidebar Widget."
+msgstr ""
+
+#: framework/redux/redux-config.php:2684
+msgid "Sidebar Item Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:2685
+msgid "Controls the Border color of the Sidebar item."
+msgstr ""
+
+#: framework/redux/redux-config.php:2692
+msgid "Sidebar Link Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:2693
+msgid "Controls the text color of the Sidebar link font."
+msgstr ""
+
+#: framework/redux/redux-config.php:2703
+msgid "Sidebar Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:2709
+msgid "Sidebar Title Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:2710
+msgid "These settings control the typography for the Sidebar headings."
+msgstr ""
+
+#: framework/redux/redux-config.php:2733
+msgid "Sidebar Font Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:2734
+msgid "These settings control the typography for the Sidebar."
+msgstr ""
+
+#: framework/redux/redux-config.php:2762
+msgid "Footer"
+msgstr ""
+
+#: framework/redux/redux-config.php:2767
+msgid "Footer Layout"
+msgstr ""
+
+#: framework/redux/redux-config.php:2773
+msgid "Footer Widgets"
+msgstr ""
+
+#: framework/redux/redux-config.php:2774
+msgid "Turn on to display footer widgets."
+msgstr ""
+
+#: framework/redux/redux-config.php:2785
+msgid "Select the number of columns to display in the footer."
+msgstr ""
+
+#: framework/redux/redux-config.php:2789
+msgid "1/4 1/4 1/4 1/4"
+msgstr ""
+
+#: framework/redux/redux-config.php:2790
+msgid "1/4 1/4 1/2"
+msgstr ""
+
+#: framework/redux/redux-config.php:2791
+msgid "1/4 1/2 1/4"
+msgstr ""
+
+#: framework/redux/redux-config.php:2792
+msgid "1/2 1/4 1/4"
+msgstr ""
+
+#: framework/redux/redux-config.php:2793
+msgid "1/3 1/3 1/3"
+msgstr ""
+
+#: framework/redux/redux-config.php:2794
+msgid "1/3 2/3"
+msgstr ""
+
+#: framework/redux/redux-config.php:2795
+msgid "2/3 1/3"
+msgstr ""
+
+#: framework/redux/redux-config.php:2796
+msgid "1/2 1/2"
+msgstr ""
+
+#: framework/redux/redux-config.php:2797
+msgid "1/1"
+msgstr ""
+
+#: framework/redux/redux-config.php:2805
+msgid "100% Footer Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:2806 framework/redux/redux-config.php:2865
+#: framework/redux/redux-config.php:2921
+#, php-format
+msgid ""
+"Check this box to set footer width to 100% of the browser width. Uncheck to "
+"follow site width. Only works with wide layout mode."
+msgstr ""
+
+#: framework/redux/redux-config.php:2818
+msgid "Footer Widgets Top, bottom, left, right Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:2819 framework/redux/redux-config.php:2877
+#: framework/redux/redux-config.php:2934 framework/redux/redux-config.php:2971
+msgid "Insert without 'px' ex: 10"
+msgstr ""
+
+#: framework/redux/redux-config.php:2837
+msgid "Upper Footer Widgets"
+msgstr ""
+
+#: framework/redux/redux-config.php:2838
+msgid "Turn on to display upper footer widgets."
+msgstr ""
+
+#: framework/redux/redux-config.php:2849
+msgid "Layout For Upper Footer"
+msgstr ""
+
+#: framework/redux/redux-config.php:2850
+msgid "Select the number of columns to display above footer."
+msgstr ""
+
+#: framework/redux/redux-config.php:2854 framework/redux/redux-config.php:2910
+msgid "0"
+msgstr ""
+
+#: framework/redux/redux-config.php:2855 framework/redux/redux-config.php:2911
+msgid "1"
+msgstr ""
+
+#: framework/redux/redux-config.php:2856 framework/redux/redux-config.php:2912
+#: framework/redux/redux-config.php:3876 framework/redux/redux-config.php:4864
+#: framework/redux/redux-config.php:4878
+msgid "2"
+msgstr ""
+
+#: framework/redux/redux-config.php:2857 framework/redux/redux-config.php:2913
+#: framework/redux/redux-config.php:3877 framework/redux/redux-config.php:4865
+#: framework/redux/redux-config.php:4879
+msgid "3"
+msgstr ""
+
+#: framework/redux/redux-config.php:2858 framework/redux/redux-config.php:2914
+#: framework/redux/redux-config.php:3878 framework/redux/redux-config.php:4866
+#: framework/redux/redux-config.php:4880
+msgid "4"
+msgstr ""
+
+#: framework/redux/redux-config.php:2864
+msgid "100% Layout for Widget Area Above Footer"
+msgstr ""
+
+#: framework/redux/redux-config.php:2876
+msgid "Upper Footer Top & bottom Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:2894
+msgid "Lower Footer Widgets"
+msgstr ""
+
+#: framework/redux/redux-config.php:2895
+msgid "Turn on to display lower footer widgets."
+msgstr ""
+
+#: framework/redux/redux-config.php:2905
+msgid "Layout For Lower Footer"
+msgstr ""
+
+#: framework/redux/redux-config.php:2906
+msgid "Select the number of columns to display below footer."
+msgstr ""
+
+#: framework/redux/redux-config.php:2920
+msgid "100% Layout for Widget Area Below Footer"
+msgstr ""
+
+#: framework/redux/redux-config.php:2933
+msgid "Lower Footer Top & bottom Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:2950
+msgid "Style"
+msgstr ""
+
+#: framework/redux/redux-config.php:2951
+msgid "Select the Style display in the footer."
+msgstr ""
+
+#: framework/redux/redux-config.php:2956
+msgid "Fixed (covers content)"
+msgstr ""
+
+#: framework/redux/redux-config.php:2957
+msgid "Parallax"
+msgstr ""
+
+#: framework/redux/redux-config.php:2964
+msgid "Footer Widgets Title"
+msgstr ""
+
+#: framework/redux/redux-config.php:2965
+msgid "Footer Widgets Title Design"
+msgstr ""
+
+#: framework/redux/redux-config.php:2970
+msgid "Footer Widgets Title Top & bottom Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:2986
+msgid "Footer Widgets Title Seperator"
+msgstr ""
+
+#: framework/redux/redux-config.php:2987
+msgid "Check the box to display footer widgets title Seperator."
+msgstr ""
+
+#: framework/redux/redux-config.php:2997
+msgid "Footer Widgets Title Seperator Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:2998
+msgid ""
+"Controls the widgets title seperator width. In px or %, ex: 100% or 80px."
+msgstr ""
+
+#: framework/redux/redux-config.php:3010
+msgid "Seperator Bottom Margin"
+msgstr ""
+
+#: framework/redux/redux-config.php:3011
+msgid ""
+"Controls the widgets title seperator Bottom Margin. Insert without 'px' ex: "
+"10"
+msgstr ""
+
+#: framework/redux/redux-config.php:3027
+msgid "Footer Widget Headings Seperator Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3028
+msgid "Controls the Footer Widget Seperator color."
+msgstr ""
+
+#: framework/redux/redux-config.php:3038
+msgid "Footer Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:3044
+msgid "Footer Background"
+msgstr ""
+
+#: framework/redux/redux-config.php:3045
+msgid "Controls the background image for the Footer."
+msgstr ""
+
+#: framework/redux/redux-config.php:3054
+msgid "Footer Border"
+msgstr ""
+
+#: framework/redux/redux-config.php:3055
+msgid "Controls the Top Footer Border."
+msgstr ""
+
+#: framework/redux/redux-config.php:3070
+msgid "Footer Link Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3071
+msgid "Controls the text color of the footer link font."
+msgstr ""
+
+#: framework/redux/redux-config.php:3081
+msgid "Footer Item Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3082
+msgid "Controls the Border color of the footer item."
+msgstr ""
+
+#: framework/redux/redux-config.php:3090
+msgid "Footer Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3095
+msgid "Footer Title Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3096
+msgid "These settings control the typography for the footer headings."
+msgstr ""
+
+#: framework/redux/redux-config.php:3117
+msgid "Footer Font Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3118
+msgid "These settings control the typography for the footer."
+msgstr ""
+
+#: framework/redux/redux-config.php:3142
+msgid "Copyright"
+msgstr ""
+
+#: framework/redux/redux-config.php:3147
+msgid "Copyright & Social Icon Alignment"
+msgstr ""
+
+#: framework/redux/redux-config.php:3157
+msgid "Copyright Bar"
+msgstr ""
+
+#: framework/redux/redux-config.php:3158
+msgid "Check the box to display the copyright bar."
+msgstr ""
+
+#: framework/redux/redux-config.php:3168
+msgid "Copyright Text"
+msgstr ""
+
+#: framework/redux/redux-config.php:3169
+msgid ""
+"Enter the text that displays in the copyright bar. HTML markup can be used."
+msgstr ""
+
+#: framework/redux/redux-config.php:3176
+msgid "Copyright Border"
+msgstr ""
+
+#: framework/redux/redux-config.php:3177
+msgid "Controls the Copyright Border."
+msgstr ""
+
+#: framework/redux/redux-config.php:3191
+msgid "Copyright Top & bottom Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:3192
+msgid "Insert without 'px' ex: 18px"
+msgstr ""
+
+#: framework/redux/redux-config.php:3207
+msgid "Copyright Design"
+msgstr ""
+
+#: framework/redux/redux-config.php:3212
+msgid "Copyright Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3213
+msgid "Controls the background color of the footer copyright."
+msgstr ""
+
+#: framework/redux/redux-config.php:3220
+msgid "Copyright Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3221
+msgid "Controls the text color of the Copyright font."
+msgstr ""
+
+#: framework/redux/redux-config.php:3228
+msgid "Copyright Link Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3229
+msgid "Controls the text color of the Copyright link font."
+msgstr ""
+
+#: framework/redux/redux-config.php:3239
+msgid "Copyright Font Size"
+msgstr ""
+
+#: framework/redux/redux-config.php:3240 framework/redux/redux-config.php:4430
+msgid "Insert without 'px' ex: 12"
+msgstr ""
+
+#: framework/redux/redux-config.php:3248
+msgid "Footer Social"
+msgstr ""
+
+#: framework/redux/redux-config.php:3253
+msgid "Display Social Icons on Footer of the Page"
+msgstr ""
+
+#: framework/redux/redux-config.php:3254
+msgid ""
+"Select the checkbox to show social media icons on the footer of the page."
+msgstr ""
+
+#: framework/redux/redux-config.php:3264
+msgid "Footer Social Icons Font Size"
+msgstr ""
+
+#: framework/redux/redux-config.php:3265
+msgid "Insert without 'px' ex: 18"
+msgstr ""
+
+#: framework/redux/redux-config.php:3272
+msgid "Footer Social Icon Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3273
+msgid "Select a custom social icon color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3284
+msgid "Footer Social Icons Boxed"
+msgstr ""
+
+#: framework/redux/redux-config.php:3285
+msgid "Controls the color of the social icons in the footer."
+msgstr ""
+
+#: framework/redux/redux-config.php:3296
+msgid ""
+"Footer Social Icons Width (Only works on icon boxed design set to yes above)"
+msgstr ""
+
+#: framework/redux/redux-config.php:3297
+msgid "In px or %, ex: 100% or 80px."
+msgstr ""
+
+#: framework/redux/redux-config.php:3309
+msgid "Footer Social Icons Box Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3310
+msgid "Select a custom social icon box color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3318
+msgid "Footer Social Icons Box Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3319
+msgid "Enter color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3328
+msgid "Footer Social Icons Boxed Radius"
+msgstr ""
+
+#: framework/redux/redux-config.php:3329
+msgid "Boxradius for the social icons. Insert without 'px' ex: 4"
+msgstr ""
+
+#: framework/redux/redux-config.php:3337
+msgid "Footer Social Icons Box Top & Bottom Padding"
+msgstr ""
+
+#: framework/redux/redux-config.php:3338
+msgid "Box Padding for the social icons"
+msgstr ""
+
+#: framework/redux/redux-config.php:3354
+msgid "Footer Social Icons Box left & right margin"
+msgstr ""
+
+#: framework/redux/redux-config.php:3355
+msgid "Box margin for the social icons"
+msgstr ""
+
+#: framework/redux/redux-config.php:3373
+msgid "Back to Top"
+msgstr ""
+
+#: framework/redux/redux-config.php:3378
+msgid "Back to Top button"
+msgstr ""
+
+#: framework/redux/redux-config.php:3379 framework/redux/redux-config.php:3392
+msgid "Select Position"
+msgstr ""
+
+#: framework/redux/redux-config.php:3383
+msgid "Default | in Copyright area"
+msgstr ""
+
+#: framework/redux/redux-config.php:3384
+msgid "Sticky"
+msgstr ""
+
+#: framework/redux/redux-config.php:3385
+msgid "Sticky show on scroll"
+msgstr ""
+
+#: framework/redux/redux-config.php:3391
+msgid "Back to Top button Style"
+msgstr ""
+
+#: framework/redux/redux-config.php:3398
+msgid "Square"
+msgstr ""
+
+#: framework/redux/redux-config.php:3399
+msgid "Round"
+msgstr ""
+
+#: framework/redux/redux-config.php:3400 framework/redux/redux-config.php:3944
+msgid "Rounded"
+msgstr ""
+
+#: framework/redux/redux-config.php:3404
+msgid "Button Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3405
+msgid "Controls the font color of the Back To Top Button."
+msgstr ""
+
+#: framework/redux/redux-config.php:3415
+msgid "Button Background Color and Opacity"
+msgstr ""
+
+#: framework/redux/redux-config.php:3416
+msgid "Controls the background color and opacity of the Back To Top Button."
+msgstr ""
+
+#: framework/redux/redux-config.php:3423
+msgid "Button Hover Background Color and Opacity"
+msgstr ""
+
+#: framework/redux/redux-config.php:3424
+msgid ""
+"Controls the hover background color and opacity of the Back To Top Button."
+msgstr ""
+
+#: framework/redux/redux-config.php:3432
+msgid "Button border Color and Opacity"
+msgstr ""
+
+#: framework/redux/redux-config.php:3433
+msgid "Controls the border color and opacity of the Back To Top Button."
+msgstr ""
+
+#: framework/redux/redux-config.php:3440
+msgid "Button Hover border Color and Opacity"
+msgstr ""
+
+#: framework/redux/redux-config.php:3441
+msgid "Controls the hover border color and opacity of the Back To Top Button."
+msgstr ""
+
+#: framework/redux/redux-config.php:3451 framework/redux/redux-config.php:3464
+#: framework/redux/redux-config.php:3477
+msgid "Background"
+msgstr ""
+
+#: framework/redux/redux-config.php:3456
+msgid "Options below will work only in boxed mode."
+msgstr ""
+
+#: framework/redux/redux-config.php:3470
+msgid "Options below will work for both Boxed & Wide Mode."
+msgstr ""
+
+#: framework/redux/redux-config.php:3488 framework/redux/redux-config.php:3695
+msgid "Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3495
+msgid "Body Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3506 framework/redux/redux-config.php:3539
+#: framework/redux/redux-config.php:3566 framework/redux/redux-config.php:3593
+#: framework/redux/redux-config.php:3620 framework/redux/redux-config.php:3647
+#: framework/redux/redux-config.php:3674 framework/redux/redux-config.php:3706
+#: framework/redux/redux-config.php:3737 framework/redux/redux-config.php:3764
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: framework/redux/redux-config.php:3521
+msgid "Headers Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3528
+msgid "H1 Headers Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3555
+msgid "H2 Headers Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3582
+msgid "H3 Headers Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3609
+msgid "H4 Headers Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3636
+msgid "H5 Headers Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3663
+msgid "H6 Headers Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3688
+msgid "Page Title Bar Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3719
+msgid "Blog Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3726
+msgid "Single Post Title Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3753
+msgid "Post Meta Typography"
+msgstr ""
+
+#: framework/redux/redux-config.php:3784
+msgid "Colors"
+msgstr ""
+
+#: framework/redux/redux-config.php:3786 framework/redux/redux-config.php:3816
+#: framework/redux/redux-config.php:4508
+msgid "These are really basic fields!"
+msgstr ""
+
+#: framework/redux/redux-config.php:3790
+msgid "Primary Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:3791
+msgid "Controls several items, ex: link hovers, highlights, and more."
+msgstr ""
+
+#: framework/redux/redux-config.php:3800
+msgid "Body Links Color Option"
+msgstr ""
+
+#: framework/redux/redux-config.php:3801
+msgid "Only color validation can be done on this field type"
+msgstr ""
+
+#: framework/redux/redux-config.php:3814
+msgid "Blog"
+msgstr ""
+
+#: framework/redux/redux-config.php:3820
+msgid "Blog Page Layout"
+msgstr ""
+
+#: framework/redux/redux-config.php:3825
+msgid "Blog Page Title"
+msgstr ""
+
+#: framework/redux/redux-config.php:3826
+msgid "This text will display in the page title bar of the assigned blog page."
+msgstr ""
+
+#: framework/redux/redux-config.php:3832
+msgid "Page Title Bar Show/Hide"
+msgstr ""
+
+#: framework/redux/redux-config.php:3833
+msgid ""
+"Turn on to show the page title bar for the assigned blog page in \"settings "
+"> reading\""
+msgstr ""
+
+#: framework/redux/redux-config.php:3843
+msgid "Blog Layout"
+msgstr ""
+
+#: framework/redux/redux-config.php:3844
+msgid "Select the layout for the assigned blog page in settings > reading."
+msgstr ""
+
+#: framework/redux/redux-config.php:3848 framework/redux/redux-config.php:3862
+msgid "Small"
+msgstr ""
+
+#: framework/redux/redux-config.php:3849 framework/redux/redux-config.php:3863
+msgid "Medium"
+msgstr ""
+
+#: framework/redux/redux-config.php:3850 framework/redux/redux-config.php:3864
+msgid "Large"
+msgstr ""
+
+#: framework/redux/redux-config.php:3851 framework/redux/redux-config.php:3865
+msgid "Grid"
+msgstr ""
+
+#: framework/redux/redux-config.php:3852 framework/redux/redux-config.php:3866
+msgid "Masonry"
+msgstr ""
+
+#: framework/redux/redux-config.php:3857
+msgid "Blog Archive/Category Layout"
+msgstr ""
+
+#: framework/redux/redux-config.php:3858
+msgid "Select the layout for the blog archive/category pages."
+msgstr ""
+
+#: framework/redux/redux-config.php:3871
+msgid "Grid/Masonry Layout # of Columns"
+msgstr ""
+
+#: framework/redux/redux-config.php:3872 framework/redux/redux-config.php:3967
+#: framework/redux/redux-config.php:3987 framework/redux/redux-config.php:3999
+#: framework/redux/redux-config.php:4011
+msgid "Select whether to display the grid layout in 2, 3 or 4 columns."
+msgstr ""
+
+#: framework/redux/redux-config.php:3879 framework/redux/redux-config.php:4867
+#: framework/redux/redux-config.php:4881
+msgid "5"
+msgstr ""
+
+#: framework/redux/redux-config.php:3880 framework/redux/redux-config.php:4868
+#: framework/redux/redux-config.php:4882
+msgid "6"
+msgstr ""
+
+#: framework/redux/redux-config.php:3885
+msgid "Post title position"
+msgstr ""
+
+#: framework/redux/redux-config.php:3886
+msgid "Show Post title below or above featured image"
+msgstr ""
+
+#: framework/redux/redux-config.php:3890 framework/redux/redux-config.php:3932
+msgid "Above"
+msgstr ""
+
+#: framework/redux/redux-config.php:3896
+msgid "Post title alignment"
+msgstr ""
+
+#: framework/redux/redux-config.php:3897
+msgid "Please select post title alignment"
+msgstr ""
+
+#: framework/redux/redux-config.php:3908
+msgid "Post title separator Show/Hide"
+msgstr ""
+
+#: framework/redux/redux-config.php:3909
+msgid "Select to show or hide post title separator"
+msgstr ""
+
+#: framework/redux/redux-config.php:3919
+msgid "Post title separator Image"
+msgstr ""
+
+#: framework/redux/redux-config.php:3927
+msgid "Category position"
+msgstr ""
+
+#: framework/redux/redux-config.php:3928
+msgid "Select to show category above or below the post title"
+msgstr ""
+
+#: framework/redux/redux-config.php:3938
+msgid "Category design"
+msgstr ""
+
+#: framework/redux/redux-config.php:3939
+msgid "Please choose category design"
+msgstr ""
+
+#: framework/redux/redux-config.php:3951
+msgid "Image for category design"
+msgstr ""
+
+#: framework/redux/redux-config.php:3959
+msgid "Excerpt Length"
+msgstr ""
+
+#: framework/redux/redux-config.php:3960
+msgid "Insert the number of words you want to show in the post excerpts."
+msgstr ""
+
+#: framework/redux/redux-config.php:3966
+msgid "Continue Reading Show/Hide"
+msgstr ""
+
+#: framework/redux/redux-config.php:3977
+msgid "Modify the Continue Reading text "
+msgstr ""
+
+#: framework/redux/redux-config.php:3979 functions.php:136
+msgid "Continue Reading"
+msgstr ""
+
+#: framework/redux/redux-config.php:3986
+msgid "Post social sharing Show/Hide"
+msgstr ""
+
+#: framework/redux/redux-config.php:3998
+msgid "Blog Post Design"
+msgstr ""
+
+#: framework/redux/redux-config.php:4010
+msgid "Post separator Show/Hide"
+msgstr ""
+
+#: framework/redux/redux-config.php:4021
+msgid "Post separator Image"
+msgstr ""
+
+#: framework/redux/redux-config.php:4032
+msgid "Blog Single Post"
+msgstr ""
+
+#: framework/redux/redux-config.php:4037
+msgid "Single Post Layout Style"
+msgstr ""
+
+#: framework/redux/redux-config.php:4043
+msgid "layout_style1"
+msgstr ""
+
+#: framework/redux/redux-config.php:4047
+msgid "layout_style2"
+msgstr ""
+
+#: framework/redux/redux-config.php:4051
+msgid "layout_style3"
+msgstr ""
+
+#: framework/redux/redux-config.php:4055
+msgid "layout_style4"
+msgstr ""
+
+#: framework/redux/redux-config.php:4059
+msgid "layout_style5"
+msgstr ""
+
+#: framework/redux/redux-config.php:4063
+msgid "layout_style6"
+msgstr ""
+
+#: framework/redux/redux-config.php:4071
+msgid "Single Post Title Bar"
+msgstr ""
+
+#: framework/redux/redux-config.php:4072
+msgid "Controls how the single post title bar displays. "
+msgstr ""
+
+#: framework/redux/redux-config.php:4082
+msgid "Single Post Content Max Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:4094
+msgid "Single Post Title Position"
+msgstr ""
+
+#: framework/redux/redux-config.php:4098
+msgid "Middle"
+msgstr ""
+
+#: framework/redux/redux-config.php:4099
+msgid "Bottom"
+msgstr ""
+
+#: framework/redux/redux-config.php:4105
+msgid "Post Meta"
+msgstr ""
+
+#: framework/redux/redux-config.php:4106
+msgid "Turn on to display post meta on blog posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:4116
+msgid "Featured Image / Video on Single Post Page"
+msgstr ""
+
+#: framework/redux/redux-config.php:4117
+msgid "Turn on to display featured images and videos on single blog posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:4127
+msgid "Post Title"
+msgstr ""
+
+#: framework/redux/redux-config.php:4128
+msgid ""
+"Turn on to display the post title that goes below the featured image area."
+msgstr ""
+
+#: framework/redux/redux-config.php:4138
+msgid "Disable Previous/Next Pagination"
+msgstr ""
+
+#: framework/redux/redux-config.php:4139
+msgid ""
+"Turn on to display the previous/next post pagination for single blog posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:4149
+msgid "Navigation Style"
+msgstr ""
+
+#: framework/redux/redux-config.php:4150
+msgid "Controls the Navigation style."
+msgstr ""
+
+#: framework/redux/redux-config.php:4154
+msgid "Style 1"
+msgstr ""
+
+#: framework/redux/redux-config.php:4155
+msgid "Style 2"
+msgstr ""
+
+#: framework/redux/redux-config.php:4156
+msgid "Style 3"
+msgstr ""
+
+#: framework/redux/redux-config.php:4157
+msgid "Style 4"
+msgstr ""
+
+#: framework/redux/redux-config.php:4163 framework/redux/redux-config.php:4187
+msgid "Navigation Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4164
+msgid "Controls the Font color of the Navigation."
+msgstr ""
+
+#: framework/redux/redux-config.php:4175
+msgid "Navigation Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4176
+msgid "Controls the background color of the Navigation."
+msgstr ""
+
+#: framework/redux/redux-config.php:4188
+msgid "Controls the font color of the Navigation."
+msgstr ""
+
+#: framework/redux/redux-config.php:4196
+msgid "Navigation Image Overlay Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4197
+msgid "Controls the Overlay color of the Navigation."
+msgstr ""
+
+#: framework/redux/redux-config.php:4205 framework/redux/redux-config.php:4216
+msgid "Navigation Button link source"
+msgstr ""
+
+#: framework/redux/redux-config.php:4209 framework/redux/redux-config.php:4220
+msgid "Page"
+msgstr ""
+
+#: framework/redux/redux-config.php:4210 framework/redux/redux-config.php:4221
+msgid "Custom url"
+msgstr ""
+
+#: framework/redux/redux-config.php:4227
+msgid "Page select"
+msgstr ""
+
+#: framework/redux/redux-config.php:4234
+msgid "Page url"
+msgstr ""
+
+#: framework/redux/redux-config.php:4242
+msgid "Author Info Box"
+msgstr ""
+
+#: framework/redux/redux-config.php:4243
+msgid "Turn on to display the author info box below posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:4253 framework/redux/redux-config.php:4653
+msgid "Social Sharing Box"
+msgstr ""
+
+#: framework/redux/redux-config.php:4254
+msgid "Turn on to display the social sharing box."
+msgstr ""
+
+#: framework/redux/redux-config.php:4264 post_layout/layout_style1.php:86
+#: post_layout/layout_style2.php:80 post_layout/layout_style3.php:81
+#: post_layout/layout_style4.php:69 post_layout/layout_style5.php:88
+#: post_layout/layout_style6.php:80
+msgid "Related Posts"
+msgstr ""
+
+#: framework/redux/redux-config.php:4265
+msgid "Turn on to display related posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:4275
+msgid "Comments"
+msgstr ""
+
+#: framework/redux/redux-config.php:4276
+msgid "Turn on to display comments."
+msgstr ""
+
+#: framework/redux/redux-config.php:4288
+msgid "Blog Styling"
+msgstr ""
+
+#: framework/redux/redux-config.php:4294
+msgid "Category Item Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4295
+msgid "Controls the font color of the Category item."
+msgstr ""
+
+#: framework/redux/redux-config.php:4305
+msgid "Category item Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4306 framework/redux/redux-config.php:4314
+msgid "Controls the background color of the Category item."
+msgstr ""
+
+#: framework/redux/redux-config.php:4313
+msgid "Category item Hover Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4321
+msgid "Category item Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4322
+msgid "Controls the border color of the Category item."
+msgstr ""
+
+#: framework/redux/redux-config.php:4329
+msgid "Category item Hover Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4330
+msgid "Controls the border color of the Category item hover."
+msgstr ""
+
+#: framework/redux/redux-config.php:4337
+msgid "Continue Reading Button Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4338
+msgid "Controls the font color of the continue reading button."
+msgstr ""
+
+#: framework/redux/redux-config.php:4348
+msgid "Continue Reading Button Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4349
+msgid "Controls the background color of the continue reading button."
+msgstr ""
+
+#: framework/redux/redux-config.php:4356
+msgid "Continue Reading Button Hover Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4357
+msgid "Controls the background color of the continue reading button hover."
+msgstr ""
+
+#: framework/redux/redux-config.php:4364
+msgid "Continue Reading Button Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4365
+msgid "Controls the border color of the continue reading button."
+msgstr ""
+
+#: framework/redux/redux-config.php:4372
+msgid "Continue Reading Button Hover Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4373
+msgid "Controls the border color of the continue reading button hover."
+msgstr ""
+
+#: framework/redux/redux-config.php:4380
+msgid "Box Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4381
+msgid "Controls the background color of the grid box."
+msgstr ""
+
+#: framework/redux/redux-config.php:4388
+msgid "Box Shadow Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4389
+msgid "Controls the shadow color of the grid box."
+msgstr ""
+
+#: framework/redux/redux-config.php:4396
+msgid "Pagination Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4397
+msgid "Controls the background color of the Pagination."
+msgstr ""
+
+#: framework/redux/redux-config.php:4407
+msgid "Pagination Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4408
+msgid "Controls the font color of the Pagination."
+msgstr ""
+
+#: framework/redux/redux-config.php:4418
+msgid "Pagination border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4419
+msgid "Controls the border color of the Pagination."
+msgstr ""
+
+#: framework/redux/redux-config.php:4429
+msgid "Pagination Font Size"
+msgstr ""
+
+#: framework/redux/redux-config.php:4436
+msgid "Social Share Options"
+msgstr ""
+
+#: framework/redux/redux-config.php:4442
+msgid "Social Share Style"
+msgstr ""
+
+#: framework/redux/redux-config.php:4452
+msgid "Social Share Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4453
+msgid "Controls the font color of the social share."
+msgstr ""
+
+#: framework/redux/redux-config.php:4464
+msgid "Social Share Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4465
+msgid "Controls the background color of the Social Share."
+msgstr ""
+
+#: framework/redux/redux-config.php:4474
+msgid "Social Share Hover Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4475
+msgid "Controls the background color of the social share hover."
+msgstr ""
+
+#: framework/redux/redux-config.php:4483
+msgid "Social Share Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4484
+msgid "Controls the border color of the social share."
+msgstr ""
+
+#: framework/redux/redux-config.php:4495
+msgid "Social Sharing Border Radius"
+msgstr ""
+
+#: framework/redux/redux-config.php:4496
+msgid "Enter the value without px. e.g 5px."
+msgstr ""
+
+#: framework/redux/redux-config.php:4506 framework/redux/redux-config.php:4512
+msgid "Social Media"
+msgstr ""
+
+#: framework/redux/redux-config.php:4517 framework/redux/redux-config.php:4666
+msgid "Facebook"
+msgstr ""
+
+#: framework/redux/redux-config.php:4518
+msgid ""
+"Insert your custom link to show the Facebook icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4524
+msgid "Flickr"
+msgstr ""
+
+#: framework/redux/redux-config.php:4525
+msgid ""
+"Insert your custom link to show the Flickr icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4530
+msgid "RSS"
+msgstr ""
+
+#: framework/redux/redux-config.php:4531
+msgid "Insert your custom link to show the RSS icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4536 framework/redux/redux-config.php:4677
+msgid "Twitter"
+msgstr ""
+
+#: framework/redux/redux-config.php:4537
+msgid ""
+"Insert your custom link to show the Twitter icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4543
+msgid "Vimeo"
+msgstr ""
+
+#: framework/redux/redux-config.php:4544
+msgid ""
+"Insert your custom link to show the Vimeo icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4549
+msgid "Youtube"
+msgstr ""
+
+#: framework/redux/redux-config.php:4550
+msgid ""
+"Insert your custom link to show the Youtube icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4555
+msgid "Instagram"
+msgstr ""
+
+#: framework/redux/redux-config.php:4556
+msgid ""
+"Insert your custom link to show the Instagram icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4561 framework/redux/redux-config.php:4721
+msgid "Pinterest"
+msgstr ""
+
+#: framework/redux/redux-config.php:4562
+msgid ""
+"Insert your custom link to show the Pinterest icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4568 framework/redux/redux-config.php:4710
+msgid "Tumblr"
+msgstr ""
+
+#: framework/redux/redux-config.php:4569
+msgid ""
+"Insert your custom link to show the Tumblr icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4574
+msgid "Google+"
+msgstr ""
+
+#: framework/redux/redux-config.php:4575
+msgid ""
+"Insert your custom link to show the Google+ icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4581
+msgid "Dribbble"
+msgstr ""
+
+#: framework/redux/redux-config.php:4582
+msgid ""
+"Insert your custom link to show the Dribbble icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4587
+msgid "Digg"
+msgstr ""
+
+#: framework/redux/redux-config.php:4588
+msgid ""
+"Insert your custom link to show the Digg icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4594 framework/redux/redux-config.php:4688
+msgid "LinkedIn"
+msgstr ""
+
+#: framework/redux/redux-config.php:4595
+msgid ""
+"Insert your custom link to show the LinkedIn icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4601
+msgid "Skype"
+msgstr ""
+
+#: framework/redux/redux-config.php:4602
+msgid ""
+"Insert your custom link to show the Skype icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4607
+msgid "Deviantart"
+msgstr ""
+
+#: framework/redux/redux-config.php:4608
+msgid ""
+"Insert your custom link to show the Deviantart icon. Leave blank to hide "
+"icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4613
+msgid "Yahoo"
+msgstr ""
+
+#: framework/redux/redux-config.php:4614
+msgid ""
+"Insert your custom link to show the Yahoo icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4620
+msgid "Reddit"
+msgstr ""
+
+#: framework/redux/redux-config.php:4621
+msgid ""
+"Insert your custom link to show the Redditt icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4626
+msgid "Dropbox"
+msgstr ""
+
+#: framework/redux/redux-config.php:4627
+msgid ""
+"Insert your custom link to show the Dropbox icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4633
+msgid "Soundcloud"
+msgstr ""
+
+#: framework/redux/redux-config.php:4634
+msgid ""
+"Insert your custom link to show the Soundcloud icon. Leave blank to hide "
+"icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4639
+msgid "VK"
+msgstr ""
+
+#: framework/redux/redux-config.php:4640
+msgid "Insert your custom link to show the VK icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4645
+msgid "Email Address"
+msgstr ""
+
+#: framework/redux/redux-config.php:4646
+msgid ""
+"Insert your custom link to show the mail icon. Leave blank to hide icon."
+msgstr ""
+
+#: framework/redux/redux-config.php:4659
+msgid "Sharing Box Tagline"
+msgstr ""
+
+#: framework/redux/redux-config.php:4660
+msgid "Insert a tagline for the social sharing boxes."
+msgstr ""
+
+#: framework/redux/redux-config.php:4662
+#: framework/variables/variables-post-layout.php:18
+msgid "Share This Story, Choose Your Platform!"
+msgstr ""
+
+#: framework/redux/redux-config.php:4667
+msgid "Turn on to display the facebook sharing icon in blog posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:4678
+msgid "Turn on to display the twitter sharing icon in blog posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:4689
+msgid "Turn on to display the linkedin sharing icon in blog posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:4699
+msgid "Google Plus"
+msgstr ""
+
+#: framework/redux/redux-config.php:4700
+msgid "Turn on to display the g+ sharing icon in blog posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:4711
+msgid "Turn on to display the tumblr sharing icon in blog posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:4722
+msgid "Turn on to display the pinterest sharing icon in blog posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:4732
+msgid "Email"
+msgstr ""
+
+#: framework/redux/redux-config.php:4733
+msgid "Turn on to display the email sharing icon in blog posts."
+msgstr ""
+
+#: framework/redux/redux-config.php:4750
+msgid "Contact Form"
+msgstr ""
+
+#: framework/redux/redux-config.php:4755
+msgid "Contact Form Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4756
+msgid "Select a color for the Contact Form Text Color."
+msgstr ""
+
+#: framework/redux/redux-config.php:4763
+msgid "Contact Form Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4764
+msgid "Contact Form Input field Border Color."
+msgstr ""
+
+#: framework/redux/redux-config.php:4771
+msgid "Input Field Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4772
+msgid "Contact Form Input field Background Color."
+msgstr ""
+
+#: framework/redux/redux-config.php:4779
+msgid "Button Text Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4780
+msgid "Contact Form Button text Color."
+msgstr ""
+
+#: framework/redux/redux-config.php:4790
+msgid "Button Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4791 framework/redux/redux-config.php:4799
+msgid "Contact Form Button Background Color."
+msgstr ""
+
+#: framework/redux/redux-config.php:4798
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4806
+msgid "Button Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4807 framework/redux/redux-config.php:4815
+msgid "Contact Form Border Background Color."
+msgstr ""
+
+#: framework/redux/redux-config.php:4814
+msgid "Button Hover Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4828
+msgid "Woocommerce"
+msgstr ""
+
+#: framework/redux/redux-config.php:4836
+msgid "Shop Page"
+msgstr ""
+
+#: framework/redux/redux-config.php:4839
+msgid "Shop Page Layout"
+msgstr ""
+
+#: framework/redux/redux-config.php:4840
+msgid "Select Shop page layout"
+msgstr ""
+
+#: framework/redux/redux-config.php:4847
+msgid "Full Width"
+msgstr ""
+
+#: framework/redux/redux-config.php:4851
+msgid "Woocommerce Number of Products per Page"
+msgstr ""
+
+#: framework/redux/redux-config.php:4852
+msgid "Insert the number of posts to display per page."
+msgstr ""
+
+#: framework/redux/redux-config.php:4858
+msgid "Woocommerce Number of Product Columns"
+msgstr ""
+
+#: framework/redux/redux-config.php:4859
+msgid "Insert the number of products to display per page."
+msgstr ""
+
+#: framework/redux/redux-config.php:4872
+msgid "Woocommerce Related/Up-Sell/Cross-Sell Product Number of Columns"
+msgstr ""
+
+#: framework/redux/redux-config.php:4873
+msgid ""
+"Select the number of columns for the related and up-sell products on single "
+"post pages and cross-sells on cart page."
+msgstr ""
+
+#: framework/redux/redux-config.php:4889
+msgid "Shop Page Style"
+msgstr ""
+
+#: framework/redux/redux-config.php:4892
+msgid "Product Box Background Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4893
+msgid "Controls the background color of the Product Box"
+msgstr ""
+
+#: framework/redux/redux-config.php:4900
+msgid "Product Box Border Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4901
+msgid "Controls the Border color of the Product Box"
+msgstr ""
+
+#: framework/redux/redux-config.php:4908
+msgid "Product Image Overlay Background and Opacity"
+msgstr ""
+
+#: framework/redux/redux-config.php:4909
+msgid "Controls the background color and opacity of the Product Box."
+msgstr ""
+
+#: framework/redux/redux-config.php:4916
+msgid "WooCommerce Button Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4917 framework/redux/redux-config.php:4931
+#: framework/redux/redux-config.php:4939 framework/redux/redux-config.php:4947
+#: framework/redux/redux-config.php:4955 framework/redux/redux-config.php:4963
+msgid "Select color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4927
+msgid "Mini Cart Style"
+msgstr ""
+
+#: framework/redux/redux-config.php:4930
+msgid "Mini Cart Box Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4938
+msgid "Mini Cart Font Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4946
+msgid "Mini Cart Separator Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4954
+msgid "Mini Cart Button Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4962
+msgid "Mini Cart Button Text Color"
+msgstr ""
+
+#: framework/redux/redux-config.php:4977
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/redux/redux-config.php:4982
+msgid "CSS Code"
+msgstr ""
+
+#: framework/redux/redux-config.php:4983
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: framework/social_sharing.php:2
+msgid "Share This"
+msgstr ""
+
+#: framework/variables/variables-footer.php:20
+msgid "Copyright 2017 writepress"
+msgstr ""
+
+#: framework/woo-config.php:118
+msgid "Remove this item"
+msgstr ""
+
+#: functions.php:28
+msgid "Navigation Menu"
+msgstr ""
+
+#: functions.php:29
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:157
+msgid "Left Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:159
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: image.php:18
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on %1$s in <a href=\"%2$s\" title="
+"\"Return to %3$s\" rel=\"gallery\">%4$s</a></span>"
+msgstr ""
+
+#: image.php:34
+msgid "Full resolution"
+msgstr ""
+
+#: image.php:47
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:49
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: image.php:69 page.php:26 post_layout/layout_style1.php:52
+#: post_layout/layout_style2.php:50 post_layout/layout_style3.php:50
+#: post_layout/layout_style4.php:40 post_layout/layout_style5.php:58
+#: post_layout/layout_style6.php:55 template-fullwidth-page.php:18
+msgid "Pages:"
+msgstr ""
+
+#: post_layout/layout_style1.php:47 post_layout/layout_style2.php:45
+#: post_layout/layout_style3.php:45 post_layout/layout_style4.php:38
+#: post_layout/layout_style5.php:56 post_layout/layout_style6.php:54
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: search.php:12
+msgid "If you didn't find what you were looking for, try again!"
+msgstr ""
+
+#: search.php:26
+msgid "On"
+msgstr ""

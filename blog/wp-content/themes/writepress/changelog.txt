@@ -1,0 +1,36 @@
+-----------------------------------------------------------------------------------------
+IMPORTANT:
+-----------------------------------------------------------------------------------------
+
+Please be sure to read the Important Update Notes before you update:
+http://wpblogtheme.org/demo/writepress/
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.0
+-----------------------------------------------------------------------------------------
+
+- Theme Start Update
+
+Version 1.0.1
+
+- Theme code changed according to requirement.
+
+Version 1.0.2
+
+- Importer code updated
+- Social Sharing design fixed
+- Modern slider responsive fixed
+- Twitter icon added to twitter widgets
+- Minor css fixed
+- Copyright align fixed
+
+Version 1.0.3
+
+- Zilla Likes code fixed
+- Minor css fixed
+- Plugins updated
+
+Version 1.0.4
+
+- Contact form shortcode for VC fixed
